@@ -12,7 +12,7 @@
     <body>
         <!-- ********* DEBUT HEADER ********* -->
         <header>
-        	<p>	
+        	<p id="langues" class="langues">	
         		Langue:
         		<a href="#"> <img src="./images/drapeaux/france.png" alt="français" id="imgdrapeaux" class="imgdrapeaux" /></a>
         		<a href="#"> <img src="./images/drapeaux/basque.jpg" alt="basque" id="imgdrapeaux" class="imgdrapeaux" /></a>
@@ -24,13 +24,20 @@
         <!-- ********* DEBUT CONTENU PRINCIPAL ********* -->
         <div class="container">
 	        <h3> Profil </h3>
-	        <img src="./images/choixRoxane.png" alt="Roxanne"/>
-	        <form action="tache04.html" method="post">	        
-	        <label for="nomJoueur">	Ton prénom :</label>
-	        <br/>
-	        <input type="text" name="nomJoueur" id="nomJoueur" class="nomJoueur" required="required"/>
-		        <input type="submit" id="validerProfil" value="Valider"/>
-		    </form>
+	        <div class="row">
+       			<div class="input-field ">
+		        	<img src="./images/choixRoxane.png" alt="Roxanne" id="imgAvatar" class="imgAvatar col offset-l2 l3 offset-m1 m4 offset-s2 s8"/>
+		        	<div class="col offset-l1 l4 offset-m1 m5 offset-s2 s8">
+					    <label for="nomJoueur">	Ton prénom :</label>
+					    <input type="text" name="nomJoueur" id="nomJoueur" class="nomJoueur required="required"/>
+				    </div>
+		        </div>
+		    </div>
+		     <div class="row">
+       			<div class="input-field col offset-l5 l2 offset-m5 m2 offset-s4 s4">
+					<input type="submit" id="validerProfil" value="Valider" onclick="window.location = 'tache04.html'"/>
+				</div>
+		    </div>
         </div>    
         <!-- ********* FIN CONTENU PRINCIPAL ********* -->
         <div class="clear"></div>
@@ -51,7 +58,5 @@
         <script type="text/javascript" src="./css/materialize/js/materialize.js"></script>
         <script type="text/javascript" src="./js/app.js"></script>
         <script type="text/javascript" src="./js/jquery.mixitup.min.js"></script>
-        <script type="text/javascript" src="./js/jquery.fs.boxer.js"></script>
-        <script type='text/javascript' src='unitegallery/themes/default/ug-theme-default.js'></script>
     </body>
 </html>
