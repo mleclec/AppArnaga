@@ -24,8 +24,13 @@ h3
 	width:auto;
 }
 
-.intro
+p
 {
 	text-align: justify;
 }
 
+.fusionner
+{
+	float: left;
+	margin: 5px;
+}
