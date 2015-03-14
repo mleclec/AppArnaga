@@ -6,16 +6,16 @@
         <!--<link rel="icon" type="image/png" href="./images/favicon.png" />-->
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        <link type="text/css" rel="stylesheet" href="./css/materialize/css/materialize.css" />
-        <link type="text/css" rel="stylesheet" href="./css/general.css" />
+        <link type="text/css" rel="stylesheet" href="./../css/materialize/css/materialize.css" />
+        <link type="text/css" rel="stylesheet" href="./../css/general.css" />
     </head>
     <body>
         <!-- ********* DEBUT HEADER ********* -->
         <header>
         	<p id="langues" class="langues">	
         		Langue:
-        		<a href="#"> <img src="./images/drapeaux/france.png" alt="français" id="imgdrapeaux" class="imgdrapeaux" /></a>
-        		<a href="#"> <img src="./images/drapeaux/basque.jpg" alt="basque" id="imgdrapeaux" class="imgdrapeaux" /></a>
+        		<a href="#"> <img src="./../images/drapeaux/france.png" alt="français" id="imgdrapeaux" class="imgdrapeaux" /></a>
+        		<a href="#"> <img src="./../images/drapeaux/basque.jpg" alt="basque" id="imgdrapeaux" class="imgdrapeaux" /></a>
         	</p>
 
         </header>
@@ -25,16 +25,20 @@
         <div class="container">
         	<h3> Choix de l'avatar </h3>        	
        		<div class="row">
-       			<div class="input-field col offset-l4 l4 offset-m2 m8 offset-s1 s2">
-		        	<img src="./images/choixRoxane.png" alt="Roxanne" id="imgAvatar" class="imgAvatar" />
-		        	<img src="./images/choixCyrano.png" alt="Cyrano" id="imgAvatar" class="imgAvatar"/>
-		        </div>
+       			<div class="input-field col offset-l2 l4 offset-m1 m3 offset-s1 s2">
+                    <img src="./../images/choixRoxane.png" alt="Roxanne" id="imgAvatar" class="imgAvatar" />
+                </div>
+                <div class="input-field col offset-l2 l4 offset-m4 m2 offset-s1 s2">
+                    <img src="./../images/choixCyrano.png" alt="Cyrano" id="imgAvatar" class="imgAvatar"/>
+                </div>
 		    </div>
         	<div class="row">
-       			<div class="input-field col offset-l5 l2 offset-m3 m6 offset-s1 s10">
-		        	<input type="submit" id="RoxanneChoisi" value="Roxanne" onclick="window.location = 'tache02-1.html'"/>
-		        	<input type="submit" id="CyranoChoisi" value="Cyrano" onclick="window.location = 'tache02-2.html'"/>
-		        </div>
+       			<div class="input-field col offset-l3 l4 offset-m2 m3 offset-s2 s3">
+                    <a href="tache02-1.html" class="btn">Roxanne</a>
+                </div>
+                <div class="input-field col offset-l1 l4 offset-m2 m3 offset-s2 s3">
+                    <a href="tache02-2.html" class="btn">Cyrano</a>
+                </div>
 		    </div>
         </div>
             

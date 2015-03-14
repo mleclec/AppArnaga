@@ -6,16 +6,16 @@
         <!--<link rel="icon" type="image/png" href="./images/favicon.png" />-->
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        <link type="text/css" rel="stylesheet" href="./css/materialize/css/materialize.css" />
-        <link type="text/css" rel="stylesheet" href="./css/general.css" />
+        <link type="text/css" rel="stylesheet" href="./../css/materialize/css/materialize.css" />
+        <link type="text/css" rel="stylesheet" href="./../css/general.css" />
     </head>
     <body>
         <!-- ********* DEBUT HEADER ********* -->
         <header>
         	<p id="langues" class="langues">	
         		Langue:
-        		<a href="#"> <img src="./images/drapeaux/france.png" alt="français" id="imgdrapeaux" class="imgdrapeaux" /></a>
-        		<a href="#"> <img src="./images/drapeaux/basque.jpg" alt="basque" id="imgdrapeaux" class="imgdrapeaux" /></a>
+        		<a href="#"> <img src="./../images/drapeaux/france.png" alt="français" id="imgdrapeaux" class="imgdrapeaux" /></a>
+        		<a href="#"> <img src="./../images/drapeaux/basque.jpg" alt="basque" id="imgdrapeaux" class="imgdrapeaux" /></a>
         	</p>
 
         </header>
@@ -25,17 +25,17 @@
         <div class="container">
 	        <h3> Profil </h3>
 	        <div class="row">
-       			<div class="input-field ">
-		        	<img src="./images/choixRoxane.png" alt="Roxanne" id="imgAvatar" class="imgAvatar col offset-l2 l3 offset-m1 m4 offset-s2 s8"/>
-		        	<div class="col offset-l1 l4 offset-m1 m5 offset-s2 s8">
-					    <label for="nomJoueur">	Ton prénom :</label>
-					    <input type="text" name="nomJoueur" id="nomJoueur" class="nomJoueur required="required"/>
-				    </div>
-		        </div>
+       			<div class="input-field  col offset-l1 l3 offset-m1 m4 offset-s1 s3">
+                    <img src="./../images/choixRoxane.png" alt="Roxanne" id="imgAvatar" class="imgAvatar"/>
+                </div>
+                <div class="input-field  col offset-l2 l4 offset-m1 m4 offset-s2 s3">
+                    <input type="text" id="nomJoueur" class=" nomJoueur"/>
+                    <label for="nomJoueur"> Entre ton prénom</label>
+                </div>
 		    </div>
 		     <div class="row">
        			<div class="input-field col offset-l5 l2 offset-m5 m2 offset-s4 s4">
-					<input type="submit" id="validerProfil" value="Valider" onclick="window.location = 'tache04.html'"/>
+					<a href="tache04.html" class="btn">Valider</a>
 				</div>
 		    </div>
         </div>    
