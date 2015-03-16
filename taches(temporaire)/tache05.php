@@ -43,12 +43,10 @@
         <!-- ********* DIV CACHE ********* -->
         <div id="site-cache"></div>
 
-        <script type="text/javascript" src="./js/jQuery/jquery-2.1.3.js"></script>
-        <script type="text/javascript" src="./js/transit.js"></script>
-        <script type="text/javascript" src="./css/materialize/js/materialize.js"></script>
-        <script type="text/javascript" src="./js/app.js"></script>
-        <script type="text/javascript" src="./js/jquery.mixitup.min.js"></script>
-        <script type="text/javascript" src="./js/jquery.fs.boxer.js"></script>
-        <script type='text/javascript' src='unitegallery/themes/default/ug-theme-default.js'></script>
+        <script type="text/javascript" src="./../js/AppArnaga.js"></script>
+        <script type="text/javascript" src="./../js/jquery/jquery-2.1.3.js"></script>
+        <script type="text/javascript" src="./../js/transit.js"></script>
+        <script type="text/javascript" src="./../css/materialize/js/materialize.js"></script>
+        <script type="text/javascript" src="./../js/jquery.mixitup.min.js"></script>
     </body>
 </html>
