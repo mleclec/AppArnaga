@@ -5,8 +5,21 @@
     "choixAvatar": "Choix de l'avatar",
     "choixCyrano": "Vous avez choisi Cyrano",
     "choixRoxane": "Vous avez choisi Roxane",
+    "explication": "Vidéo de présentation du jeu par l'avatar",
+    "introduction": "Vidéo d'introduction du jeu",
+    "profil": "Profil",
     "retour": "Retour",
     "suivant": "Suivant",
-    "commencer": "Commencer"
+    "commencer": "Commencer",
+    "valider": "Valider",
+    "qualiteR":"Qualité: Intelligente",
+    "qualiteC":"Qualité: Romantique",
+    "defautR":"Défauts: Superficielle, capricieuse",
+    "defautC":"Défaut: N'a pas confiance en lui",
+    "physiqueR":"Physique: Très belle",
+    "physiqueC":"Physique: Nez démesuré",
+    "metier":"Métiers: Poète écrivain",
+    "nomProfil":"Entre ton prénom",
+    "passerIntro": "Passer l'introduction"
   }
 ]
