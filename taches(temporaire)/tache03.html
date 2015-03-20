@@ -10,23 +10,14 @@
         <link type="text/css" rel="stylesheet" href="./../css/general.css" />
     </head>
     <body>
-        <!-- ********* DEBUT HEADER ********* -->
-        <header>
-        	<p id="langues" class="langues">	
-        		Langue:
-        		<a href="#"> <img src="./../images/drapeaux/france.png" alt="français" id="imgdrapeaux" class="imgdrapeaux" /></a>
-        		<a href="#"> <img src="./../images/drapeaux/basque.jpg" alt="basque" id="imgdrapeaux" class="imgdrapeaux" /></a>
-        	</p>
-
-        </header>
-        <!-- ********* FIN HEADER ********* -->
+        <?php include("./../views/view_langues.html"); ?>
 
         <!-- ********* DEBUT CONTENU PRINCIPAL ********* -->
         <div class="container">
 	        <h3> Profil </h3>
 	        <div class="row">
        			<div class="input-field  col offset-l1 l3 offset-m1 m4 offset-s1 s3">
-                    <img src="./../images/choixRoxane.png" alt="Roxanne" id="imgAvatar" class="imgAvatar"/>
+                    <img src="./../medias/choixRoxane.png" alt="Roxanne" id="imgAvatar" class="imgAvatar"/>
                 </div>
                 <div class="input-field  col offset-l2 l4 offset-m1 m4 offset-s2 s3">
                     <input type="text" id="nomJoueur" class=" nomJoueur"/>
@@ -35,7 +26,7 @@
 		    </div>
 		     <div class="row">
        			<div class="input-field col offset-l5 l2 offset-m5 m2 offset-s4 s4">
-					<a href="tache04.html" class="btn">Valider</a>
+					<a href="tache04.php" class="btn">Valider</a>
 				</div>
 		    </div>
         </div>    

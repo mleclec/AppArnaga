@@ -10,34 +10,25 @@
         <link type="text/css" rel="stylesheet" href="./../css/general.css" />
     </head>
     <body>
-        <!-- ********* DEBUT HEADER ********* -->
-        <header>
-        	<p id="langues" class="langues">	
-        		Langue:
-        		<a href="#"> <img src="./../images/drapeaux/france.png" alt="français" id="imgdrapeaux" class="imgdrapeaux" /></a>
-        		<a href="#"> <img src="./../images/drapeaux/basque.jpg" alt="basque" id="imgdrapeaux" class="imgdrapeaux" /></a>
-        	</p>
-
-        </header>
-        <!-- ********* FIN HEADER ********* -->
+        <?php include("./../views/view_langues.html"); ?>
 
         <!-- ********* DEBUT CONTENU PRINCIPAL ********* -->
         <div class="container">
         	<h3> Choix de l'avatar </h3>        	
        		<div class="row">
        			<div class="input-field col offset-l2 l4 offset-m1 m3 offset-s1 s2">
-                    <img src="./../images/choixRoxane.png" alt="Roxanne" id="imgAvatar" class="imgAvatar" />
+                    <img src="./../medias/choixRoxane.png" alt="Roxanne" id="imgAvatar" class="imgAvatar" />
                 </div>
                 <div class="input-field col offset-l2 l4 offset-m4 m2 offset-s1 s2">
-                    <img src="./../images/choixCyrano.png" alt="Cyrano" id="imgAvatar" class="imgAvatar"/>
+                    <img src="./../medias/choixCyrano.png" alt="Cyrano" id="imgAvatar" class="imgAvatar"/>
                 </div>
 		    </div>
         	<div class="row">
        			<div class="input-field col offset-l2 l3 offset-m2 m3 offset-s2 s3">
-                    <a href="tache02-1.html" class="btn">Roxanne</a>
+                    <a href="tache02-1.php" class="btn">Roxanne</a>
                 </div>
                 <div class="input-field col offset-l3 l3 offset-m2 m3 offset-s2 s3">
-                    <a href="tache02-2.html" class="btn">Cyrano</a>
+                    <a href="tache02-2.php" class="btn">Cyrano</a>
                 </div>
 		    </div>
         </div>
