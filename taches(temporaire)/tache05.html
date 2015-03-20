@@ -12,7 +12,33 @@
     <body>
         <!-- ********* DEBUT HEADER ********* -->
         <header>            
-            <?php include("./../views/view_menu2.html"); ?>
+            <!-- ********* NAVIGATION PRINCIPALE ********* -->
+            <nav>
+                <div class="nav-wrapper">
+                    <div class="col l12 m12 s12">
+                        <ul id="nav-mobile" class="left">
+                            <li><a id="btnMenu" class="btnMenu" href="#"><i class="mdi-navigation-menu"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- ********* FIN NAVIGATION PRINCIPALE ********* -->
+
+            <!-- ********* MENU ********* -->
+            <div id="nav-menu" class="nav-menu">
+                <ul>
+                    <li id="choixParcours"><a href="#">Choix parcours</a></li>
+                    <li class="divider"></li> <!-- ** ligne de séparation ** -->
+                    <li id="choixAvatar"><a href="#">Choix avatar</a></li>
+                    <li class="divider"></li> <!-- ** ligne de séparation ** -->
+                    <li id="voirParcours"><a href="#">Voir le parcours (Map)</a></li>
+                    <li class="divider"></li> <!-- ** ligne de séparation ** -->
+                    <li id="aideAvatar"><a href="#">Besoin d'aide (Avatar)</a></li>
+                    <li class="divider"></li> <!-- ** ligne de séparation ** -->
+                    <li id="changerLangue"><a href="#">Changer de langue</a></li>
+                </ul>
+            </div>
+            <!-- ********* FIN MENU ********* -->
         </header>
         <!-- ********* FIN HEADER ********* -->
 
