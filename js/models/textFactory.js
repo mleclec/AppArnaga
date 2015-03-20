@@ -6,6 +6,9 @@ AppArnaga.factory('TextFactory', function($http, $q){
         texts: false,
         getTexts : function(){
             var deferred = $q.defer();
+            $http.defaults.headers.common['Cache-Control'] = 'no-cache';
+            $http.defaults.headers.common['Pragma'] = 'no-cache';
+            $http.defaults.headers.common['Expires'] = '-1';
             $http.get('json/textesGeneraux.json')
                 .success(function(data, status){
                     factory.texts = data[0];
@@ -13,21 +16,6 @@ AppArnaga.factory('TextFactory', function($http, $q){
                 }).error(function(data, status){
                     deferred.reject('Impossible de récupérer les articles.');
                 });
-            return deferred.promise;
-        },
-        getText : function(id){
-            var deferred = $q.defer();
-            var text = "";
-            var texts = factory.getTexts().then(function(texts){
-                angular.forEach(texts, function(value, key){
-                    if (key == id){
-                        text = value;
-                    }
-                });
-                deferred.resolve(text);
-            }, function(msg){
-                deferred.reject(msg);
-            });
             return deferred.promise;
         }
     }

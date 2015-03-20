@@ -5,6 +5,7 @@ AppArnaga.config(['$routeProvider', function($routeProvider){
     $routeProvider
         .when('/', {templateUrl: 'views/commencer.html'})
         .when('/choixAvatar', {templateUrl: 'views/choixAvatar.html'})
-        .when('/profil', {templateurl: 'views/profil.html'})
+        .when('/profil', {templateUrl: 'views/profil.html'})
+        .when('/testAnimation', {templateUrl: 'views/testAnimation.html'})
         .otherwise({redirectTo: '/'});
 }]);

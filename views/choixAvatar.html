@@ -1,4 +1,18 @@
-<h1>Test choix avatar</h1>
-<div ng-controller="TextController">
-    <p ng-bind-html="text"></p>
-</div>
+<article ng-controller="TextController">
+    <h3> {{choixAvatar}} </h3>
+    <div class="row">
+        <div class="col l6">
+            <img class="responsive-img" src="./images/choixRoxane.png" alt="Roxanne"/>
+        </div>
+        <div class="col l6">
+            <img class="responsive-img" src="./images/choixCyrano.png" alt="Cyrano"/>
+        </div>
+    </div>
+    <br/>
+    <form action="tache02-1.html" method="post">
+        <input type="submit" id="RoxanneChoisi" value="Roxanne"/>
+    </form>
+    <form action="tache02-2.html" method="post">
+        <input type="submit" id="RoxanneChoisi" value="Cyrano"/>
+    </form>
+</article>

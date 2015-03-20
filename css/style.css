@@ -1,0 +1,69 @@
+.module {
+  width: 399px;
+  background-color: #232323;
+  margin: 50px auto; }
+  .module .hover {
+    overflow: hidden; }
+  .module .menu li {
+    height: 61px;
+    line-height: 61px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05); }
+    .module .menu li.active {
+      background-color: #1f7f5c;
+      cursor: pointer; }
+    .module .menu li span {
+      display: block;
+      margin-right: 30px;
+      border-right: 1px solid rgba(255, 255, 255, 0.05);
+      width: 61px;
+      height: 60px;
+      float: left;
+      background: url(img/settings.png) center center no-repeat; }
+      .module .menu li span.messages {
+        background-image: url(img/comments.png); }
+      .module .menu li span.users {
+        background-image: url(img/users.png); }
+  .module img {
+    display: block; }
+  .module .stats {
+    height: 90px;
+    text-align: center;
+    background-color: #fff; }
+    .module .stats li {
+      float: left;
+      width: 132px;
+      border-right: 1px solid #e5e5e5;
+      color: #7e7e7e;
+      font-size: 15px; }
+      .module .stats li strong {
+        padding-top: 20px;
+        display: block;
+        color: #000;
+        font-size: 31px;
+        font-weight: bold; }
+      .module .stats li:last-child {
+        border-right: none;
+        width: 133px; }
+  .module .profile {
+    margin: 20px; }
+    .module .profile p {
+      margin-top: 10px;
+      line-height: 1.1em;
+      font-size: 0.8em; }
+    .module .profile span {
+      display: inline-block; }
+  .module h2 {
+    color: #f6f6f6;
+    font-size: 20px;
+    line-height: 50px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05); }
+    .module h2:after {
+      content: '';
+      margin-left: 10px;
+      vertical-align: middle;
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAOCAYAAAAmL5yKAAAAvUlEQVQ4EZXB7YqCUBQAwFPX/tQWRkSYSl+QSuD7v91EUBCx7epMvGCGAhecscUUU2xxxgUFZvEOS/SosEKOI2644YgcK1TosYwHZOixwATLeEKOPD5ggR5ZYIcaE1SYxwCosQucsMYcPzEQcpwCB2xiJGxwCKxxjZFwxToe0KCIgVCgiRdk6LCPf6BAhyzeIaHDPr7AHh1S/AYJLcr4gBItUvwFCS3KeEKJFimGQEKDGjUapBgDCTVqpPjiDh7NJGiee/PiAAAAAElFTkSuQmCC) center center no-repeat; }
+
+
