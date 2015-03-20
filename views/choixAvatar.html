@@ -1,18 +1,19 @@
 <article ng-controller="TextController">
     <h3> {{choixAvatar}} </h3>
     <div class="row">
-        <div class="col l6">
-            <img class="responsive-img" src="./images/choixRoxane.png" alt="Roxanne"/>
+        <div class="input-field col offset-l2 l4 offset-m1 m3 offset-s1 s2">
+            <img src="./../medias/choixRoxane.png" alt="Roxanne" id="imgAvatar" class="imgAvatar" />
         </div>
-        <div class="col l6">
-            <img class="responsive-img" src="./images/choixCyrano.png" alt="Cyrano"/>
+        <div class="input-field col offset-l2 l4 offset-m4 m2 offset-s1 s2">
+            <img src="./../medias/choixCyrano.png" alt="Cyrano" id="imgAvatar" class="imgAvatar"/>
         </div>
     </div>
-    <br/>
-    <form action="tache02-1.html" method="post">
-        <input type="submit" id="RoxanneChoisi" value="Roxanne"/>
-    </form>
-    <form action="tache02-2.html" method="post">
-        <input type="submit" id="RoxanneChoisi" value="Cyrano"/>
-    </form>
+    <div class="row">
+        <div class="input-field col offset-l2 l3 offset-m2 m3 offset-s2 s3">
+            <a href="tache02-1.php" class="btn">Roxanne</a>
+        </div>
+        <div class="input-field col offset-l3 l3 offset-m2 m3 offset-s2 s3">
+            <a href="tache02-2.php" class="btn">Cyrano</a>
+        </div>
+    </div>
 </article>
