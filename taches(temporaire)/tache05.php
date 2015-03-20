@@ -20,11 +20,9 @@
         <div class="container">
         <h3> Vidéo d'introduction du jeu</h3>
 
-<!--
         <video class="responsive-video" controls>
-            <source src="movie.mp4" type="video/mp4">
+            <source src="./../medias/introduction.mp4" type="video/mp4"/>
         </video>
--->
 
         <a href="tache01.php">Retour à l'accueil </a>
         </div>

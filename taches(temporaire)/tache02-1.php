@@ -18,9 +18,11 @@
         	<div class="row">
        			<div class="input-field col offset-l2 l8 offset-m1 m10 offset-s1 s10">
 		        	<img src="./../medias/choixRoxane.png" alt="Roxanne" id="imgAvatar" class="imgAvatar fusionner" />
-		        	<p>
-		        		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam velit ligula, pharetra quis, commodo at, porta sed, orci. Ut vel leo ut risus hendrerit elementum. Aliquam tellus felis, tempus ut, ultricies a, congue nec, nulla. Mauris eros lorem, molestie a, auctor sodales, pretium sit amet, nibh. Sed massa. In porttitor, mi at accumsan convallis, ante justo scelerisque nulla, vel tempus nulla dolor eu erat. Integer nulla nibh, vehicula at, vehicula id, porttitor tincidunt, mauris. Suspendisse cursus. Vivamus vitae velit a diam scelerisque porta. In hac habitasse platea dictumst. In eget ipsum.
-		        	</p>
+                    <ul>
+                        <li>Qualité: Intelligente</li>
+                        <li>Défauts: Superficielle, capricieuse</li>
+                        <li>Physique: Très belle</li>
+                    </ul>
 		        </div>
 		    </div>
         	<div class="row">
