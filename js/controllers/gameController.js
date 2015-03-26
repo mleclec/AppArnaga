@@ -2,7 +2,7 @@
  * Created by Yannick on 13/03/2015.
  * Update by Marine on 20/03/2015.
  */
-AppArnaga.controller('GameController', function($scope, VarFactory, TextFactory){
+AppArnaga.controller('GameController', function($scope, VarFactory, TextFactory, HomeFactory){
     $scope.texts = TextFactory.getTexts().then(function(texts){
         $scope.texts = texts;
         $scope.titreJeuArnaga = texts.titreJeuArnaga;
@@ -26,6 +26,9 @@ AppArnaga.controller('GameController', function($scope, VarFactory, TextFactory)
         $scope.metier = texts.metier;
         $scope.nomProfil = texts.nomProfil;
         $scope.passerIntro = texts.passerIntro;
+        $scope.choixParcours = texts.choixParcours;
+        $scope.jardin = texts.jardin;
+        $scope.maison = texts.maison;
     }, function(msg){
         alert(msg);
     });
@@ -40,6 +43,22 @@ AppArnaga.controller('GameController', function($scope, VarFactory, TextFactory)
         $scope.playerName = VarFactory.getVar(name);
         console.log($scope.playerName);
     }
+
+    $scope.home = HomeFactory.getHome().then(function(home){
+        $scope.home = home;
+        $scope.question = HomeFactory.getQuestion('exterieur', 0);
+        $scope.responses = $scope.question['listeReponses'];
+        $scope.win = false;
+        $scope.response = 0;
+        $scope.$watch('response', function(newValue, oldValue, scope) {
+            console.log(newValue);
+        });
+        console.log($scope.responses);
+        console.log($scope.question);
+
+    }, function(msg){
+        alert(msg);
+    });
 
 
 });

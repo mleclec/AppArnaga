@@ -10,5 +10,7 @@ AppArnaga.config(['$routeProvider', function($routeProvider){
         .when('/choixCyrano', {templateUrl: 'views/choixCyrano.html'})
         .when('/choixRoxanne', {templateUrl: 'views/choixRoxanne.html'})
         .when('/explicationJeu', {templateUrl: 'views/explicationJeu.html'})
+        .when('/choixParcours', {templateUrl: 'views/choixParcours.html'})
+        .when('/maison/exterieur/0', {templateUrl: 'views/questionChoixMultiple.html'})
         .otherwise({redirectTo: '/'});
 }]);

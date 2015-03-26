@@ -20,6 +20,9 @@
     "physiqueC":"Physique: Nez démesuré",
     "metier":"Métiers: Poète écrivain",
     "nomProfil":"Entre ton prénom",
-    "passerIntro": "Passer l'introduction"
+    "passerIntro": "Passer l'introduction",
+    "choixParcours": "Choix du parcours",
+    "jardin": "Jardin",
+    "maison": "Maison"
   }
 ]

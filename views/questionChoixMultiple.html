@@ -1,0 +1,17 @@
+<article>
+    <h3>{{maison}} - Extérieur</h3>
+    <h4>{{question['titre']}}</h4>
+    <h5>{{question['question']}}</h5>
+
+    <form>
+        <div ng-repeat="n in responses track by $index">
+            <input value="{{n}}" ng-model="$parent.response" type="radio" name="choix" id="{{n}}"/> <label for="{{n}}">{{n}}</label>
+        </div>
+    </form>
+    {{response}}
+
+    <div ng-show="win">
+        Bravo !
+    </div>
+
+</article>
