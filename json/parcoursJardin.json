@@ -1,13 +1,150 @@
 [
 	{
+		"jardin":
+		[
+			{
+				"numero": "1",
+				"titre": "Belvédère",
+				"type": "Choix multiple",
+        		"question":"Edmond Rostand a voulu une décoration végétale. Laquelle?",
+        		"listeResponses":
+        		[
+        			"Une belle pelouse",
+        			"Un massif de fleurs",
+        			"Des broderies de buis et de gazon",
+        		],
+        		"bonneReponse": "Des broderies de buis et de gazon",
+        		"media":
+        		{
+		        	/*"son": 
+		        	[
+		              {
+		                "url": "url du son"
+		              }
+		            ]*/
+		        }
+			}
+		],
 		"jardin-a-l-anglaise":
 		[
 			{
 				"numero": "1",
-				"titre": "Belvedere",
+				"titre": "Le décor",
 				"type": "Choix multiple",
-        "question":"Edmond Rostand a voulu une décoration végétale. Laquelle?",
-			}
+        		"question":"Voici un photo prise du temps du poète. Il manque aujourd'hui une partie du décor qui existait a l'époque. Laquelle?",
+        		"listeResponses":
+        		[
+        			"Une statue",
+        			"Un bassin",
+        			"Une poterie",
+        		],
+        		"bonneReponse": "Un bassin",
+        		"media":
+        		{
+		        	"image": 
+		        	[
+		              {
+		                "url": "url de l'image",
+		                "titre": "Décor de l'epoque"
+		              }
+		            ]
+		        }
+			},
+			{
+				"numero": "2",
+				"titre": "Caractéristique d'un jardin à l'anglaise",
+				"type": "Choix multiple",
+        		"question":"Coche la vraie proposition. Dans un kardin à l'anglaise: Le allées sont",
+        		"listeResponses":
+        		[
+        			"droites",
+        			"sinueuses",
+        		],
+        		"bonneReponse": "sinueuses",
+        		/* a voir si on peut le faire comme ça!!
+        		"question": "Les végétaux sont",
+        		"listeResponses":
+        		[
+        			"taillés",
+        			"libres",
+        		],
+        		"bonneReponse": "libres",*/
+        		"media":
+        		{
+		        	// je ne sais pas
+		        }
+			},
+			{
+				"numero": "3",
+				"titre": "La montagne",
+				"type": "Choix multiple",
+        		"question":"Quelle est cette célèbre montagne que tu peux apercevoir entre les arbres et que Edmond Rostand et sa femme passaient des heures à admirer?",
+        		"listeResponses":
+        		[
+        			"La Rhune",
+        			"L'Ursuya",
+        			"Le Pic du Midi",
+        		],
+        		"bonneReponse": "La Rhune",
+        		"media":
+        		{
+		        	//
+		        }
+			},
+		],
+		"jardin-a-la-francaise":
+		[
+			{
+				"numero": "1",
+				"titre": "La terrasse",
+				"type": "Choix multiple",
+        		"question":"Edmond Rostand avait l'habitude de s'asseoir à l'abris d'un arbuste qui existe toujours. Lequel?",
+        		"listeResponses":
+        		[
+        			"Un buis",
+        			"Un camélia",
+        			"Un laurier",
+        		],
+        		"bonneReponse": "Un buis",
+        		"media":
+        		{
+		        	"image": 
+		        	[
+		              {
+		                "url": "url de l'image",
+		                "titre": "Arbustes de l'époque"
+		              }
+		            ]
+		        }
+			},
+			{
+				"numero": "2",
+				"titre": "La terrasse (suite)",
+				"type": "Puzzle",
+        		"question":"Tournes-toi face au jardin à la française. Comme tu le sais, le plus bel exemple se trouve à Versailles. Ce jardin est un symbole de symétrie. Recrée l'harmonie du jardin en remettant les éléments à leur place",
+        		"listeResponses":
+        		[
+        			// je ne sais pas quoi mettre
+        		],
+        		"media":
+        		{
+		        	"image": 
+		        	[
+		              {
+		                "url": "url de l'image",
+		                "titre": "élément 1"
+		              },
+		              {
+		                "url": "url de l'image",
+		                "titre": "élément 2"
+		              },
+		              {
+		                "url": "url de l'image",
+		                "titre": "élément 3"
+		              },//a répéter selon le nombre d'images
+		            ]
+		        }
+			},
 		]
 	}
 ]
