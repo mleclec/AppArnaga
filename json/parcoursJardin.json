@@ -11,7 +11,7 @@
         		[
         			"Une belle pelouse",
         			"Un massif de fleurs",
-        			"Des broderies de buis et de gazon",
+        			"Des broderies de buis et de gazon"
         		],
         		"bonneReponse": "Des broderies de buis et de gazon",
         		"media":
@@ -36,7 +36,7 @@
         		[
         			"Une statue",
         			"Un bassin",
-        			"Une poterie",
+        			"Une poterie"
         		],
         		"bonneReponse": "Un bassin",
         		"media":
@@ -83,7 +83,7 @@
         		[
         			"La Rhune",
         			"L'Ursuya",
-        			"Le Pic du Midi",
+        			"Le Pic du Midi"
         		],
         		"bonneReponse": "La Rhune",
         		"media":
@@ -103,7 +103,7 @@
         		[
         			"Un buis",
         			"Un camélia",
-        			"Un laurier",
+        			"Un laurier"
         		],
         		"bonneReponse": "Un buis",
         		"media":
@@ -142,6 +142,112 @@
 		                "url": "url de l'image",
 		                "titre": "élément 3"
 		              },//a répéter selon le nombre d'images
+		            ]
+		        }
+			},
+			{
+				"numero": "3",
+				"titre": "Au pied de la terrasse",
+				"type": "Flash",
+        		"question":"Regarde ce dessin. Est-ce que l’architecte a respecté le nombre de marche prévu par Edmond Rostand ?",
+        		"listeResponses":
+        		[
+        			"Oui",
+        			"Non"
+        		],
+        		"bonneReponse": "Non",
+        		"media":
+        		{
+		        	"image": 
+		        	[
+		              {
+		                "url": "url de l'image",
+		                "titre": "Marches de l'époque"
+		              }
+		            ]
+		        }
+			},
+			{
+				"numero": "4",
+				"titre": "Au pied de la terrasse (suite)",
+				"type": "Choix multiple",
+        		"question":"Entre maintenant dans le « Grand Parterre fleuri ».
+Qu’a-t-on placé au centre de cette composition ? ",
+        		"listeResponses":
+        		[
+        			"Un massif de fleurs",
+        			"Un bassin rond",
+        			"Une statue de Roxane"
+        		],
+        		"bonneReponse": "Un bassin rond",
+        		"media":
+        		{
+		        	"image": 
+		        	[
+		              {
+		                "url": "url de l'image",
+		                "titre": "Secteur 1"
+		              },
+		              {
+		                "url": "url de l'image",
+		                "titre": "Secteur 2"
+		              },
+		              {
+		                "url": "url de l'image",
+		                "titre": "Secteur 3"
+		              },
+		              {
+		                "url": "url de l'image",
+		                "titre": "Secteur 4"
+		              }
+		            ]
+		        }
+			},
+			{
+				"numero": "5",
+				"titre": "La serre",
+				"type": "Choix multiple",
+        		"question":"L’été cette allée était bordée par des agrumes en caisse, qu’il fallait rentrer en hiver pour éviter le gel.
+D’où la construction de cette serre en pierres au nom bien symbolique mais lequel ?",
+        		"listeResponses":
+        		[
+        			"Une orangerie",
+        			"Un vivarium",
+        			"Un pigeonnier"
+        		],
+        		"bonneReponse": "Une orangerie",
+        		"media":
+        		{
+		        	// je crois qu'il n'y en a pas
+		        }
+			},
+			{
+				"numero": "6",
+				"titre": "Le jardin des poètes",
+				"type": "Correspondance",
+        		"question":"Identifie le buste des 3 poètes.",
+        		"listeResponses":
+        		[
+        			"Hugo",
+        			"Shakespeare",
+        			"Cervantès"
+        		],
+        		"media":
+        		{
+		        	"image": 
+		        	[
+		              {
+		                "url": "url de l'image",
+		                "titre": "Victore Hugo"
+		              },
+		              {
+		                "url": "url de l'image",
+		                "titre": "William Shakespeare"
+		              },
+		              {
+		                "url": "url de l'image",
+		                "titre": "Miguel de Cervantès"
+		              }
 		            ]
 		        }
 			},
