@@ -5,11 +5,11 @@ AppArnaga.factory('VarFactory', function(){
     var factory = {
         vars : {'avatar' : '', 'playerName' : ''},
 
-        getVar : function(varName){
-            return factory.vars['varName'];
+        getVar : function(value){
+            return factory.vars[value];
         },
         setVar : function(varName, varValue){
-            factory.vars['varName'] = varValue;
+            factory.vars[varName] = varValue;
         }
     }
     return factory;

@@ -2,7 +2,7 @@
  * Created by Yannick on 13/03/2015.
  * Update by Marine on 20/03/2015.
  */
-AppArnaga.controller('GameController', function($scope, VarFactory, TextFactory, HomeFactory){
+AppArnaga.controller('GameController', function($scope, VarFactory, TextFactory, HomeFactory, $routeParams, $location){
     $scope.texts = TextFactory.getTexts().then(function(texts){
         $scope.texts = texts;
         $scope.titreJeuArnaga = texts.titreJeuArnaga;
@@ -33,9 +33,10 @@ AppArnaga.controller('GameController', function($scope, VarFactory, TextFactory,
         alert(msg);
     });
 
+    $scope.avatar = VarFactory.getVar('avatar');
     $scope.setAvatar = function(avatar){
         VarFactory.setVar('avatar', avatar);
-        $scope.avatar = VarFactory.getVar(avatar);
+        $scope.avatar = VarFactory.getVar('avatar');
     };
 
     $scope.setPlayerName = function(name){
@@ -44,20 +45,35 @@ AppArnaga.controller('GameController', function($scope, VarFactory, TextFactory,
         console.log($scope.playerName);
     }
 
-    $scope.home = HomeFactory.getHome().then(function(home){
-        $scope.home = home;
-        $scope.question = HomeFactory.getQuestion('exterieur', 0);
-        $scope.responses = $scope.question['listeReponses'];
-        $scope.win = false;
-        $scope.response = 0;
-        $scope.$watch('response', function(newValue, oldValue, scope) {
-            console.log(newValue);
-        });
-        console.log($scope.responses);
-        console.log($scope.question);
+    $scope.location = $location;
 
-    }, function(msg){
-        alert(msg);
+    $scope.$watch("location.path()", function(path){
+        $scope.place = $routeParams.place;
+        $scope.id = $routeParams.id;
+        $scope.nextId = parseInt($scope.id) + 1;
+        if ($scope.place!=undefined){
+            $scope.home = HomeFactory.getHome().then(function(home){
+                $scope.home = home;
+                $scope.nbQuestions = HomeFactory.getQuestions($scope.place).length;
+                $scope.question = HomeFactory.getQuestion($scope.place, $scope.id);
+                $scope.responses = $scope.question['listeReponses'];
+                $scope.win = false;
+                $scope.response = 0;
+                $scope.test = function(response){
+                    $scope.response = response;
+                    if ($scope.response == $scope.question['bonneReponse']){
+                        $scope.win = true;
+                    }
+                }
+                console.log($scope.responses);
+                console.log($scope.question);
+
+            }, function(msg){
+                alert(msg);
+            });
+
+            console.log($routeParams);
+        }
     });
 
 

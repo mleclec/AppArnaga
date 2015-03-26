@@ -20,6 +20,9 @@ AppArnaga.factory('HomeFactory', function($http, $q){
         },
         getQuestion : function(place, number){
             return factory.home[place][number];
+        },
+        getQuestions : function(place){
+            return factory.home[place];
         }
     }
     return factory;

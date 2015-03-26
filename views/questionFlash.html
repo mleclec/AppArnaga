@@ -1,0 +1,8 @@
+<article>
+    <h3>{{maison}} - {{place}}</h3>
+    <h4>{{question['titre']}}</h4>
+    <h5>{{question['question']}}</h5>
+    <p>Ceci est une question de type flash, ce type de question n'a pas encore été implémenté</p>
+    <a ng-if="nextId!=nbQuestions" href="#/maison/{{place}}/{{nextId}}" class="waves-effect waves-light btn">Passer à la question suivante</a>
+    <a ng-if="nextId==nbQuestions" href="#/maison/etage1/0" class="waves-effect waves-light btn">Passer à la question suivante</a>
+</article>
