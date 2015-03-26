@@ -36,7 +36,10 @@ AppArnaga.controller('GameController', function($scope, VarFactory, TextFactory)
     };
 
     $scope.setPlayerName = function(name){
-        $scope.playerName = name;
+        VarFactory.setVar('playerName' , name);
+        $scope.playerName = VarFactory.getVar(name);
+        console.log($scope.playerName);
     }
+
 
 });

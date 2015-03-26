@@ -44,11 +44,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="profil.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="profil.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/profil.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5887372" vertical-offset="0" max-vertical-offset="586">
-              <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+            <state vertical-scroll-proportion="-0.88461536" vertical-offset="0" max-vertical-offset="575">
+              <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="explicationJeu.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/explicationJeu.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.11774744" vertical-offset="0" max-vertical-offset="586">
+              <caret line="3" column="54" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -57,8 +67,8 @@
       <file leaf-file-name="gameController.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/controllers/gameController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="552">
-              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="621">
+              <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
               <folding>
                 <element signature="e#224#1177#0" expanded="false" />
               </folding>
@@ -80,7 +90,7 @@
         <entry file="file://$PROJECT_DIR$/views/choixRoxanne.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-14.153846" vertical-offset="0" max-vertical-offset="621">
-              <caret line="16" column="64" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
+              <caret line="16" column="66" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -91,16 +101,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="506">
               <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="textFactory.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/models/textFactory.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="667">
-              <caret line="21" column="19" selection-start-line="4" selection-start-column="4" selection-end-line="21" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -137,16 +137,16 @@
         <option value="$PROJECT_DIR$/json/textesGeneraux.json" />
         <option value="$PROJECT_DIR$/views/commencer.html" />
         <option value="$PROJECT_DIR$/views/choixAvatar.html" />
-        <option value="$PROJECT_DIR$/views/choixCyrano.html" />
         <option value="$PROJECT_DIR$/views/introduction.html" />
         <option value="$PROJECT_DIR$/js/controllers/textController.js" />
         <option value="$PROJECT_DIR$/views/choixRoxanne.html" />
         <option value="$PROJECT_DIR$/js/routes/routes.js" />
-        <option value="$PROJECT_DIR$/views/explicationJeu.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/js/controllers/gameController.js" />
         <option value="$PROJECT_DIR$/js/models/varFactory.js" />
+        <option value="$PROJECT_DIR$/views/choixCyrano.html" />
+        <option value="$PROJECT_DIR$/js/controllers/gameController.js" />
         <option value="$PROJECT_DIR$/views/profil.html" />
+        <option value="$PROJECT_DIR$/views/explicationJeu.html" />
       </list>
     </option>
   </component>
@@ -468,14 +468,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/taches(temporaire)/tache01.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="278" max-vertical-offset="1633">
-          <caret line="39" column="12" selection-start-line="35" selection-start-column="29" selection-end-line="39" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/controllers/gameController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="92" max-vertical-offset="483">
@@ -790,14 +782,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/choixCyrano.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="644">
-          <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/commencer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="586">
@@ -810,14 +794,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="437">
           <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/explicationJeu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.88461536" vertical-offset="0" max-vertical-offset="414">
-          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -846,21 +822,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/choixRoxanne.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.153846" vertical-offset="0" max-vertical-offset="621">
-          <caret line="16" column="64" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/medias/choixCyrano.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/controllers/gameController.js">
+    <entry file="file://$PROJECT_DIR$/views/choixCyrano.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="552">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-          <folding>
-            <element signature="e#224#1177#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="0.68237346" vertical-offset="0" max-vertical-offset="644">
+          <caret line="17" column="66" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -874,10 +845,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/views/choixRoxanne.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.153846" vertical-offset="0" max-vertical-offset="621">
+          <caret line="16" column="66" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/controllers/gameController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="621">
+          <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+          <folding>
+            <element signature="e#224#1177#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/profil.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5887372" vertical-offset="0" max-vertical-offset="586">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        <state vertical-scroll-proportion="-0.88461536" vertical-offset="0" max-vertical-offset="575">
+          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/explicationJeu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11774744" vertical-offset="0" max-vertical-offset="586">
+          <caret line="3" column="54" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
           <folding />
         </state>
       </provider>
