@@ -2,14 +2,14 @@
  * Created by Yannick on 13/03/2015.
  * Update by Marine on 20/03/2015.
  */
-AppArnaga.controller('TextController', function($scope, TextFactory){
+AppArnaga.controller('GameController', function($scope, VarFactory, TextFactory){
     $scope.texts = TextFactory.getTexts().then(function(texts){
         $scope.texts = texts;
         $scope.titreJeuArnaga = texts.titreJeuArnaga;
         $scope.intro = texts.intro;
         $scope.choixAvatar = texts.choixAvatar;
         $scope.choixCyrano = texts.choixCyrano;
-        $scope.choixRoxane = texts.choixRoxane;
+        $scope.choixRoxanne = texts.choixRoxanne;
         $scope.explication = texts.explication;
         $scope.introduction = texts.introduction;
         $scope.profil = texts.profil;
@@ -29,4 +29,14 @@ AppArnaga.controller('TextController', function($scope, TextFactory){
     }, function(msg){
         alert(msg);
     });
+
+    $scope.setAvatar = function(avatar){
+        VarFactory.setVar('avatar', avatar);
+        $scope.avatar = VarFactory.getVar(avatar);
+    };
+
+    $scope.setPlayerName = function(name){
+        $scope.playerName = name;
+    }
+
 });
