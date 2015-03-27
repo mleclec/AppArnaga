@@ -251,6 +251,167 @@ D’où la construction de cette serre en pierres au nom bien symbolique mais le
 		            ]
 		        }
 			},
+			{
+				"numero": "7",
+				"titre": "Le jardin des poètes (suite)",
+				"type": "Correspondance",
+        		"question":"Relies chaque auteur à son oeuvre.",
+        		"listeResponses":
+        		[
+        			"Hugo",
+        			"Shakespeare",
+        			"Cervantès"
+        		],
+        		"media":
+        		{
+		        	"image": 
+		        	[
+		              {
+		                "url": "url de l'image",
+		                "titre": "Les misérables",
+                		"codeCorrespondance": "1"
+		              },
+		              {
+		                "url": "url de l'image",
+		                "titre": "Hamlet",
+                		"codeCorrespondance": "2"
+		              },
+		              {
+		                "url": "url de l'image",
+		                "titre": "Don quichote",
+                		"codeCorrespondance": "3"
+		              }
+		            ]
+		        }
+			},
+			{
+				"numero": "8",
+				"titre": "Tailler des buis",
+				"type": "Choix multiple",
+        		"question":"Cette technique de taille requiert beaucoup de rigueur et porte un nom, lequel ?",
+        		"listeResponses":
+        		[
+        			"Topiaires",
+        			"Biseau",
+        			"Elagage"
+        		],
+        		"bonneReponse": "Topiaires",
+        		"media":
+        		{
+		        	// je crois qu'il n'y en a pas
+		        }
+			},
+			{
+				"numero": "9",
+				"titre": "Le grand bassin",
+				"type": "Choix multiple",
+        		"question":"Comme tu peux le constater, il est en contrebas par rapport à la maison, ce qui lui donne un certaine particularité. Laquelle ?",
+        		"listeResponses":
+        		[
+        			"Il permet des compétitions de natation",
+        			"Il réfléchit tel un miroir la maison",
+        			"C’est une réserve de poissons "
+        		],
+        		"bonneReponse": "Il réfléchit tel un miroir la maison ",
+        		"media":
+        		{
+		        	"image": 
+		        	[
+		              {
+		                "url": "url de l'image",
+		                "titre": "Maison et son bassin"
+		              }
+		            ]
+		        }
+			},
+			{
+				"numero": "12",
+				"titre": "La pergola",
+				"type": "Flash",
+        		"question":"Entre le bassin et la pergola un canal aujourd’hui garni de jets d’eau depuis 1960, permettait à la famille de canoter c’est-à-dire ?",
+        		"listeResponses":
+        		[
+        			"Faire de la barque",
+        			"Chasser les cygnes"
+        		],
+        		"bonneReponse": "Faire de la barque",
+        		"media":
+        		{
+		        	"image": 
+		        	[
+		              {
+		                "url": "url de l'image",
+		                "titre": "d’Edmond Rostand faisant de la barque"
+		              }
+		            ]
+		        }
+			},
+			{
+				"numero": "11",
+				"titre": "La pergola (suite)",
+				"type": "Choix multiple",
+        		"question":"La pergola relie par une colonnade 2  pavillons classiques, sur chacun d’eux des figurines en relief au nom bien précis ,lesquels ?",
+        		"listeResponses":
+        		[
+        			"Des gargouilles",
+        			"Des macarons",
+        			"Des mascarons"
+        		],
+        		"bonneReponse": "Des mascarons",
+        		"media":
+        		{
+		        	"image": 
+		        	[
+		              {
+		                "url": "url de l'image",
+		                "titre": "Les mascarons"
+		              }
+		            ]
+		        }
+			},
+			{
+				"numero": "12",
+				"titre": "La pergola (fin)",
+				"type": "Flash",
+        		"question":"Voici deux plans proposés par l’architecte. Lequel Edmond Rostand a-t-il choisi pour sa pergola ?",
+        		"listeResponses":
+        		[
+        			"Plan1",
+        			"Plan2"
+        		],
+        		"bonneReponse": "Plan1",
+        		"media":
+        		{
+		        	"image": 
+		        	[
+		              {
+		                "url": "url de l'image",
+		                "titre": "Plan 1"
+		              },
+		              {
+		                "url": "url de l'image",
+		                "titre": "Plan 2"
+		              }
+		            ]
+		        }
+			},
+			{
+				"numero": "13",
+				"titre": "La basse cour",
+				"type": "Chois multiple",
+        		"question":"Va derrière la pergola. Edmond Rostand y a installé une basse-cour. Il y a longuement observé les animaux pour écrire une pièce de théâtre, laquelle ?",
+        		"listeResponses":
+        		[
+        			"Le Roman de Renard",
+        			"Les fables d’Edmond Rostand",
+        			"Chantecler"
+        		],
+        		"bonneReponse": "Chantecler",
+        		"media":
+        		{
+        			// je crois qu'il n'y en a pas
+		        }
+			}
 		]
 	}
 ]
