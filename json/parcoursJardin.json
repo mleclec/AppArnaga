@@ -171,8 +171,7 @@
 				"numero": "4",
 				"titre": "Au pied de la terrasse (suite)",
 				"type": "Choix multiple",
-        		"question":"Entre maintenant dans le « Grand Parterre fleuri ».
-Qu’a-t-on placé au centre de cette composition ? ",
+        		"question":"Entre maintenant dans le « Grand Parterre fleuri ». Qu’a-t-on placé au centre de cette composition ? ",
         		"listeResponses":
         		[
         			"Un massif de fleurs",
@@ -207,8 +206,7 @@ Qu’a-t-on placé au centre de cette composition ? ",
 				"numero": "5",
 				"titre": "La serre",
 				"type": "Choix multiple",
-        		"question":"L’été cette allée était bordée par des agrumes en caisse, qu’il fallait rentrer en hiver pour éviter le gel.
-D’où la construction de cette serre en pierres au nom bien symbolique mais lequel ?",
+        		"question":"L’été cette allée était bordée par des agrumes en caisse, qu’il fallait rentrer en hiver pour éviter le gel. D’où la construction de cette serre en pierres au nom bien symbolique mais lequel ?",
         		"listeResponses":
         		[
         			"Une orangerie",
@@ -410,6 +408,64 @@ D’où la construction de cette serre en pierres au nom bien symbolique mais le
         		"media":
         		{
         			// je crois qu'il n'y en a pas
+		        }
+			}
+		],
+		"Bois paysager":
+		[
+			{
+				"numero": "1",
+				"titre": "Les arbres",
+				"type": "Flash",
+        		"question":"Comment ne pas être impressionné par toutes ces arbres aux formes étranges pour certains. Leur taille est appelée en ?",
+        		"listeResponses":
+        		[
+        			"Têtard",
+        			"Tétris"
+        		],
+        		"bonneReponse": "Têtard",
+        		"media":
+        		{
+        			// je crois qu'il n'y en a pas
+		        }
+			},
+			{
+				"numero": "2",
+				"titre": "Les arbres (suite)",
+				"type": "Correspondance",
+				"question": "Ce parc comporte des arbres d’essences différentes. Sauras-tu les reconnaitre ?",
+				"listeResponses":
+        		[
+        			"Chêne",
+        			"If",
+        			"Châtaigner",
+        			"Tilleuls"
+        		],
+        		"media":
+        		{
+        			"image":
+        			[
+        				{
+			                "url": "url de l'image",
+			                "titre": "Chêne",
+			                "codeCorrespondance": "1"
+			            },
+			            {
+			            	"url": "url de l'image",
+			                "titre": "If",
+			                "codeCorrespondance": "2"
+			            },
+			            {
+			                "url": "url de l'image",
+			                "titre": "Châtaigner",
+			                "codeCorrespondance": "3"
+			            },
+			            {
+			            	"url": "url de l'image",
+			                "titre": "Tilleuls",
+			                "codeCorrespondance": "4"
+			            }
+        			]
 		        }
 			}
 		]

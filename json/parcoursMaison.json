@@ -25,7 +25,7 @@
       {
         "numero": "2",
         "type": "Choix multiple",
-        "titre": "Le cadran solaire",
+        "titre": "La façade sud",
         "question": "Sur le décrochement de la façade plein sud au niveau du balcon un drôle d'objet ne mesure que les beaux jours, qui est-il ?",
         "listeReponses": [
           "Le cadran solaire",
@@ -121,10 +121,10 @@
         "titre": "Le grand hall",
         "question": "Nous voilà dans le grand hall, qui était la pièce de réception. Parmis ces deux signes, lequel ne fait pas partie des signes du zodiaque ?",
         "listeReponses": [
-          "Centor",
+          "Centaure",
           "Sagittaire"
         ],
-        "bonneReponse": "Centor",
+        "bonneReponse": "Centaure",
         "media": [
           {
             "image": [
@@ -153,23 +153,19 @@
         "numero": "3",
         "type": "Choix multiple",
         "titre": "Le salon chinois",
-        "question": "D'après toi quelle était la fonction première de cette pièce ?",
+        "question": "Un élément du décor a disparu depuis. Lequel ?",
         "listeReponses": [
-          "Une chambre d'amie",
-          "Une cuisine",
-          "Un fumoir"
+          "Un paravent chinois",
+          "Une collection de sabres",
+          "Des décors chinois sur les murs"
         ],
-        "bonneReponse": "Un fumoir",
+        "bonneReponse": "Des décors chinois sur les murs",
         "media": [
           {
             "image": [
               {
                 "url": "url de l'image",
                 "titre": "Salon chinois"
-              },
-              {
-                "url": "url de l'image",
-                "titre": "Salon chinois (montage dans le miroir)"
               }
             ]
           }
@@ -224,7 +220,7 @@
       {
         "numero": "6",
         "type": "Correspondance",
-        "titre": "Le grand hall",
+        "titre": "Le grand hall (retour)",
         "question": "Associe les personnages à la bonne image :",
         "listeReponses": [
           "Cyrano",
@@ -266,11 +262,11 @@
         "titre": "Salle à manger",
         "question": "Dans la salle à manger, il faisait bon car la maison était dotée d'un système de chauffage très moderne, lequel ?",
         "listeReponses": [
-          "Calorifère",
-          "Pompe à chaleur",
+          "Un calorifère",
+          "Une pompe à chaleur",
           "Un poêle à granule"
         ],
-        "bonneReponse": "Calorifère",
+        "bonneReponse": "Un calorifère",
         "media": [
           {
             "image": [
@@ -337,7 +333,7 @@
         "listeReponses": [
           "Le passe-plat",
           "Un escalier",
-          "un four micro-onde"
+          "Un four micro-onde"
         ],
         "bonneReponse": "Le passe-plat",
         "media": [
@@ -358,8 +354,8 @@
         "titre": "L'escalier",
         "question": "Observez bien cette photo. Cet escalier nous semble plus léger aujourd'hui, à l'origine il était :",
         "listeReponses": [
-          "En pierre",
-          "En bois"
+          "en pierre",
+          "en bois"
         ],
         "bonneReponse": "en pierre",
         "media": [
@@ -376,7 +372,7 @@
         "numero": "1.2",
         "type": "Choix multiple",
         "titre": "L'escalier",
-        "question": "Dans la fameuse scène où Roxane écoute la déclaration de Cyrano, pensant que c'est Christian qui lui parle, elle se trouve :",
+        "question": "Sur ce palier, un lieu rappelle la fameuse scène où Roxane écoute la déclaration de Cyrano, pensant que c’est  Christian qui lui parle. Où se trouve Roxane ?",
         "listeReponses": [
           "Sur l'escalier",
           "Sur le balcon",
@@ -398,15 +394,15 @@
       },
       {
         "numero": "2",
-        "type": "??",
+        "type": "Choix Multiple",
         "titre": "La chambre des enfants",
-        "question": "??",
+        "question": "A gauche de l’entrée, dans une lettre, de quoi se plaint Jean Rostand?",
         "listeReponses": [
-          "??",
-          "??",
-          "??"
+          "De vivre loin d’une grande ville",
+          "D’avoir les cheveux trop long",
+          "D’entendre son frère ronfler la nuit"
         ],
-        "bonneReponse": "??",
+        "bonneReponse": "D’avoir les cheveux trop long",
         "media": [
           {
             "image": [
@@ -421,19 +417,35 @@
         "numero": "3",
         "type": "??",
         "titre": "La garde robe",
-        "question": "??",
-        "listeReponses": [
-          "??",
-          "??",
-          "??"
-        ],
-        "bonneReponse": "??",
+        "question": "A l’aide du rébus dis-moi quel animal fabuleux se promène dans le décor. Pour cela clique sur la bonne réponse.",
+        "bonneReponse": "Escargot volant",
         "media": [
           {
             "image": [
               {
-                "url": "??"
-              }
+                "url": "url de l'image",
+                "titre": "Photo de la pièce"
+              },
+              {
+                "url": "url de l'image",
+                "titre": "S"
+              },
+              {
+                "url": "url de l'image",
+                "titre": "Car"
+              },
+              {
+                "url": "url de l'image",
+                "titre": "G"
+              },
+              {
+                "url": "url de l'image",
+                "titre": "Eau"
+              },
+              {
+                "url": "url de l'image",
+                "titre": "Objet volant"
+              },
             ]
           }
         ]
@@ -442,70 +454,47 @@
         "numero": "4",
         "type": "Choix multiple",
         "titre": "La chambre de Rosemonde",
-        "question": "Quels motifs floraux ornent cette chambre ?",
+        "question": "Quels motifs floraux ornent cette chambre ? Comme les Geishas : 
+                      - elle a la peau très blanche
+                      - elle a les lèvres très rouges
+                      - elle tient un éventail
+                      - elle porte un kimono",
         "listeReponses": [
-          "Palmettes et feuilles de lauriers",
-          "Roses et jasmins",
-          "Jonquilles et Alizées"
+          "Elle a la peau très blanche",
+          "Elle a les lèvres très rouges",
+          "Elle tient un éventail",
+          "Elle porte un kimono"
         ],
-        "bonneReponse": "Palmettes et feuilles de lauriers",
+        "bonneReponse": "Elle porte un kimono",
         "media": [
           {
             "image": [
               {
-                "url": "url de l'image (photo de la chambre)"
+                "url": "url de l'image (portait de Rosemonde)"
               }
             ]
           }
         ],
-        "indice": "Jules César en portait sur sa tête"
+        "indice": "il est associé au judo"
       },
       {
         "numero": "5",
         "type": "??",
         "titre": "La chambre d'Edmond Rostand",
-        "question": "??",
-        "listeReponses": [
-          "??",
-          "??",
-          "??"
-        ],
-        "bonneReponse": "??",
+        "question": "Trouve sur le tableau, le stick de scène que tu peux  voir dans la vitrine.",
         "media": [
           {
             "image": [
               {
-                "url": "url de l'image (photo de la chambre)"
+                "url": "url de l'image (photo du tableau)"
               }
             ]
           }
         ],
-        "indice": "??"
+        "indice": "Un stick est une cravache."
       },
       {
         "numero": "6",
-        "type": "??",
-        "titre": "Le salon bleu",
-        "question": "??",
-        "listeReponses": [
-          "??",
-          "??",
-          "??"
-        ],
-        "bonneReponse": "??",
-        "media": [
-          {
-            "image": [
-              {
-                "url": "url de l'image (photo de la chambre)"
-              }
-            ]
-          }
-        ],
-        "indice": "??"
-      },
-      {
-        "numero": "7",
         "type": "Choix multiple",
         "titre": "Le boudoir de Rosemonde",
         "question": "Regardes attentivement l'horloge, il y a quelque chose d'anormal, mais quoi ?",
@@ -531,16 +520,16 @@
         ]
       },
       {
-        "numero": "8",
+        "numero": "7",
         "type": "Choix multiple",
         "titre": "La chambre rouge",
         "question": "Nous voilà dans la chambre d'un célèbre architecte, récompensé par la légion d'honneur, qui a beaucoup participé à la construction de cette maison. qui est-il ?",
         "listeReponses": [
-          "Le corbusier",
-          "Pierre Le-loup",
+          "Charles Édouard Jeanneret Le corbusier",
+          "Albert Tournaire",
           "Georges Haussman"
         ],
-        "bonneReponse": "Le corbusier",
+        "bonneReponse": "Albert Tournaire",
         "media": [
           {
             "image": [
@@ -553,7 +542,7 @@
         ]
       },
       {
-        "numero": "9",
+        "numero": "8",
         "type": "Choix multiple",
         "titre": "Le tableau mystérieux",
         "question": "Voilà un tableau impressionnant bien différent des peintures et des décorations de la maison. De quoi s'agit-il ?",
@@ -575,16 +564,16 @@
         ]
       },
       {
-        "numero": "10",
+        "numero": "9",
         "type": "Choix multiple",
         "titre": "La salle d'hydrothérapie",
-        "question": "A faire",
+        "question": "Regarde la douche. Il n’y a pas de bac à douche. Où passe l’eau ?",
         "listeReponses": [
-          "??",
-          "??",
-          "??"
+          "Elle s’évapore au contact du sol brûlant.",
+          "Elle s’évacue  sous le plancher à claire-voie.",
+          "Elle se transforme en glace au contact du sol réfrigéré."
         ],
-        "bonneReponse": "??",
+        "bonneReponse": "Elle s’évacue  sous le plancher à claire-voie.",
         "media": [
           {
             "image": [
@@ -592,29 +581,7 @@
                 "url": "??"
               }
             ],
-            "indice": "??"
-          }
-        ]
-      },
-      {
-        "numero": "11",
-        "type": "Choix multiple",
-        "titre": "Appartement du poète",
-        "question": "A faire",
-        "listeReponses": [
-          "??",
-          "??",
-          "??"
-        ],
-        "bonneReponse": "??",
-        "media": [
-          {
-            "image": [
-              {
-                "url": "??"
-              }
-            ],
-            "indice": "??"
+            "indice": "un bruit qui coule"
           }
         ]
       }
