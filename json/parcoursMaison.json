@@ -1,590 +1,608 @@
-[
-  {
-    "exterieur": [
-      {
-        "numero": "1",
-        "titre": "Le point culminant",
-        "type": "Choix multiple",
-        "question": "Quelle est la hauteur de la maison ?",
-        "listeReponses": [
-          "30m",
-          "22m",
-          "18m"
-        ],
-        "bonneReponse": "18m",
-        "media": [
+{
+  "exterieur": [
+    {
+      "numero": "1",
+      "titre": "Le point culminant",
+      "type": "Choix multiple",
+      "question": "Quelle est la hauteur de la maison ?",
+      "listeReponses": {
+        "0": "30m",
+        "1": "22m",
+        "2": "18m"
+      },
+      "bonneReponse": "18m",
+      "media": {
+        "image": [
           {
-            "son": [
-              {
-                "url": "url du son"
-              }
-            ]
+            "url": "url de l'image (façade avant de la maison)"
           }
         ]
       },
-      {
-        "numero": "2",
-        "type": "Choix multiple",
-        "titre": "La façade sud",
-        "question": "Sur le décrochement de la façade plein sud au niveau du balcon un drôle d'objet ne mesure que les beaux jours, qui est-il ?",
-        "listeReponses": [
-          "Le cadran solaire",
-          "Le clocher de l'église",
-          "La montre"
-        ],
-        "bonneReponse": "Le cadran solaire",
-        "media": [
+      "indice": {
+        "code": "Mêtre à dérouler"
+      }
+    },
+    {
+      "numero": "2",
+      "type": "Choix multiple",
+      "titre": "Le cadran solaire",
+      "question": "Sur le décrochement de la façade plein sud au niveau du balcon un drôle d'objet ne mesure que les beaux jours, qui est-il ?",
+      "listeReponses": {
+        "0": "Le cadran solaire",
+        "1": "Le clocher de l'église",
+        "2": "La montre"
+      },
+      "bonneReponse": "Le cadran solaire",
+      "media": {
+        "image": [
           {
-            "image": [
-              {
-                "url": "url de l'image",
-                "titre": "Cadran solaire"
-              }
-            ]
+            "url": "url de l'image (photo cadran solaire)"
           }
         ]
       },
-      {
-        "numero": "3",
-        "type": "Choix multiple",
-        "titre": "La porte d'entrée",
-        "question": "Les vers du maître des lieux nous accueillent, mais avec quoi doit-on rentrer dans la maison selon le poète ?",
-        "listeReponses": [
-          "Avec ton coeur",
-          "Avec ton sourir",
-          "Avec des fleurs"
-        ],
-        "bonneReponse": "Avec ton coeur",
-        "media": [
+      "indice": {
+        "image": "url de l'image (zoom cadran solaire)"
+      }
+    },
+    {
+      "numero": "3",
+      "type": "Choix multiple",
+      "titre": "La porte d'entrée",
+      "question": "Les vers du maître des lieux nous accueillent, mais avec quoi doit-on rentrer dans la maison selon le poète ?",
+      "listeReponses": {
+        "0": "Avec ton coeur",
+        "1": "Avec ton sourir",
+        "2": "Avec des fleurs"
+      },
+      "bonneReponse": "Avec ton coeur",
+      "media": {
+        "image": [
           {
-            "image": [
-              {
-                "url": "url de l'image",
-                "titre": "Plaque de marbre",
-                "indice": "La réponse se trouve inscrite sur la plaque de marbre"
-              }
-            ]
+            "url": "url de l'image (photo de la plaque de marbre)"
+          }
+        ]
+      },
+      "indice": {
+        "textuel": "La réponse se trouve inscrite sur la plaque de marbre",
+        "son": "url du son (citation à l'oral de l'inscription)"
+      }
+    }
+  ],
+  "rez-de-chaussee": [
+    {
+      "numero": "1",
+      "type": "Correspondance",
+      "titre": "Le studio des enfants",
+      "question": "Le studio des enfants qui était la salle de jeux de Maurice et de Jean a été décorée par le dessinateur et illustrateur G. Delaw, approchez-vous et associez chaque dessin aux airs célèbres suivants :",
+      "listeReponses": {
+        "0": "Il pleut, il pleut bergère",
+        "1": "Malbrough s'en va en guerre",
+        "2": "Sur le pont d'Avignon"
+      },
+      "media": {
+        "image": [
+          {
+            "url": "url de l'image (il pleut bergère)",
+            "codeCorrespondance": "0"
+          },
+          {
+            "url": "url de l'image (Malbrough)",
+            "codeCorrespondance": "1"
+          },
+          {
+            "url": "url de l'image (Sur le pont)",
+            "codeCorrespondance": "2"
+          }
+        ],
+        "son": [
+          {
+            "url": "url du son (il pleut bergère)",
+            "codeCorrespondance": "0"
+          },
+          {
+            "url": "url du son (Malbrough)",
+            "codeCorrespondance": "1"
+          },
+          {
+            "url": "url du son (Sur le pont)",
+            "codeCorrespondance": "2"
           }
         ]
       }
-    ],
-    "rez-de-chaussee": [
-      {
-        "numero": "1",
-        "type": "Correspondance",
-        "titre": "Le studio des enfants",
-        "question": "Le studio des enfants qui était la salle de jeux de Maurice et de Jean a été décorée par le dessinateur et illustrateur G. Delaw, approchez-vous et associez chaque dessin aux airs célèbres suivants :",
-        "listeReponses": [
-          "Il pleut, il pleut bergère",
-          "Malbrough s'en va en guerre",
-          "Sur le pont d'Avignon"
-        ],
-        "media": [
+    },
+    {
+      "numero": "2",
+      "type": "Flash",
+      "titre": "Le grand hall",
+      "question": "Nous voilà dans le grand hall, qui était la pièce de réception. Parmis ces deux signes, lequel ne fait pas partie des signes du zodiaque ?",
+      "listeReponses": [
+        "Centor",
+        "Sagittaire"
+      ],
+      "bonneReponse": "Centor",
+      "media": {
+        "image": [
           {
-            "image": [
-              {
-                "url": "url de l'image",
-                "titre": "Il pleut, il pleut bergère",
-                "codeCorrespondance": "1"
-              },
-              {
-                "url": "url de l'image",
-                "titre": "Malbrough s'en va en guerre",
-                "codeCorrespondance": "2"
-              },
-              {
-                "url": "url de l'image",
-                "titre": "Sur le pont d'Avignon",
-                "codeCorrespondance": "3"
-              }
-            ],
-            "son": [
-              {
-                "url": "url du son",
-                "codeCorrespondance": "1"
-              },
-              {
-                "url": "url du son",
-                "codeCorrespondance": "2"
-              },
-              {
-                "url": "url du son",
-                "codeCorrespondance": "3"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "numero": "2",
-        "type": "Flash",
-        "titre": "Le grand hall",
-        "question": "Nous voilà dans le grand hall, qui était la pièce de réception. Parmis ces deux signes, lequel ne fait pas partie des signes du zodiaque ?",
-        "listeReponses": [
-          "Centaure",
-          "Sagittaire"
-        ],
-        "bonneReponse": "Centaure",
-        "media": [
+            "url": "url de l'image (centor)"
+          },
           {
-            "image": [
-              {
-                "url": "url de l'image",
-                "titre": "Zodiaque"
-              },
-              {
-                "url": "url de l'image",
-                "titre": "Centor"
-              },
-              {
-                "url": "url de l'image",
-                "titre": "Sagittaire"
-              }
-            ],
-            "son": [
-              {
-                "url": "url du son"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "numero": "3",
-        "type": "Choix multiple",
-        "titre": "Le salon chinois",
-        "question": "Un élément du décor a disparu depuis. Lequel ?",
-        "listeReponses": [
-          "Un paravent chinois",
-          "Une collection de sabres",
-          "Des décors chinois sur les murs"
-        ],
-        "bonneReponse": "Des décors chinois sur les murs",
-        "media": [
+            "url": "url de l'image (sagittaire)"
+          },
           {
-            "image": [
-              {
-                "url": "url de l'image",
-                "titre": "Salon chinois"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "numero": "4",
-        "type": "Choix multiple",
-        "titre": "Le grand hall",
-        "question": "Ce tableau représente Jean (fils d'Edmond), on peut y voir son attachement à la nature qui va influencer son futur métier. Mais quel est-il ?",
-        "listeReponses": [
-          "Biologiste et écrivain",
-          "Champion hippique",
-          "Un médecin"
-        ],
-        "bonneReponse": "Biologiste et écrivain",
-        "media": [
-          {
-            "image": [
-              {
-                "url": "url de l'image (papillon)",
-                "titre": "Papillon",
-                "Description": "description du papillon"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "numero": "5",
-        "type": "Choix multiple",
-        "titre": "La bibliothèque",
-        "question": "A l'origine, Edmond Rostand a écrit Cyrano de Bergerac en 1897 pour l'acteur Constant Coquelin. Mais ici, le César qui trône a été offert par un autre acteur, lequel ?",
-        "listeReponses": [
-          "Gérard Depardieu",
-          "Alain Delon",
-          "Brad Pitt"
-        ],
-        "bonneReponse": "Gérard Depardieu",
-        "media": [
-          {
-            "image": [
-              {
-                "url": "url de l'image (césar)",
-                "titre": "César"
-              }
-            ]
+            "url": "url de l'image (le grand hall)"
           }
         ],
-        "indice": "Il s'agit d'un acteur français qui a incarné Cyrano au cinéma"
-      },
-      {
-        "numero": "6",
-        "type": "Correspondance",
-        "titre": "Le grand hall (retour)",
-        "question": "Associe les personnages à la bonne image :",
-        "listeReponses": [
-          "Cyrano",
-          "Pierro",
-          "Colombine",
-          "Singe"
-        ],
-        "media": [
+        "son": [
           {
-            "image": [
-              {
-                "url": "url de l'image (photo du lieu)",
-                "titre": "Le grand hall"
-              },
-              {
-                "url": "url de l'image (Cyrano)",
-                "correspondance": "Cyrano"
-              },
-              {
-                "url": "url de l'image (Pierro)",
-                "correspondance": "Pierro"
-              },
-              {
-                "url": "url de l'image (Colombine)",
-                "correspondance": "Colombine"
-              },
-              {
-                "url": "url de l'image (Singe)",
-                "correspondance": "Singe"
-              }
-            ]
-          }
-        ],
-        "indice": "??"
-      },
-      {
-        "numero": "7",
-        "type": "Choix multiple",
-        "titre": "Salle à manger",
-        "question": "Dans la salle à manger, il faisait bon car la maison était dotée d'un système de chauffage très moderne, lequel ?",
-        "listeReponses": [
-          "Un calorifère",
-          "Une pompe à chaleur",
-          "Un poêle à granule"
-        ],
-        "bonneReponse": "Un calorifère",
-        "media": [
-          {
-            "image": [
-              {
-                "url": "url de l'image",
-                "titre": "Chauffage moderne de l'époque"
-              }
-            ]
-          }
-        ],
-        "indice": "Calor (mot espagnol)"
-      },
-      {
-        "numero": "7.2",
-        "type": "Flash",
-        "titre": "Salle à manger",
-        "question": "A quoi pouvait servir cet objet ?",
-        "listeReponses": [
-          "Déclencher la calorifère",
-          "Appeler les domestiques"
-        ],
-        "bonneReponse": "Appeler les domestiques",
-        "media": [
-          {
-            "image": [
-              {
-                "url": "url de l'image"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "numero": "8",
-        "type": "Choix multiple",
-        "titre": "Le bureau",
-        "question": "Retrouve les 3 objets qui n'existaient pas à l'époque d'Edmond Rostand :",
-        "listeReponses": [
-          "La calculatrice",
-          "Le smartphone",
-          "L'imprimante"
-        ],
-        "media": [
-          {
-            "image": [
-              {
-                "url": "url de l'image (photo de la pièce)"
-              },
-              {
-                "url": "url de l'image (zoom sur calculatrice)"
-              },
-              {
-                "url": "url de l'image (zoom sur l'imprimante)"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "numero": "9",
-        "type": "Question multiple",
-        "titre": "L'office",
-        "question": "L'office permettait de dresser et de servir les plats confectionnés dans les cuisines situées au sous-sol. Quel système permettait d'amener les plats ?",
-        "listeReponses": [
-          "Le passe-plat",
-          "Un escalier",
-          "Un four micro-onde"
-        ],
-        "bonneReponse": "Le passe-plat",
-        "media": [
-          {
-            "image": [
-              {
-                "url": "url de l'image"
-              }
-            ]
+            "url": "url du son (son d'un piano)"
           }
         ]
       }
-    ],
-    "1ère étage": [
-      {
-        "numero": "1",
-        "type": "Flash",
-        "titre": "L'escalier",
-        "question": "Observez bien cette photo. Cet escalier nous semble plus léger aujourd'hui, à l'origine il était :",
-        "listeReponses": [
-          "en pierre",
-          "en bois"
-        ],
-        "bonneReponse": "en pierre",
-        "media": [
+    },
+    {
+      "numero": "3",
+      "type": "Choix multiple",
+      "titre": "Le salon chinois",
+      "question": "Un élément du décor a disparu depuis. Lequel ?",
+      "listeReponses": {
+        "0": "Un paravent chinois",
+        "1": "Une collection de sabre",
+        "2": "Des décors chinois sur les murs"
+      },
+      "bonneReponse": "Des décors chinois sur les murs",
+      "media": {
+        "image": [
           {
-            "image": [
-              {
-                "url": "url de l'image"
-              }
-            ]
+            "url": "url de l'image (salon chinois)"
           }
         ]
       },
-      {
-        "numero": "1.2",
-        "type": "Choix multiple",
-        "titre": "L'escalier",
-        "question": "Sur ce palier, un lieu rappelle la fameuse scène où Roxane écoute la déclaration de Cyrano, pensant que c’est  Christian qui lui parle. Où se trouve Roxane ?",
-        "listeReponses": [
-          "Sur l'escalier",
-          "Sur le balcon",
-          "Sur la terrasse"
-        ],
-        "bonneReponse": "Sur le balcon",
-        "media": [
-          {
-            "image": [
-              {
-                "url": "url de l'image (balcon vue du bas)"
-              },
-              {
-                "url": "url de l'image (balcon vue du haut)"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "numero": "2",
-        "type": "Choix Multiple",
-        "titre": "La chambre des enfants",
-        "question": "A gauche de l’entrée, dans une lettre, de quoi se plaint Jean Rostand?",
-        "listeReponses": [
-          "De vivre loin d’une grande ville",
-          "D’avoir les cheveux trop long",
-          "D’entendre son frère ronfler la nuit"
-        ],
-        "bonneReponse": "D’avoir les cheveux trop long",
-        "media": [
-          {
-            "image": [
-              {
-                "url": "??"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "numero": "3",
-        "type": "??",
-        "titre": "La garde robe",
-        "question": "A l’aide du rébus dis-moi quel animal fabuleux se promène dans le décor. Pour cela clique sur la bonne réponse.",
-        "bonneReponse": "Escargot volant",
-        "media": [
-          {
-            "image": [
-              {
-                "url": "url de l'image",
-                "titre": "Photo de la pièce"
-              },
-              {
-                "url": "url de l'image",
-                "titre": "S"
-              },
-              {
-                "url": "url de l'image",
-                "titre": "Car"
-              },
-              {
-                "url": "url de l'image",
-                "titre": "G"
-              },
-              {
-                "url": "url de l'image",
-                "titre": "Eau"
-              },
-              {
-                "url": "url de l'image",
-                "titre": "Objet volant"
-              },
-            ]
-          }
-        ]
-      },
-      {
-        "numero": "4",
-        "type": "Choix multiple",
-        "titre": "La chambre de Rosemonde",
-        "question": "Quels motifs floraux ornent cette chambre ? Comme les Geishas : 
-                      - elle a la peau très blanche
-                      - elle a les lèvres très rouges
-                      - elle tient un éventail
-                      - elle porte un kimono",
-        "listeReponses": [
-          "Elle a la peau très blanche",
-          "Elle a les lèvres très rouges",
-          "Elle tient un éventail",
-          "Elle porte un kimono"
-        ],
-        "bonneReponse": "Elle porte un kimono",
-        "media": [
-          {
-            "image": [
-              {
-                "url": "url de l'image (portait de Rosemonde)"
-              }
-            ]
-          }
-        ],
-        "indice": "il est associé au judo"
-      },
-      {
-        "numero": "5",
-        "type": "??",
-        "titre": "La chambre d'Edmond Rostand",
-        "question": "Trouve sur le tableau, le stick de scène que tu peux  voir dans la vitrine.",
-        "media": [
-          {
-            "image": [
-              {
-                "url": "url de l'image (photo du tableau)"
-              }
-            ]
-          }
-        ],
-        "indice": "Un stick est une cravache."
-      },
-      {
-        "numero": "6",
-        "type": "Choix multiple",
-        "titre": "Le boudoir de Rosemonde",
-        "question": "Regardes attentivement l'horloge, il y a quelque chose d'anormal, mais quoi ?",
-        "listeReponses": [
-          "Elle va jusqu'à 14h",
-          "Elle est composée de matériaux rares",
-          "Elle marche en sens inverse"
-        ],
-        "bonneReponse": "Elle va jusqu'à 14h",
-        "media": [
-          {
-            "image": [
-              {
-                "url": "url de l'image (photo de l'horloge)"
-              }
-            ],
-            "son": [
-              {
-                "url": "url du son (indice => tic tac)"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "numero": "7",
-        "type": "Choix multiple",
-        "titre": "La chambre rouge",
-        "question": "Nous voilà dans la chambre d'un célèbre architecte, récompensé par la légion d'honneur, qui a beaucoup participé à la construction de cette maison. qui est-il ?",
-        "listeReponses": [
-          "Charles Édouard Jeanneret Le corbusier",
-          "Albert Tournaire",
-          "Georges Haussman"
-        ],
-        "bonneReponse": "Albert Tournaire",
-        "media": [
-          {
-            "image": [
-              {
-                "url": "url de l'image (photo de la chambre)"
-              }
-            ],
-            "indice": "Son nom se rapproche de celui d'un oiseau"
-          }
-        ]
-      },
-      {
-        "numero": "8",
-        "type": "Choix multiple",
-        "titre": "Le tableau mystérieux",
-        "question": "Voilà un tableau impressionnant bien différent des peintures et des décorations de la maison. De quoi s'agit-il ?",
-        "listeReponses": [
-          "Le tableau électrique avec ses fusibles",
-          "Le tableau téléphonique",
-          "Le mécano des enfants"
-        ],
-        "bonneReponse": "Le tableau électrique avec ses fusibles",
-        "media": [
-          {
-            "image": [
-              {
-                "url": "url de l'image (photo du tableau)"
-              }
-            ],
-            "indice": "Et la lumière fut !"
-          }
-        ]
-      },
-      {
-        "numero": "9",
-        "type": "Choix multiple",
-        "titre": "La salle d'hydrothérapie",
-        "question": "Regarde la douche. Il n’y a pas de bac à douche. Où passe l’eau ?",
-        "listeReponses": [
-          "Elle s’évapore au contact du sol brûlant.",
-          "Elle s’évacue  sous le plancher à claire-voie.",
-          "Elle se transforme en glace au contact du sol réfrigéré."
-        ],
-        "bonneReponse": "Elle s’évacue  sous le plancher à claire-voie.",
-        "media": [
-          {
-            "image": [
-              {
-                "url": "??"
-              }
-            ],
-            "indice": "un bruit qui coule"
-          }
-        ]
+      "indice": {
+        "textuel": "???"
       }
-    ]
-  }
-]
+    },
+    {
+      "numero": "4",
+      "type": "Choix multiple",
+      "titre": "Le grand hall",
+      "question": "Ce tableau représente Jean (fils d'Edmond), on peut y voir son attachement à la nature qui va influencer son futur métier. Mais quel est-il ?",
+      "listeReponses": {
+        "0": "Biologiste et écrivain",
+        "1": "Champion hippique",
+        "2": "Un médecin"
+      },
+      "bonneReponse": "Biologiste et écrivain",
+      "media": {
+        "image": [
+          {
+            "url": "url de l'image (photo du papillon)"
+          }
+        ]
+      },
+      "indice": {
+        "image": "url de l'image (photo papillon)",
+        "textuel": "description du papillon"
+      }
+    },
+    {
+      "numero": "5",
+      "type": "Choix multiple",
+      "titre": "La bibliothèque",
+      "question": "A l'origine, Edmond Rostand a écrit Cyrano de Bergerac en 1897 pour l'acteur Constant Coquelin. Mais ici, le César qui trône a été offert par un autre acteur, lequel ?",
+      "listeReponses": [
+        "Gérard Depardieu",
+        "Alain Delon",
+        "Brad Pitt"
+      ],
+      "bonneReponse": "Gérard Depardieu",
+      "media": [
+        {
+          "image": [
+            {
+              "url": "url de l'image (césar)",
+              "titre": "César"
+            }
+          ]
+        }
+      ],
+      "indice": "Il s'agit d'un acteur français qui a incarné Cyrano au cinéma"
+    },
+    {
+      "numero": "6",
+      "type": "Correspondance",
+      "titre": "Le grand hall",
+      "question": "Associe les personnages à la bonne image :",
+      "listeReponses": [
+        "Cyrano",
+        "Pierro",
+        "Colombine",
+        "Singe"
+      ],
+      "media": [
+        {
+          "image": [
+            {
+              "url": "url de l'image (photo du lieu)",
+              "titre": "Le grand hall"
+            },
+            {
+              "url": "url de l'image (Cyrano)",
+              "correspondance": "Cyrano"
+            },
+            {
+              "url": "url de l'image (Pierro)",
+              "correspondance": "Pierro"
+            },
+            {
+              "url": "url de l'image (Colombine)",
+              "correspondance": "Colombine"
+            },
+            {
+              "url": "url de l'image (Singe)",
+              "correspondance": "Singe"
+            }
+          ]
+        }
+      ],
+      "indice": "??"
+    },
+    {
+      "numero": "7",
+      "type": "Choix multiple",
+      "titre": "Salle à manger",
+      "question": "Dans la salle à manger, il faisait bon car la maison était dotée d'un système de chauffage très moderne, lequel ?",
+      "listeReponses": [
+        "Calorifère",
+        "Pompe à chaleur",
+        "Un poêle à granule"
+      ],
+      "bonneReponse": "Calorifère",
+      "media": [
+        {
+          "image": [
+            {
+              "url": "url de l'image",
+              "titre": "Chauffage moderne de l'époque"
+            }
+          ]
+        }
+      ],
+      "indice": "Calor (mot espagnol)"
+    },
+    {
+      "numero": "7.2",
+      "type": "Flash",
+      "titre": "Salle à manger",
+      "question": "A quoi pouvait servir cet objet ?",
+      "listeReponses": [
+        "Déclencher la calorifère",
+        "Appeler les domestiques"
+      ],
+      "bonneReponse": "Appeler les domestiques",
+      "media": [
+        {
+          "image": [
+            {
+              "url": "url de l'image"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "numero": "8",
+      "type": "Choix multiple",
+      "titre": "Le bureau",
+      "question": "Retrouve les 3 objets qui n'existaient pas à l'époque d'Edmond Rostand :",
+      "listeReponses": [
+        "La calculatrice",
+        "Le smartphone",
+        "L'imprimante"
+      ],
+      "media": [
+        {
+          "image": [
+            {
+              "url": "url de l'image (photo de la pièce)"
+            },
+            {
+              "url": "url de l'image (zoom sur calculatrice)"
+            },
+            {
+              "url": "url de l'image (zoom sur l'imprimante)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "numero": "9",
+      "type": "Question multiple",
+      "titre": "L'office",
+      "question": "L'office permettait de dresser et de servir les plats confectionnés dans les cuisines situées au sous-sol. Quel système permettait d'amener les plats ?",
+      "listeReponses": [
+        "Le passe-plat",
+        "Un escalier",
+        "un four micro-onde"
+      ],
+      "bonneReponse": "Le passe-plat",
+      "media": [
+        {
+          "image": [
+            {
+              "url": "url de l'image"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "1ère étage": [
+    {
+      "numero": "1",
+      "type": "Flash",
+      "titre": "L'escalier",
+      "question": "Observez bien cette photo. Cet escalier nous semble plus léger aujourd'hui, à l'origine il était :",
+      "listeReponses": [
+        "En pierre",
+        "En bois"
+      ],
+      "bonneReponse": "en pierre",
+      "media": [
+        {
+          "image": [
+            {
+              "url": "url de l'image"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "numero": "1.2",
+      "type": "Choix multiple",
+      "titre": "L'escalier",
+      "question": "Dans la fameuse scène où Roxane écoute la déclaration de Cyrano, pensant que c'est Christian qui lui parle, elle se trouve :",
+      "listeReponses": [
+        "Sur l'escalier",
+        "Sur le balcon",
+        "Sur la terrasse"
+      ],
+      "bonneReponse": "Sur le balcon",
+      "media": [
+        {
+          "image": [
+            {
+              "url": "url de l'image (balcon vue du bas)"
+            },
+            {
+              "url": "url de l'image (balcon vue du haut)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "numero": "2",
+      "type": "??",
+      "titre": "La chambre des enfants",
+      "question": "??",
+      "listeReponses": [
+        "??",
+        "??",
+        "??"
+      ],
+      "bonneReponse": "??",
+      "media": [
+        {
+          "image": [
+            {
+              "url": "??"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "numero": "3",
+      "type": "??",
+      "titre": "La garde robe",
+      "question": "??",
+      "listeReponses": [
+        "??",
+        "??",
+        "??"
+      ],
+      "bonneReponse": "??",
+      "media": [
+        {
+          "image": [
+            {
+              "url": "??"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "numero": "4",
+      "type": "Choix multiple",
+      "titre": "La chambre de Rosemonde",
+      "question": "Quels motifs floraux ornent cette chambre ?",
+      "listeReponses": [
+        "Palmettes et feuilles de lauriers",
+        "Roses et jasmins",
+        "Jonquilles et Alizées"
+      ],
+      "bonneReponse": "Palmettes et feuilles de lauriers",
+      "media": [
+        {
+          "image": [
+            {
+              "url": "url de l'image (photo de la chambre)"
+            }
+          ]
+        }
+      ],
+      "indice": "Jules César en portait sur sa tête"
+    },
+    {
+      "numero": "5",
+      "type": "??",
+      "titre": "La chambre d'Edmond Rostand",
+      "question": "??",
+      "listeReponses": [
+        "??",
+        "??",
+        "??"
+      ],
+      "bonneReponse": "??",
+      "media": [
+        {
+          "image": [
+            {
+              "url": "url de l'image (photo de la chambre)"
+            }
+          ]
+        }
+      ],
+      "indice": "??"
+    },
+    {
+      "numero": "6",
+      "type": "??",
+      "titre": "Le salon bleu",
+      "question": "??",
+      "listeReponses": [
+        "??",
+        "??",
+        "??"
+      ],
+      "bonneReponse": "??",
+      "media": [
+        {
+          "image": [
+            {
+              "url": "url de l'image (photo de la chambre)"
+            }
+          ]
+        }
+      ],
+      "indice": "??"
+    },
+    {
+      "numero": "7",
+      "type": "Choix multiple",
+      "titre": "Le boudoir de Rosemonde",
+      "question": "Regardes attentivement l'horloge, il y a quelque chose d'anormal, mais quoi ?",
+      "listeReponses": [
+        "Elle va jusqu'à 14h",
+        "Elle est composée de matériaux rares",
+        "Elle marche en sens inverse"
+      ],
+      "bonneReponse": "Elle va jusqu'à 14h",
+      "media": [
+        {
+          "image": [
+            {
+              "url": "url de l'image (photo de l'horloge)"
+            }
+          ],
+          "son": [
+            {
+              "url": "url du son (indice => tic tac)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "numero": "8",
+      "type": "Choix multiple",
+      "titre": "La chambre rouge",
+      "question": "Nous voilà dans la chambre d'un célèbre architecte, récompensé par la légion d'honneur, qui a beaucoup participé à la construction de cette maison. qui est-il ?",
+      "listeReponses": [
+        "Le corbusier",
+        "Pierre Le-loup",
+        "Georges Haussman"
+      ],
+      "bonneReponse": "Le corbusier",
+      "media": [
+        {
+          "image": [
+            {
+              "url": "url de l'image (photo de la chambre)"
+            }
+          ],
+          "indice": "Son nom se rapproche de celui d'un oiseau"
+        }
+      ]
+    },
+    {
+      "numero": "9",
+      "type": "Choix multiple",
+      "titre": "Le tableau mystérieux",
+      "question": "Voilà un tableau impressionnant bien différent des peintures et des décorations de la maison. De quoi s'agit-il ?",
+      "listeReponses": [
+        "Le tableau électrique avec ses fusibles",
+        "Le tableau téléphonique",
+        "Le mécano des enfants"
+      ],
+      "bonneReponse": "Le tableau électrique avec ses fusibles",
+      "media": [
+        {
+          "image": [
+            {
+              "url": "url de l'image (photo du tableau)"
+            }
+          ],
+          "indice": "Et la lumière fut !"
+        }
+      ]
+    },
+    {
+      "numero": "10",
+      "type": "Choix multiple",
+      "titre": "La salle d'hydrothérapie",
+      "question": "A faire",
+      "listeReponses": [
+        "??",
+        "??",
+        "??"
+      ],
+      "bonneReponse": "??",
+      "media": [
+        {
+          "image": [
+            {
+              "url": "??"
+            }
+          ],
+          "indice": "??"
+        }
+      ]
+    },
+    {
+      "numero": "11",
+      "type": "Choix multiple",
+      "titre": "Appartement du poète",
+      "question": "A faire",
+      "listeReponses": [
+        "??",
+        "??",
+        "??"
+      ],
+      "bonneReponse": "??",
+      "media": [
+        {
+          "image": [
+            {
+              "url": "??"
+            }
+          ],
+          "indice": "??"
+        }
+      ]
+    }
+  ]
+}
