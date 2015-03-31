@@ -1,5 +1,6 @@
 {
-  "maison": {
+  "maison":
+  {
     "0": "Dirigeons-nous maintenant vers la porte d'entrée.",
     "1": "Tu es rentré avec ton coeur. Prend maintenant la première pièce à gauche pour commencer la découverte de cette maison extraordinaire.",
     "2": "Reviens maintenant sur tes pas et va dans la pièce suivante. Nous voilà dans le grand hall, qui était le grand salon de la famille.",
@@ -16,8 +17,27 @@
     "13": "Profite de la vue par la fenêtre pour découvrir la parfaite symétrie du jardin à la française. Continue maintenant tout droit dans la chambre de Rosemonde.",
     "14": "Traverse le couloir pour entrer dans la pièce d'en face.",
     "15": "Continue tout droit et traverse le salon bleu, te voilà dans le boudoire.",
-    "16": "Reprend le couloir et entre dans la chambre rouge à gauche.",
+    "16": "Reprends le couloir et entre dans la chambre rouge à gauche.",
     "17": "En sortant de la chambre rouge, tu es face à un étrange panneau sur le mur.",
     "18": "Retourne au premier palier, et avance-toi vers la pièce à gauche pour l'observer."
+  },
+  "jardin":
+  {
+    "0":"Place-toi devant l'entrée de la maison",
+    "1":"Passe maintenant par le petit portillon et prends le petit escalier sur ta gauche",
+    "2":"Mets-toi sous les grands arbres penchés. La pente est marquée, le décor plus sauvage, mais tout aussi travaillé et voulu par le poète. D’inspiration romantique c’est le jardin à l’anglaise. A l’époque de Rostand, ce vaste éperon était couvert d’une simple prairie.",
+    "3":"Après avoir fait le tour de la maison par le coté Nord tu vas arriver sur la pergola au versant Sud. Regarde les montagnes.",
+    "4":"A l’ombre de la pergola, prends un instant pour écouter Rosemonde, la femme d’Edmond Rostand dans un de ses poèmes",
+    "5":"Dirige-toi maintenant vers la façade et monte en haut de l’escalier qui mène à la terrasse",
+    "6":"Tourne-toi face au jardin à la française. Comme tu le sais, le plus bel exemple se trouve à Versailles.",
+    "7":"Entre maintenant dans le « Grand Parterre",
+    "8":"Poursuis ton chemin jusqu’à la grande esplanade",
+    "9":"En face de l’orangerie, il y a un lieu particulièrement cher à Edmond ROSTAND, le coin des poètes. Si tu regardes bien, tu verras que le treillage reprend les mêmes arcades que celles des portes de l’orangerie.",
+    "10":"Toujours depuis cette terrasse on voit des alignements rectilignes et des arbustes magnifiquement taillés.",
+    "11":"Dirige-toi maintenant vers la pergola au fond du jardin en longeant le bassin. La pergola termine le jardin à la française et l’isole  de la partie de production du domaine, autrefois une ferme des écuries, un verger, des serres…",
+    "12":"Va derrière la pergola. Edmond Rostand y a installé une basse-cour.",
+    "13":"Notre questionnaire sur le jardin à la française est maintenant terminé. Vérifie si toi aussi tu es un expert…",
+    "14":"Retourne maintenant à la maison en passant Bois paysager.",
+    "15":"Sur ce chemin qui te ramène vers la maison, écoute Edmond Rostand raconter ce qu’il fait dans son jardin"
   }
 }
