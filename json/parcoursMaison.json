@@ -384,15 +384,15 @@
     },
     {
       "numero": "2",
-      "type": "??",
-      "titre": "La chambre des enfants",
-      "question": "??",
-      "listeReponses": [
-        "??",
-        "??",
-        "??"
-      ],
-      "bonneReponse": "??",
+      "type": "Choix Multiple",
+        "titre": "La chambre des enfants",
+        "question": "A gauche de l’entrée, dans une lettre, de quoi se plaint Jean Rostand?",
+        "listeReponses": [
+          "De vivre loin d’une grande ville",
+          "D’avoir les cheveux trop long",
+          "D’entendre son frère ronfler la nuit"
+        ],
+        "bonneReponse": "D’avoir les cheveux trop long",
       "media": [
         {
           "image": [
@@ -407,91 +407,83 @@
       "numero": "3",
       "type": "??",
       "titre": "La garde robe",
-      "question": "??",
-      "listeReponses": [
-        "??",
-        "??",
-        "??"
-      ],
-      "bonneReponse": "??",
-      "media": [
-        {
-          "image": [
-            {
-              "url": "??"
-            }
-          ]
-        }
-      ]
-    },
+        "question": "A l’aide du rébus dis-moi quel animal fabuleux se promène dans le décor. Pour cela clique sur la bonne réponse.",
+        "bonneReponse": "Escargot volant",
+        "media":
+          {
+            "image": [
+              {
+                "url": "url de l'image",
+                "titre": "Photo de la pièce"
+              },
+              {
+                "url": "url de l'image",
+                "titre": "S"
+              },
+              {
+                "url": "url de l'image",
+                "titre": "Car"
+              },
+              {
+                "url": "url de l'image",
+                "titre": "G"
+              },
+              {
+                "url": "url de l'image",
+                "titre": "Eau"
+              },
+              {
+                "url": "url de l'image",
+                "titre": "Objet volant"
+              },
+            ]
+          }
+      },
     {
       "numero": "4",
       "type": "Choix multiple",
       "titre": "La chambre de Rosemonde",
-      "question": "Quels motifs floraux ornent cette chambre ?",
-      "listeReponses": [
-        "Palmettes et feuilles de lauriers",
-        "Roses et jasmins",
-        "Jonquilles et Alizées"
-      ],
-      "bonneReponse": "Palmettes et feuilles de lauriers",
-      "media": [
-        {
-          "image": [
-            {
-              "url": "url de l'image (photo de la chambre)"
-            }
-          ]
-        }
-      ],
-      "indice": "Jules César en portait sur sa tête"
+        "question": "Quels motifs floraux ornent cette chambre ? Comme les Geishas : 
+                      - elle a la peau très blanche
+                      - elle a les lèvres très rouges
+                      - elle tient un éventail
+                      - elle porte un kimono",
+        "listeReponses": [
+          "Elle a la peau très blanche",
+          "Elle a les lèvres très rouges",
+          "Elle tient un éventail",
+          "Elle porte un kimono"
+        ],
+        "bonneReponse": "Elle porte un kimono",
+        "media": [
+          {
+            "image": [
+              {
+                "url": "url de l'image (portait de Rosemonde)"
+              }
+            ]
+          }
+        ],
+        "indice": "il est associé au judo"
     },
     {
       "numero": "5",
       "type": "??",
-      "titre": "La chambre d'Edmond Rostand",
-      "question": "??",
-      "listeReponses": [
-        "??",
-        "??",
-        "??"
-      ],
-      "bonneReponse": "??",
-      "media": [
-        {
-          "image": [
-            {
-              "url": "url de l'image (photo de la chambre)"
-            }
-          ]
-        }
-      ],
-      "indice": "??"
+        "titre": "La chambre d'Edmond Rostand",
+        "question": "Trouve sur le tableau, le stick de scène que tu peux  voir dans la vitrine.",
+        "media": [
+          {
+            "image": [
+              {
+                "url": "url de l'image (photo du tableau)"
+              }
+            ]
+          }
+        ],
+        "indice": "Un stick est une cravache."
     },
     {
       "numero": "6",
-      "type": "??",
-      "titre": "Le salon bleu",
-      "question": "??",
-      "listeReponses": [
-        "??",
-        "??",
-        "??"
-      ],
-      "bonneReponse": "??",
-      "media": [
-        {
-          "image": [
-            {
-              "url": "url de l'image (photo de la chambre)"
-            }
-          ]
-        }
-      ],
-      "indice": "??"
-    },
-    {
-      "numero": "7",
       "type": "Choix multiple",
       "titre": "Le boudoir de Rosemonde",
       "question": "Regardes attentivement l'horloge, il y a quelque chose d'anormal, mais quoi ?",
@@ -517,16 +509,16 @@
       ]
     },
     {
-      "numero": "8",
+      "numero": "7",
       "type": "Choix multiple",
       "titre": "La chambre rouge",
       "question": "Nous voilà dans la chambre d'un célèbre architecte, récompensé par la légion d'honneur, qui a beaucoup participé à la construction de cette maison. qui est-il ?",
       "listeReponses": [
-        "Le corbusier",
-        "Pierre Le-loup",
-        "Georges Haussman"
+          "Charles Édouard Jeanneret Le corbusier",
+          "Albert Tournaire",
+          "Georges Haussman"
       ],
-      "bonneReponse": "Le corbusier",
+      "bonneReponse": "Albert Tournaire",
       "media": [
         {
           "image": [
@@ -539,7 +531,7 @@
       ]
     },
     {
-      "numero": "9",
+      "numero": "8",
       "type": "Choix multiple",
       "titre": "Le tableau mystérieux",
       "question": "Voilà un tableau impressionnant bien différent des peintures et des décorations de la maison. De quoi s'agit-il ?",
@@ -561,16 +553,16 @@
       ]
     },
     {
-      "numero": "10",
+      "numero": "9",
       "type": "Choix multiple",
       "titre": "La salle d'hydrothérapie",
-      "question": "A faire",
+      "question": "Regarde la douche. Il n’y a pas de bac à douche. Où passe l’eau ?",
       "listeReponses": [
-        "??",
-        "??",
-        "??"
-      ],
-      "bonneReponse": "??",
+          "Elle s’évapore au contact du sol brûlant.",
+          "Elle s’évacue  sous le plancher à claire-voie.",
+          "Elle se transforme en glace au contact du sol réfrigéré."
+         ],
+      "bonneReponse": "Elle s’évacue  sous le plancher à claire-voie.",
       "media": [
         {
           "image": [
@@ -578,31 +570,9 @@
               "url": "??"
             }
           ],
-          "indice": "??"
+          "indice": "un bruit qui coule"
         }
       ]
     },
-    {
-      "numero": "11",
-      "type": "Choix multiple",
-      "titre": "Appartement du poète",
-      "question": "A faire",
-      "listeReponses": [
-        "??",
-        "??",
-        "??"
-      ],
-      "bonneReponse": "??",
-      "media": [
-        {
-          "image": [
-            {
-              "url": "??"
-            }
-          ],
-          "indice": "??"
-        }
-      ]
-    }
   ]
 }
