@@ -48,27 +48,23 @@
 		                "titre": "Décor de l'epoque"
 		              }
 		            ]
-		        }
+		        },
+			    "indice": 
+			    {
+			      "textuelle": "Comme un miroir"
+			    }
 			},
 			{
 				"numero": "2",
 				"titre": "Caractéristique d'un jardin à l'anglaise",
 				"type": "Choix multiple",
-        		"question":"Coche la vraie proposition. Dans un kardin à l'anglaise: Le allées sont",
+        		"question":"Coche la vraie proposition. Dans un jardin à l'anglaise: Le allées sont",
         		"listeResponses":
         		[
         			"droites",
-        			"sinueuses",
+        			"sinueuses"
         		],
         		"bonneReponse": "sinueuses",
-        		/* a voir si on peut le faire comme ça!!
-        		"question": "Les végétaux sont",
-        		"listeResponses":
-        		[
-        			"taillés",
-        			"libres",
-        		],
-        		"bonneReponse": "libres",*/
         		"media":
         		{
 		        	// je ne sais pas
@@ -76,6 +72,22 @@
 			},
 			{
 				"numero": "3",
+				"titre": "Caractéristique d'un jardin à l'anglaise (suite)",
+				"type": "Choix multiple",
+        		"question":"Coche la vraie proposition. Dans un jardin à l'anglaise: Les végétaux sont",
+        		"listeResponses":
+        		[
+        			"taillés",
+        			"libres",
+        		],
+        		"bonneReponse": "libres",
+        		"media":
+        		{
+		        	// je ne sais pas
+		        }
+			},
+			{
+				"numero": "4",
 				"titre": "La montagne",
 				"type": "Choix multiple",
         		"question":"Quelle est cette célèbre montagne que tu peux apercevoir entre les arbres et que Edmond Rostand et sa femme passaient des heures à admirer?",
@@ -89,7 +101,11 @@
         		"media":
         		{
 		        	//
-		        }
+		        },
+			    "indice": 
+			    {
+			      "textuelle": "anagramme HARLEUR"
+			    }
 			},
 		],
 		"jardin-a-la-francaise":
@@ -115,7 +131,11 @@
 		                "titre": "Arbustes de l'époque"
 		              }
 		            ]
-		        }
+		        },
+			    "indice": 
+			    {
+			      "textuelle": "Il a de toutes petites feuilles"
+			    }
 			},
 			{
 				"numero": "2",
@@ -200,7 +220,11 @@
 		                "titre": "Secteur 4"
 		              }
 		            ]
-		        }
+		        },
+			    "indice": 
+			    {
+			      "textuelle": "Les angelots s'y baignent"
+			    }
 			},
 			{
 				"numero": "5",
@@ -217,7 +241,11 @@
         		"media":
         		{
 		        	// je crois qu'il n'y en a pas
-		        }
+		        },
+			    "indice": 
+			    {
+			      "textuelle": "Quel pépin!!"
+			    }
 			},
 			{
 				"numero": "6",
@@ -280,7 +308,11 @@
                 		"codeCorrespondance": "3"
 		              }
 		            ]
-		        }
+		        },
+			    "indice": 
+			    {
+			      "textuelle": "HLM SH CDQ"
+			    }
 			},
 			{
 				"numero": "8",
@@ -297,7 +329,11 @@
         		"media":
         		{
 		        	// je crois qu'il n'y en a pas
-		        }
+		        },
+			    "indice": 
+			    {
+			      "textuelle": "Ce nom fait penser à un animal"
+			    }
 			},
 			{
 				"numero": "9",
@@ -320,7 +356,11 @@
 		                "titre": "Maison et son bassin"
 		              }
 		            ]
-		        }
+		        },
+			    "indice": 
+			    {
+			      "code": "renversement de la photo pour se rendre compte de l’effet miroir."
+			    }
 			},
 			{
 				"numero": "12",
@@ -365,7 +405,11 @@
 		                "titre": "Les mascarons"
 		              }
 		            ]
-		        }
+		        },
+			    "indice": 
+			    {
+			      "code": "Zoom sur les mascarons"
+			    }
 			},
 			{
 				"numero": "12",
@@ -397,7 +441,7 @@
 				"numero": "13",
 				"titre": "La basse cour",
 				"type": "Chois multiple",
-        		"question":"Va derrière la pergola. Edmond Rostand y a installé une basse-cour. Il y a longuement observé les animaux pour écrire une pièce de théâtre, laquelle ?",
+        		"question":"Il y a longuement observé les animaux pour écrire une pièce de théâtre, laquelle ?",
         		"listeResponses":
         		[
         			"Le Roman de Renard",
@@ -408,7 +452,11 @@
         		"media":
         		{
         			// je crois qu'il n'y en a pas
-		        }
+		        },
+			    "indice": 
+			    {
+			      "textuelle": "Cocorico"
+			    }
 			}
 		],
 		"Bois paysager":
