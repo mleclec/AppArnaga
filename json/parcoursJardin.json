@@ -1,519 +1,455 @@
 {
-	"entrée":
-	[
-		{
-			"numero": "1",
-			"titre": "Le belvédère",
-			"type": "Choix multiple",
-       		"question":"Edmond Rostand a voulu une décoration végétale. Laquelle?",
-       		"listeResponses":
-       		[
-       			"Une belle pelouse",
-       			"Un massif de fleurs",
-       			"Des broderies de buis et de gazon"
-       		],
-       		"bonneReponse": "Des broderies de buis et de gazon",
-       		"media":
-       		{
-	        	/*"son": 
-	        	[
-	              {
-	                "url": "url du son"
-	              }
-	            ]*/
-	        }
-		}
-	],
-	"jardin-a-l-anglaise":
-	[
-		{
-			"numero": "1",
-			"titre": "Le décor",
-			"type": "Choix multiple",
-       		"question":"Voici un photo prise du temps du poète. Il manque aujourd'hui une partie du décor qui existait a l'époque. Laquelle?",
-       		"listeResponses":
-       		[
-       			"Une statue",
-       			"Un bassin",
-       			"Une poterie"
-       		],
-       		"bonneReponse": "Un bassin",
-       		"media":
-       		{
-	        	"image": 
-	        	[
-	              {
-	                "url": "url de l'image",
-	                "titre": "Décor de l'epoque"
-	              }
-	            ]
-	        },
-		    "indice": 
-		    {
-		      "textuelle": "Comme un miroir"
-		    }
-		},
-		{
-			"numero": "2",
-			"titre": "Caractéristique d'un jardin à l'anglaise",
-			"type": "Choix multiple",
-       		"question":"Coche la vraie proposition. Dans un jardin à l'anglaise: Le allées sont",
-       		"listeResponses":
-       		[
-       			"droites",
-       			"sinueuses"
-       		],
-       		"bonneReponse": "sinueuses",
-       		"media":
-       		{
-	        	/* je ne sais pas */
-	        }
-		},
-		{
-			"numero": "3",
-			"titre": "Caractéristique d'un jardin à l'anglaise (suite)",
-			"type": "Choix multiple",
-       		"question":"Coche la vraie proposition. Dans un jardin à l'anglaise: Les végétaux sont",
-       		"listeResponses":
-       		[
-       			"taillés",
-       			"libres"
-       		],
-       		"bonneReponse": "libres",
-       		"media":
-       		{
-	        	/* je ne sais pas */
-	        }
-		},
-		{
-			"numero": "4",
-			"titre": "La montagne",
-			"type": "Choix multiple",
-       		"question":"Quelle est cette célèbre montagne que tu peux apercevoir entre les arbres et que Edmond Rostand et sa femme passaient des heures à admirer?",
-       		"listeResponses":
-       		[
-       			"La Rhune",
-       			"L'Ursuya",
-       			"Le Pic du Midi"
-       		],
-       		"bonneReponse": "La Rhune",
-       		"media":
-       		{
-	        	/* je ne sais pas */
-	        },
-		    "indice": 
-		    {
-		      "textuelle": "anagramme HARLEUR"
-		    }
-		}
-	],
-	"jardin-a-la-francaise":
-	[
-		{
-			"numero": "1",
-			"titre": "La terrasse",
-			"type": "Choix multiple",
-       		"question":"Edmond Rostand avait l'habitude de s'asseoir à l'abris d'un arbuste qui existe toujours. Lequel?",
-       		"listeResponses":
-       		[
-       			"Un buis",
-       			"Un camélia",
-       			"Un laurier"
-       		],
-       		"bonneReponse": "Un buis",
-       		"media":
-       		{
-	        	"image": 
-	        	[
-	              {
-	                "url": "url de l'image",
-	                "titre": "Arbustes de l'époque"
-	              }
-	            ]
-	        },
-		    "indice": 
-		    {
-		      "textuelle": "Il a de toutes petites feuilles"
-		    }
-		},
-		{
-			"numero": "2",
-			"titre": "La terrasse (suite)",
-			"type": "Puzzle",
-       		"question":"Ce jardin est un symbole de symétrie. Recrée l'harmonie du jardin en remettant les éléments à leur place",
-       		"listeResponses":
-       		[
-       			/* je ne sais pas */
-       		],
-       		"media":
-       		{
-	        	"image": 
-	        	[
-	              {
-	                "url": "url de l'image",
-	                "titre": "élément 1"
-	              },
-	              {
-	                "url": "url de l'image",
-	                "titre": "élément 2"
-	              },
-	              {
-	                "url": "url de l'image",
-	                "titre": "élément 3"
-	              }/* a répéter selon le nombre d'images */
-	            ]
-	        }
-		},
-		{
-		"numero": "3",
-		"titre": "Au pied de la terrasse",
-		"type": "Flash",
-      		"question":"Regarde ce dessin. Est-ce que l’architecte a respecté le nombre de marche prévu par Edmond Rostand ?",
-      		"listeResponses":
-      		[
-      			"Oui",
-      			"Non"
-      		],
-      		"bonneReponse": "Non",
-      		"media":
-      		{
-        	"image": 
-        	[
-	              {
-	                "url": "url de l'image",
-	                "titre": "Marches de l'époque"
-	              }
-	            ]
-	        }
-		},
-		{
-			"numero": "4",
-			"titre": "Au pied de la terrasse (suite)",
-			"type": "Choix multiple",
-       		"question":"Qu’a-t-on placé au centre de cette composition ?",
-       		"listeResponses":
-       		[
-       			"Un massif de fleurs",
-       			"Un bassin rond",
-       			"Une statue de Roxane"
-       		],
-       		"bonneReponse": "Un bassin rond",
-       		"media":
-       		{
-	        	"image": 
-	        	[
-	              {
-	                "url": "url de l'image",
-	                "titre": "Secteur 1"
-	              },
-	              {
-	                "url": "url de l'image",
-	                "titre": "Secteur 2"
-	              },
-	              {
-	                "url": "url de l'image",
-	                "titre": "Secteur 3"
-	              },
-	              {
-	                "url": "url de l'image",
-	                "titre": "Secteur 4"
-	              }
-	            ]
-	        },
-		    "indice": 
-		    {
-		      "textuelle": "Les angelots s'y baignent"
-		    }
-		},
-		{
-			"numero": "5",
-			"titre": "La serre",
-			"type": "Choix multiple",
-       		"question":"L’été cette allée était bordée par des agrumes en caisse, qu’il fallait rentrer en hiver pour éviter le gel. D’où la construction de cette serre en pierres au nom bien symbolique mais lequel ?",
-       		"listeResponses":
-       		[
-       			"Une orangerie",
-       			"Un vivarium",
-       			"Un pigeonnier"
-       		],
-       		"bonneReponse": "Une orangerie",
-       		"media":
-       		{
-	        	/* je crois qu'il n'y en a pas */ 
-	        },
-		    "indice": 
-		    {
-		      "textuelle": "Quel pépin!!"
-		    }
-		},
-		{
-			"numero": "6",
-			"titre": "Le jardin des poètes",
-			"type": "Correspondance",
-       		"question":"Identifie le buste des 3 poètes.",
-       		"listeResponses":
-       		[
-       			"Hugo",
-       			"Shakespeare",
-       			"Cervantès"
-       		],
-       		"media":
-       		{
-	        	"image": 
-	        	[
-	              {
-	                "url": "url de l'image",
-	                "titre": "Victore Hugo"
-	              },
-	              {
-	                "url": "url de l'image",
-	                "titre": "William Shakespeare"
-	              },
-	              {
-	                "url": "url de l'image",
-	                "titre": "Miguel de Cervantès"
-	              }
-	            ]
-	        }
-		},
-		{
-			"numero": "7",
-			"titre": "Le jardin des poètes (suite)",
-			"type": "Correspondance",
-       		"question":"Relies chaque auteur à son oeuvre.",
-       		"listeResponses":
-       		[
-       			"Hugo",
-       			"Shakespeare",
-       			"Cervantès"
-       		],
-       		"media":
-       		{
-	        	"image": 
-	        	[
-	              {
-	                "url": "url de l'image",
-	                "titre": "Les misérables",
-               		"codeCorrespondance": "1"
-	              },
-	              {
-	                "url": "url de l'image",
-	                "titre": "Hamlet",
-               		"codeCorrespondance": "2"
-	              },
-	              {
-	                "url": "url de l'image",
-	                "titre": "Don quichote",
-               		"codeCorrespondance": "3"
-	              }
-	            ]
-	        },
-		    "indice": 
-		    {
-		      "textuelle": "HLM SH CDQ"
-		    }
-		},
-		{
-			"numero": "8",
-			"titre": "Tailler des buis",
-			"type": "Choix multiple",
-       		"question":"Cette technique de taille requiert beaucoup de rigueur et porte un nom, lequel ?",
-       		"listeResponses":
-       		[
-       			"Topiaires",
-       			"Biseau",
-       			"Elagage"
-       		],
-       		"bonneReponse": "Topiaires",
-       		"media":
-       		{
-	        	/* je crois qu'il n'y en a pas */
-	        },
-		    "indice": 
-		    {
-		      "textuelle": "Ce nom fait penser à un animal"
-		    }
-		},
-		{
-			"numero": "9",
-			"titre": "Le grand bassin",
-			"type": "Choix multiple",
-       		"question":"Comme tu peux le constater, il est en contrebas par rapport à la maison, ce qui lui donne un certaine particularité. Laquelle ?",
-       		"listeResponses":
-       		[
-       			"Il permet des compétitions de natation",
-       			"Il réfléchit tel un miroir la maison",
-       			"C’est une réserve de poissons "
-       		],
-       		"bonneReponse": "Il réfléchit tel un miroir la maison ",
-       		"media":
-       		{
-	        	"image": 
-	        	[
-	              {
-	                "url": "url de l'image",
-	                "titre": "Maison et son bassin"
-	              }
-	            ]
-	        },
-		    "indice": 
-		    {
-		      "code": "renversement de la photo pour se rendre compte de l’effet miroir."
-		    }
-		},
-		{
-			"numero": "12",
-			"titre": "La pergola",
-			"type": "Flash",
-       		"question":"Entre le bassin et la pergola un canal aujourd’hui garni de jets d’eau depuis 1960, permettait à la famille de canoter c’est-à-dire ?",
-       		"listeResponses":
-       		[
-       			"Faire de la barque",
-       			"Chasser les cygnes"
-       		],
-       		"bonneReponse": "Faire de la barque",
-       		"media":
-       		{
-	        	"image": 
-	        	[
-	              {
-	                "url": "url de l'image",
-	                "titre": "d’Edmond Rostand faisant de la barque"
-	              }
-	            ]
-	        }
-		},
-		{
-			"numero": "11",
-			"titre": "La pergola (suite)",
-			"type": "Choix multiple",
-       		"question":"La pergola relie par une colonnade 2 pavillons classiques, sur chacun d’eux des figurines en relief au nom bien précis ,lesquels ?",
-       		"listeResponses":
-       		[
-       			"Des gargouilles",
-       			"Des macarons",
-       			"Des mascarons"
-       		],
-       		"bonneReponse": "Des mascarons",
-       		"media":
-       		{
-	        	"image": 
-	        	[
-	              {
-	                "url": "url de l'image",
-	                "titre": "Les mascarons"
-	              }
-	            ]
-	        },
-		    "indice": 
-		    {
-		      "code": "Zoom sur les mascarons"
-		    }
-		},
-		{
-			"numero": "12",
-			"titre": "La pergola (fin)",
-			"type": "Flash",
-       		"question":"Voici deux plans proposés par l’architecte. Lequel Edmond Rostand a-t-il choisi pour sa pergola ?",
-       		"listeResponses":
-       		[
-       			"Plan1",
-       			"Plan2"
-       		],
-       		"bonneReponse": "Plan1",
-       		"media":
-       		{
-	        	"image": 
-	        	[
-	              {
-	                "url": "url de l'image",
-	                "titre": "Plan 1"
-	              },
-	              {
-	                "url": "url de l'image",
-	                "titre": "Plan 2"
-	              }
-	            ]
-	        }
-		},
-		{
-			"numero": "13",
-			"titre": "La basse cour",
-			"type": "Chois multiple",
-       		"question":"Il y a longuement observé les animaux pour écrire une pièce de théâtre, laquelle ?",
-       		"listeResponses":
-       		[
-       			"Le Roman de Renard",
-       			"Les fables d’Edmond Rostand",
-       			"Chantecler"
-       		],
-       		"bonneReponse": "Chantecler",
-       		"media":
-       		{
-       			/* je crois qu'il n'y en a pas */
-	        },
-		    "indice": 
-		    {
-		      "textuelle": "Cocorico"
-		    }
-		}
-	],
-	"Bois paysager":
-	[
-		{
-			"numero": "1",
-			"titre": "Les arbres",
-			"type": "Flash",
-       		"question":"Comment ne pas être impressionné par toutes ces arbres aux formes étranges pour certains. Leur taille est appelée en ?",
-       		"listeResponses":
-       		[
-       			"Têtard",
-       			"Tétris"
-       		],
-       		"bonneReponse": "Têtard",
-       		"media":
-       		{
-       			/* je crois qu'il n'y en a pas */
-	        }
-		},
-		{
-			"numero": "2",
-			"titre": "Les arbres (suite)",
-			"type": "Correspondance",
-			"question": "Ce parc comporte des arbres d’essences différentes. Sauras-tu les reconnaitre ?",
-			"listeResponses":
-       		[
-       			"Chêne",
-       			"If",
-       			"Châtaigner",
-       			"Tilleuls"
-       		],
-       		"media":
-       		{
-       			"image":
-       			[
-       				{
-		                "url": "url de l'image",
-		                "titre": "Chêne",
-		                "codeCorrespondance": "1"
-		            },
-		            {
-		            	"url": "url de l'image",
-		                "titre": "If",
-		                "codeCorrespondance": "2"
-		            },
-		            {
-		                "url": "url de l'image",
-		                "titre": "Châtaigner",
-		                "codeCorrespondance": "3"
-		            },
-		            {
-		            	"url": "url de l'image",
-		                "titre": "Tilleuls",
-		                "codeCorrespondance": "4"
-		            }
-       			]
-	        }
-		}
-	]
+  "entrée": [
+	{
+	  "numero": "1",
+	  "titre": "Le belvédère",
+	  "type": "Choix multiple",
+	  "question": "Edmond Rostand a voulu une décoration végétale. Laquelle?",
+	  "listeResponses": {
+		"0": "Une belle pelouse",
+		"1": "Un massif de fleurs",
+		"2": "Des broderies de buis et de gazon"
+	  },
+	  "bonneReponse": "Des broderies de buis et de gazon",
+	  "media": {
+		"image": [
+		  {
+			"url": "url de l'image (photo du lieu)"
+		  }
+		]
+	  }
+	}
+  ],
+  "jardin-a-l-anglaise": [
+	{
+	  "numero": "1",
+	  "titre": "Le décor",
+	  "type": "Choix multiple",
+	  "question": "Voici un photo prise du temps du poète. Il manque aujourd'hui une partie du décor qui existait a l'époque. Laquelle?",
+	  "listeResponses": {
+		"0": "Une statue",
+		"1": "Un bassin",
+		"2": "Une poterie"
+	  },
+	  "bonneReponse": "Un bassin",
+	  "media": {
+		"image": [
+		  {
+			"url": "url de l'image (lieu)"
+		  }
+		]
+	  },
+	  "indice": {
+		"textuel": "Comme un miroir"
+	  }
+	},
+	{
+	  "numero": "2",
+	  "titre": "Caractéristique d'un jardin à l'anglaise",
+	  "type": "Choix multiple",
+	  "question": "Coche la vraie proposition. Dans un jardin à l'anglaise: Le allées sont",
+	  "listeResponses": {
+		"0": "Droites",
+		"1": "Sinueuses"
+	  },
+	  "bonneReponse": "Sinueuses",
+	  "media": {
+		"image": [
+		  {
+			"url": "url de l'image (lieu)"
+		  }
+		]
+	  }
+	},
+	{
+	  "numero": "3",
+	  "titre": "Caractéristique d'un jardin à l'anglaise (suite)",
+	  "type": "Choix multiple",
+	  "question": "Coche la vraie proposition. Dans un jardin à l'anglaise: Les végétaux sont",
+	  "listeResponses": {
+		"0": "Taillés",
+		"1": "Libres"
+	  },
+	  "bonneReponse": "Libres",
+	  "media": {
+		"image": [
+		  {
+			"url": "url de l'image (lieu)"
+		  }
+		]
+	  }
+	},
+	{
+	  "numero": "4",
+	  "titre": "La montagne",
+	  "type": "Choix multiple",
+	  "question": "Quelle est cette célèbre montagne que tu peux apercevoir entre les arbres et que Edmond Rostand et sa femme passaient des heures à admirer?",
+	  "listeResponses": {
+		"0": "La Rhune",
+		"1": "L'Ursuya",
+		"2": "Le Pic du Midi"
+	  },
+	  "bonneReponse": "La Rhune",
+	  "media": {
+		"image": [
+		  {
+			"url": "url de l'image (lieu)"
+		  }
+		]
+	  },
+	  "indice": {
+		"textuel": "Anagramme HARLEUR"
+	  }
+	}
+  ],
+  "jardin-a-la-francaise": [
+	{
+	  "numero": "1",
+	  "titre": "La terrasse",
+	  "type": "Choix multiple",
+	  "question": "Edmond Rostand avait l'habitude de s'asseoir à l'abris d'un arbuste qui existe toujours. Lequel?",
+	  "listeResponses": {
+		"0": "Un buis",
+		"1": "Un camélia",
+		"2": "Un laurier"
+	  },
+	  "bonneReponse": "Un buis",
+	  "media": {
+		"image": [
+		  {
+			"url": "url de l'image"
+		  }
+		]
+	  },
+	  "indice": {
+		"textuel": "Il a de toutes petites feuilles"
+	  }
+	},
+	{
+	  "numero": "2",
+	  "titre": "La terrasse (suite)",
+	  "type": "Puzzle",
+	  "question": "Ce jardin est un symbole de symétrie. Recrée l'harmonie du jardin en remettant les éléments à leur place",
+	  "media": {
+		"image": [
+		  {
+			"url": "url de l'image"
+		  },
+		  {
+			"url": "url de l'image"
+		  },
+		  {
+			"url": "url de l'image"
+		  }
+		]
+	  }
+	},
+	{
+	  "numero": "3",
+	  "titre": "Au pied de la terrasse",
+	  "type": "Flash",
+	  "question": "Regarde ce dessin. Est-ce que l’architecte a respecté le nombre de marche prévu par Edmond Rostand ?",
+	  "listeResponses": {
+		"0": "Oui",
+		"1": "Non"
+	  },
+	  "bonneReponse": "Non",
+	  "media": {
+		"image": [
+		  {
+			"url": "url de l'image"
+		  }
+		]
+	  }
+	},
+	{
+	  "numero": "4",
+	  "titre": "Au pied de la terrasse (suite)",
+	  "type": "Choix multiple",
+	  "question": "Qu’a-t-on placé au centre de cette composition ?",
+	  "listeResponses": {
+		"0": "Un massif de fleurs",
+		"1": "Un bassin rond",
+		"2": "Une statue de Roxane"
+	  },
+	  "bonneReponse": "Un bassin rond",
+	  "media": {
+		"image": [
+		  {
+			"url": "url de l'image"
+		  },
+		  {
+			"url": "url de l'image"
+		  },
+		  {
+			"url": "url de l'image"
+		  },
+		  {
+			"url": "url de l'image"
+		  }
+		]
+	  },
+	  "indice": {
+		"textuel": "Les angelots s'y baignent"
+	  }
+	},
+	{
+	  "numero": "5",
+	  "titre": "La serre",
+	  "type": "Choix multiple",
+	  "question": "L’été cette allée était bordée par des agrumes en caisse, qu’il fallait rentrer en hiver pour éviter le gel. D’où la construction de cette serre en pierres au nom bien symbolique mais lequel ?",
+	  "listeResponses": {
+		"0": "Une orangerie",
+		"1": "Un vivarium",
+		"2": "Un pigeonnier"
+	  },
+	  "bonneReponse": "Une orangerie",
+	  "media": {
+		"image": [
+		  {
+			"url": "url de l'image (lieu)"
+		  }
+		]
+	  },
+	  "indice": {
+		"textuel": "Quel pépin!!"
+	  }
+	},
+	{
+	  "numero": "6",
+	  "titre": "Le jardin des poètes",
+	  "type": "Correspondance",
+	  "question": "Identifie le buste des 3 poètes.",
+	  "listeResponses": {
+		"0": "Hugo",
+		"1": "Shakespeare",
+		"2": "Cervantès"
+	  },
+	  "media": {
+		"image": [
+		  {
+			"url": "url de l'image (Victor hugo)",
+			"codeCorrespondance": "0"
+		  },
+		  {
+			"url": "url de l'image William Shakespeare",
+			"codeCorrespondance": "1"
+		  },
+		  {
+			"url": "url de l'image (Miguel de Cervantès)",
+			"codeCorrespondance": "2"
+		  }
+		]
+	  }
+	},
+	{
+	  "numero": "7",
+	  "titre": "Le jardin des poètes (suite)",
+	  "type": "Correspondance",
+	  "question": "Relies chaque auteur à son oeuvre.",
+	  "listeResponses": {
+		"0": "Hugo",
+		"1": "Shakespeare",
+		"2": "Cervantès"
+	  },
+	  "media": {
+		"image": [
+		  {
+			"url": "url de l'image (les misérables)",
+			"codeCorrespondance": "0"
+		  },
+		  {
+			"url": "url de l'image (hamlet)",
+			"codeCorrespondance": "1"
+		  },
+		  {
+			"url": "url de l'image (don quichote)",
+			"codeCorrespondance": "2"
+		  }
+		]
+	  },
+	  "indice": {
+		"textuel": "HLM SH CDQ"
+	  }
+	},
+	{
+	  "numero": "8",
+	  "titre": "Tailler des buis",
+	  "type": "Choix multiple",
+	  "question": "Cette technique de taille requiert beaucoup de rigueur et porte un nom, lequel ?",
+	  "listeResponses": {
+		"0": "Topiaires",
+		"1": "Biseau",
+		"2": "Elagage"
+	  },
+	  "bonneReponse": "Topiaires",
+	  "media": {
+		"image": [
+		  {
+			"url": "url de l'image (lieu)"
+		  }
+		]
+	  },
+	  "indice": {
+		"textuel": "Ce nom fait penser à un animal"
+	  }
+	},
+	{
+	  "numero": "9",
+	  "titre": "Le grand bassin",
+	  "type": "Choix multiple",
+	  "question": "Comme tu peux le constater, il est en contrebas par rapport à la maison, ce qui lui donne un certaine particularité. Laquelle ?",
+	  "listeResponses": {
+		"0": "Il permet des compétitions de natation",
+		"1": "Il réfléchit tel un miroir la maison",
+		"2": "C’est une réserve de poissons "
+	  },
+	  "bonneReponse": "Il réfléchit tel un miroir la maison ",
+	  "media": {
+		"image": [
+		  {
+			"url": "url de l'image (maison et son bassin)"
+		  }
+		]
+	  },
+	  "indice": {
+		"code": "renversement de la photo pour se rendre compte de l’effet miroir."
+	  }
+	},
+	{
+	  "numero": "12",
+	  "titre": "La pergola",
+	  "type": "Flash",
+	  "question": "Entre le bassin et la pergola un canal aujourd’hui garni de jets d’eau depuis 1960, permettait à la famille de canoter c’est-à-dire ?",
+	  "listeResponses": {
+		"0": "Faire de la barque",
+		"1": "Chasser les cygnes"
+	  },
+	  "bonneReponse": "Faire de la barque",
+	  "media": {
+		"image": [
+		  {
+			"url": "url de l'image (Edmond sur une barque)"
+		  }
+		]
+	  }
+	},
+	{
+	  "numero": "11",
+	  "titre": "La pergola (suite)",
+	  "type": "Choix multiple",
+	  "question": "La pergola relie par une colonnade 2 pavillons classiques, sur chacun d’eux des figurines en relief au nom bien précis ,lesquels ?",
+	  "listeResponses": {
+		"0": "Des gargouilles",
+		"1": "Des macarons",
+		"2": "Des mascarons"
+	  },
+	  "bonneReponse": "Des mascarons",
+	  "media": {
+		"image": [
+		  {
+			"url": "url de l'image (mascarons)"
+		  }
+		]
+	  },
+	  "indice": {
+		"image": "Zoom sur les mascarons"
+	  }
+	},
+	{
+	  "numero": "12",
+	  "titre": "La pergola (fin)",
+	  "type": "Flash",
+	  "question": "Voici deux plans proposés par l’architecte. Lequel Edmond Rostand a-t-il choisi pour sa pergola ?",
+	  "listeResponses": {
+		"0": "Plan1",
+		"1": "Plan2"
+	  },
+	  "bonneReponse": "Plan1",
+	  "media": {
+		"image": [
+		  {
+			"url": "url de l'image (plan 1)"
+		  },
+		  {
+			"url": "url de l'image (plan2)"
+		  }
+		]
+	  }
+	},
+	{
+	  "numero": "13",
+	  "titre": "La basse cour",
+	  "type": "Chois multiple",
+	  "question": "Il y a longuement observé les animaux pour écrire une pièce de théâtre, laquelle ?",
+	  "listeResponses": {
+		"0": "Le Roman de Renard",
+		"1": "Les fables d’Edmond Rostand",
+		"2": "Chantecler"
+	  },
+	  "bonneReponse": "Chantecler",
+	  "media": {
+		"image": [
+		  {
+			"url": "url de l'image (lieu)"
+		  }
+		]
+	  },
+	  "indice": {
+		"textuel": "Cocorico"
+	  }
+	}
+  ],
+  "Bois paysager": [
+	{
+	  "numero": "1",
+	  "titre": "Les arbres",
+	  "type": "Flash",
+	  "question": "Comment ne pas être impressionné par toutes ces arbres aux formes étranges pour certains. Leur taille est appelée en ?",
+	  "listeResponses": {
+		"0": "Têtard",
+		"1": "Tétris"
+	  },
+	  "bonneReponse": "Têtard",
+	  "media": {
+		"image": [
+		  {
+			"url": "url de l'image"
+		  }
+		]
+	  }
+	},
+	{
+	  "numero": "2",
+	  "titre": "Les arbres (suite)",
+	  "type": "Correspondance",
+	  "question": "Ce parc comporte des arbres d’essences différentes. Sauras-tu les reconnaitre ?",
+	  "listeResponses": {
+		"0": "Chêne",
+		"1": "If",
+		"2": "Châtaigner",
+		"3": "Tilleuls"
+	  },
+	  "media": {
+		"image": [
+		  {
+			"url": "url de l'image (chêne)",
+			"codeCorrespondance": "0"
+		  },
+		  {
+			"url": "url de l'image (if)",
+			"codeCorrespondance": "1"
+		  },
+		  {
+			"url": "url de l'image (châtaigner)",
+			"codeCorrespondance": "2"
+		  },
+		  {
+			"url": "url de l'image (tilleuls)",
+			"codeCorrespondance": "3"
+		  }
+		]
+	  }
+	}
+  ]
 }
