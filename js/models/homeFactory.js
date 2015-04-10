@@ -4,6 +4,13 @@
 AppArnaga.factory('HomeFactory', function($http, $q){
     var factory = {
         home: false,
+        numPlace : 0,
+        getNumPlace : function(){
+            return factory.numPlace;
+        },
+        incrNumPlace : function(){
+            factory.numPlace = factory.numPlace + 1;
+        },
         getHome : function(){
             var deferred = $q.defer();
             $http.defaults.headers.common['Cache-Control'] = 'no-cache';
@@ -11,7 +18,7 @@ AppArnaga.factory('HomeFactory', function($http, $q){
             $http.defaults.headers.common['Expires'] = '-1';
             $http.get('json/parcoursMaison.json')
                 .success(function(data, status){
-                    factory.home = data[0];
+                    factory.home = data;
                     deferred.resolve(factory.home);
                 }).error(function(data, status){
                     deferred.reject('Impossible de récupérer le json.');
@@ -23,6 +30,9 @@ AppArnaga.factory('HomeFactory', function($http, $q){
         },
         getQuestions : function(place){
             return factory.home[place];
+        },
+        getPlaces : function(){
+            return Object.keys(factory.home);
         }
     }
     return factory;

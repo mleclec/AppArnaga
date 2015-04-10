@@ -2,77 +2,75 @@
  * Created by Yannick on 13/03/2015.
  * Update by Marine on 20/03/2015.
  */
-AppArnaga.controller('GameController', function($scope, VarFactory, TextFactory, HomeFactory, $routeParams, $location){
-    $scope.texts = TextFactory.getTexts().then(function(texts){
-        $scope.texts = texts;
-        $scope.titreJeuArnaga = texts.titreJeuArnaga;
-        $scope.intro = texts.intro;
-        $scope.choixAvatar = texts.choixAvatar;
-        $scope.choixCyrano = texts.choixCyrano;
-        $scope.choixRoxanne = texts.choixRoxanne;
-        $scope.explication = texts.explication;
-        $scope.introduction = texts.introduction;
-        $scope.profil = texts.profil;
-        $scope.retour = texts.retour;
-        $scope.suivant = texts.suivant;
-        $scope.commencer = texts.commencer;
-        $scope.valider = texts.valider;
-        $scope.qualiteR = texts.qualiteR;
-        $scope.qualiteC = texts.qualiteC;
-        $scope.defautR = texts.defautR;
-        $scope.defautC = texts.defautC;
-        $scope.physiqueR = texts.physiqueR;
-        $scope.physiqueC = texts.physiqueC;
-        $scope.metier = texts.metier;
-        $scope.nomProfil = texts.nomProfil;
-        $scope.passerIntro = texts.passerIntro;
-        $scope.choixParcours = texts.choixParcours;
-        $scope.jardin = texts.jardin;
-        $scope.maison = texts.maison;
-    }, function(msg){
-        alert(msg);
-    });
-
+AppArnaga.controller('GameController', function($scope, VarFactory, HomeFactory, $routeParams, $location, $filter){
     $scope.avatar = VarFactory.getVar('avatar');
     $scope.setAvatar = function(avatar){
         VarFactory.setVar('avatar', avatar);
         $scope.avatar = VarFactory.getVar('avatar');
     };
-
+    /*
     $scope.setPlayerName = function(name){
         VarFactory.setVar('playerName' , name);
         $scope.playerName = VarFactory.getVar(name);
-        console.log($scope.playerName);
     }
+    */
 
     $scope.location = $location;
 
-    $scope.$watch("location.path()", function(path){
-        $scope.place = $routeParams.place;
-        $scope.id = $routeParams.id;
-        $scope.nextId = parseInt($scope.id) + 1;
-        if ($scope.place!=undefined){
-            $scope.home = HomeFactory.getHome().then(function(home){
-                $scope.home = home;
-                $scope.nbQuestions = HomeFactory.getQuestions($scope.place).length;
-                $scope.question = HomeFactory.getQuestion($scope.place, $scope.id);
-                $scope.responses = $scope.question['listeReponses'];
-                $scope.win = false;
-                $scope.response = 0;
-                $scope.test = function(response){
-                    $scope.response = response;
-                    if ($scope.response == $scope.question['bonneReponse']){
-                        $scope.win = true;
+    $scope.$watch(function(){ return $scope.location.path(); }, function(newValue, oldValue){
+        if ( newValue === oldValue ) {
+            $scope.place = $routeParams.place;
+            $scope.id = $routeParams.id;
+
+            $scope.nextId = parseInt($scope.id) + 1;
+
+            if ($scope.place!=undefined){
+                $scope.home = HomeFactory.getHome().then(function(home){
+                    $scope.home = home;
+                    $scope.places = HomeFactory.getPlaces();
+                    $scope.nbQuestions = HomeFactory.getQuestions($scope.place).length;
+                    $scope.question = HomeFactory.getQuestion($scope.place, $scope.id);
+                    $scope.responses = $scope.question['listeReponses'];
+                    $scope.keyResponses = Object.keys($scope.responses);
+                    $scope.win = false;
+                    $scope.response = 0;
+
+                    $scope.images = $scope.question['media']['image'];
+                    $scope.sons = $scope.question['media']['son'];
+                    $scope.nbWinDrop = 0;
+                    $scope.handleDrop = function(item, bin) {
+                        if ($scope.sons != undefined){
+                            $scope.sons[item]['drop'] = true;
+                        }
+                        if ($scope.images != undefined){
+                            $scope.images[item]['drop'] = true;
+                        }
+                        bin = $filter('limitTo')(bin, -1);
+                        if (item == bin){
+                            $scope.nbWinDrop++;
+                        }
+                        if ($scope.nbWinDrop == 3){
+                            $scope.win = true;
+                        }
+                        //alert('Item ' + item + ' has been dropped into ' + $filter('limitTo')(bin, -1));
                     }
-                }
-                console.log($scope.responses);
-                console.log($scope.question);
 
-            }, function(msg){
-                alert(msg);
-            });
-
-            console.log($routeParams);
+                    $scope.nextQuestion = HomeFactory.getQuestion($scope.place, $scope.nextId);
+                    if ($scope.nbQuestions == $scope.nextId){
+                        HomeFactory.incrNumPlace();
+                        $scope.nextPlace = $scope.places[HomeFactory.getNumPlace()];
+                        $scope.nextQuestion = HomeFactory.getQuestion($scope.nextPlace, 0);
+                    }
+                    $scope.test = function(response){
+                        $scope.response = response;
+                        if ($scope.response == $scope.question['bonneReponse']){
+                            $scope.win = true;
+                        }
+                    }
+                }, function(msg){
+                    alert(msg);
+                });
+            }
         }
     });
 

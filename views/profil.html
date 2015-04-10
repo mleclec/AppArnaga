@@ -1,18 +1,17 @@
-<article>
-    <h3> {{profil}} {{avatar}} </h3>
+<h3> {{profil}} {{avatar}} </h3>
+<div class="row">
+    <div class="input-field  col offset-l1 l3 offset-m1 m4 offset-s1 s3">
+        <img ng-if="avatar=='Cyrano'" src="./../medias/choixCyrano.png" alt="Roxanne" id="imgAvatar" class="imgAvatar"/>
+        <img ng-if="avatar=='Roxanne'" src="./../medias/choixRoxane.png" alt="Roxanne" id="imgAvatar" class="imgAvatar"/>
+    </div>
+    <div class="input-field  col offset-l2 l4 offset-m1 m4 offset-s2 s3">
+        <input type="text" id="nomJoueur" ng-model="playerName" class="nomJoueur"/>
+        <label for="nomJoueur">{{nomProfil}} </label>
+    </div>
     <div class="row">
-        <div class="input-field  col offset-l1 l3 offset-m1 m4 offset-s1 s3">
-            <img ng-if="avatar=='Cyrano'" src="./../medias/choixCyrano.png" alt="Roxanne" id="imgAvatar" class="imgAvatar"/>
-            <img ng-if="avatar=='Roxanne'" src="./../medias/choixRoxane.png" alt="Roxanne" id="imgAvatar" class="imgAvatar"/>
-        </div>
-        <div class="input-field  col offset-l2 l4 offset-m1 m4 offset-s2 s3">
-            <input type="text" id="nomJoueur" ng-model="playerName" class="nomJoueur"/>
-            <label for="nomJoueur">{{nomProfil}} </label>
-        </div>
-        <div class="row">
-            <div class="input-field col offset-l5 l2 offset-m5 m2 offset-s4 s4">
-                <a href="#/explicationJeu" ng-click="setPlayerName(playerName)" class="btn">{{valider}}</a>
-            </div>
+        <div class="input-field col offset-l5 l2 offset-m5 m2 offset-s4 s4">
+            <a href="#/explicationJeu" ng-click="setPlayerName(playerName)" class="btn">{{valider}}</a>
         </div>
     </div>
-</article>
+</div>
+

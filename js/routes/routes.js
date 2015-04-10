@@ -1,9 +1,9 @@
 /**
  * Created by Yannick on 12/03/2015.
  */
-AppArnaga.config(['$routeProvider', function($routeProvider){
+AppArnaga.config(['$routeProvider', 'HomeFactoryProvider', function($routeProvider, HomeFactoryProvider){
     $routeProvider
-        .when('/', {templateUrl: 'views/commencer.html', controller: 'GameController'})
+        .when('/', {templateUrl: 'views/commencer.html'})
         .when('/choixAvatar', {templateUrl: 'views/choixAvatar.html', controller: 'GameController'})
         .when('/profil', {templateUrl: 'views/profil.html', controller: 'GameController'})
         .when('/testAnimation', {templateUrl: 'views/testAnimation.html', controller: 'GameController'})
@@ -11,22 +11,28 @@ AppArnaga.config(['$routeProvider', function($routeProvider){
         .when('/choixRoxanne', {templateUrl: 'views/choixRoxanne.html', controller: 'GameController'})
         .when('/explicationJeu', {templateUrl: 'views/explicationJeu.html', controller: 'GameController'})
         .when('/choixParcours', {templateUrl: 'views/choixParcours.html', controller: 'GameController'})
-        .when('/maison/:place/:id',
+        .when('/:type/:lieu/:place/:id',
         {templateUrl: function(param){
-            if (param.place=="exterieur"){
-                return 'views/questionChoixMultiple.html';
-            }else{
-                if (param.place == 'rez-de-chaussee'){
-                    if (param.id != 0 && param.id != 1 && param.id != 5 && param.id != 7){
-                        return 'views/questionChoixMultiple.html';
-                    }else{
-                        if (param.id == 0 || param.id==5){
-                            return 'views/questionCorrespondance.html';
-                        }else{
-                            return 'views/questionFlash.html';
-                        }
-                    }
-                }
+            var type = param.type;
+            switch (type){
+                case 'Choix multiple':
+                    return 'views/questionChoixMultiple.html';
+                    break;
+                case 'Correspondance':
+                    return 'views/questionCorrespondance.html';
+                    break;
+                case 'CorrespondanceImage':
+                    return 'views/questionCorrespondanceImage.html';
+                    break;
+                case 'Flash':
+                    return 'views/questionFlash.html';
+                    break;
+                case 'Clique':
+                    return 'views/questionClique.html';
+                    break;
+                case 'Puzzle':
+                    return 'views/questionPuzzle.html';
+                    break;
             }
         }, controller: 'GameController'})
         .otherwise({redirectTo: '/'});

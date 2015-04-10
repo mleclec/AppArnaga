@@ -1,22 +1,21 @@
-<article>
-    <h3> {{choixCyrano}} </h3>
-    <div class="row">
-            <div class="input-field col offset-l2 l8 offset-m1 m10 offset-s1 s10">
-                <img src="./../medias/choixCyrano.png" alt="Cyrano" id="imgAvatar" class="imgAvatar fusionner" />
-                <ul>
-                    <li>{{qualiteC}}</li>
-                    <li>{{defautC}}</li>
-                    <li>{{physiqueC}}</li>
-                    <li>{{metier}}</li>
-                </ul>
+<h3> {{choixCyrano}} </h3>
+<div class="row">
+        <div class="input-field col offset-l2 l8 offset-m1 m10 offset-s1 s10">
+            <img src="./../medias/choixCyrano.png" alt="Cyrano" id="imgAvatar" class="imgAvatar fusionner" />
+            <ul>
+                <li>{{qualiteC}}</li>
+                <li>{{defautC}}</li>
+                <li>{{physiqueC}}</li>
+                <li>{{metier}}</li>
+            </ul>
+        </div>
+        <div class="row">
+            <div class="input-field col offset-l3 l4 offset-m2 m3 offset-s2 s3">
+                <a href="#/choixAvatar" class="btn">{{retour}}</a>
             </div>
-            <div class="row">
-                <div class="input-field col offset-l3 l4 offset-m2 m3 offset-s2 s3">
-                    <a href="#/choixAvatar" class="btn">{{retour}}</a>
-                </div>
-                <div class="input-field col offset-l1 l4 offset-m2 m3 offset-s2 s3">
-                    <a href="#/profil" ng-click="setAvatar('Cyrano')" class="btn">{{suivant}}</a>
-                </div>
+            <div class="input-field col offset-l1 l4 offset-m2 m3 offset-s2 s3">
+                <a href="#/profil" ng-click="setAvatar('Cyrano')" class="btn">{{suivant}}</a>
             </div>
-    </div>
-</article>
+        </div>
+</div>
+

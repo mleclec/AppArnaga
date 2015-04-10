@@ -71,7 +71,7 @@
   "rez-de-chaussee": [
     {
       "numero": "1",
-      "type": "Correspondance",
+      "type": "CorrespondanceImage",
       "titre": "Le studio des enfants",
       "question": "Le studio des enfants qui était la salle de jeux de Maurice et de Jean a été décorée par le dessinateur et illustrateur G. Delaw, approchez-vous et associez chaque dessin aux airs célèbres suivants :",
       "listeReponses": {
@@ -82,30 +82,36 @@
       "media": {
         "image": [
           {
-            "url": "url de l'image (il pleut bergère)",
+            "url": "./medias/images/ilPleutBergere.jpg",
             "codeCorrespondance": "0"
           },
           {
-            "url": "url de l'image (Malbrough)",
+            "url": "./medias/images/malbrough.jpg",
             "codeCorrespondance": "1"
           },
           {
-            "url": "url de l'image (Sur le pont)",
+            "url": "./medias/images/pontAvignon.jpg",
             "codeCorrespondance": "2"
           }
         ],
         "son": [
           {
-            "url": "url du son (il pleut bergère)",
-            "codeCorrespondance": "0"
+            "url": "./medias/sons/ilPleutBergere.mp3",
+            "titre": "Il pleut, il pleut bergère",
+            "codeCorrespondance": "0",
+            "drop": false
           },
           {
-            "url": "url du son (Malbrough)",
-            "codeCorrespondance": "1"
+            "url": "./medias/sons/malbrough.mp3",
+            "titre": "Malbrough s'en va-t-en guerre",
+            "codeCorrespondance": "1",
+            "drop": false
           },
           {
-            "url": "url du son (Sur le pont)",
-            "codeCorrespondance": "2"
+            "url": "./medias/sons/pontAvignon.mp3",
+            "titre": "Sur le pont d'Avignon",
+            "codeCorrespondance": "2",
+            "drop": false
           }
         ]
       }
@@ -220,23 +226,24 @@
       "media": {
         "image": [
           {
-            "url": "url de l'image (photo du grand hall)"
+            "url": "./medias/images/cyrano.jpg",
+            "codeCorrespondance": "0",
+            "drop": false
           },
           {
-            "url": "url de l'image (Cyrano)",
-            "codeCorrespondance": "0"
+            "url": "./medias/images/pierrot.jpg",
+            "codeCorrespondance": "1",
+            "drop": false
           },
           {
-            "url": "url de l'image (Pierro)",
-            "codeCorrespondance": "1"
+            "url": "./medias/images/colombine.jpg",
+            "codeCorrespondance": "2",
+            "drop": false
           },
           {
-            "url": "url de l'image (Colombine)",
-            "codeCorrespondance": "2"
-          },
-          {
-            "url": "url de l'image (Singe)",
-            "codeCorrespondance": "3"
+            "url": "./medias/images/singe.jpg",
+            "codeCorrespondance": "3",
+            "drop": false
           }
         ]
       },
@@ -289,7 +296,7 @@
     },
     {
       "numero": "9",
-      "type": "??",
+      "type": "Clique",
       "titre": "Le bureau",
       "question": "Retrouve les 3 objets qui n'existaient pas à l'époque d'Edmond Rostand :",
       "listeReponses": {
@@ -313,7 +320,7 @@
     },
     {
       "numero": "10",
-      "type": "Question multiple",
+      "type": "Choix multiple",
       "titre": "L'office",
       "question": "L'office permettait de dresser et de servir les plats confectionnés dans les cuisines situées au sous-sol. Quel système permettait d'amener les plats ?",
       "listeReponses": {
@@ -380,7 +387,7 @@
     },
     {
       "numero": "3",
-      "type": "Choix Multiple",
+      "type": "Choix multiple",
       "titre": "La chambre des enfants",
       "question": "A gauche de l’entrée, dans une lettre, de quoi se plaint Jean Rostand?",
       "listeReponses": {

@@ -11,7 +11,7 @@ AppArnaga.factory('TextFactory', function($http, $q){
             $http.defaults.headers.common['Expires'] = '-1';
             $http.get('json/textesGeneraux.json')
                 .success(function(data, status){
-                    factory.texts = data[0];
+                    factory.texts = data;
                     deferred.resolve(factory.texts);
                 }).error(function(data, status){
                     deferred.reject('Impossible de récupérer le json.');
