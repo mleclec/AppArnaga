@@ -326,7 +326,7 @@
       "listeReponses": {
         "0": "Le passe-plat",
         "1": "Un escalier",
-        "2": "un four micro-onde"
+        "2": "Un four micro-onde"
       },
       "bonneReponse": "Le passe-plat",
       "media": {
@@ -454,14 +454,14 @@
       "numero": "5",
       "type": "Choix multiple",
       "titre": "La chambre de Rosemonde",
-      "question": "Ce portrait de Rosemonde est de style japonisant. Comme les Geisha :",
+      "question": "Ce portrait de Rosemonde est de style japonisant. Elle possède des traits commun avec les Geisha sauf un:",
       "listeReponses": {
-        "0": "Elle a la peau très blanche",
-        "1": "Elle a les lèvres très rouges",
-        "2": "Elle tient un éventail",
-        "3": "Elle porte un kimono"
+        "0": "Elle n'a pas la peau très blanche",
+        "1": "Elle n'a pas les lèvres très rouges",
+        "2": "Elle ne tient pas un éventail",
+        "3": "Elle ne porte pas un kimono"
       },
-      "bonneReponse": "Elle porte un kimono",
+      "bonneReponse": "Elle ne porte pas un kimono",
       "media": {
         "image": [
           {
