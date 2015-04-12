@@ -286,6 +286,9 @@
         "1": "Appeler les domestiques"
       },
       "bonneReponse": "Appeler les domestiques",
+      "imageReponse" : {
+        "url": "./medias/images/sonnette.jpg"
+      },
       "media": {
         "image": [
           {
@@ -299,21 +302,10 @@
       "type": "Clique",
       "titre": "Le bureau",
       "question": "Retrouve les 3 objets qui n'existaient pas à l'époque d'Edmond Rostand :",
-      "listeReponses": {
-        "0": "??",
-        "1": "??",
-        "2": "??"
-      },
       "media": {
         "image": [
           {
-            "url": "url de l'image (photo du bureau)"
-          },
-          {
-            "url": "url de l'image (zoom sur calculatrice)"
-          },
-          {
-            "url": "url de l'image (zoom sur l'imprimante)"
+            "url": "./medias/images/testClique.jpg"
           }
         ]
       }

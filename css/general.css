@@ -107,3 +107,11 @@ p
 .timer{
     font-size: 2rem;
 }
+
+/******************************\
+            Area map
+\******************************/
+area:hover{
+    cursor: default;
+}
+

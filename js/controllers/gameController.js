@@ -16,6 +16,8 @@ AppArnaga.controller('GameController', function($scope, VarFactory, HomeFactory,
     */
 
     $scope.location = $location;
+    $scope.url = $scope.location.path();
+    $scope.nbClick = 0;
 
     $scope.$watch(function(){ return $scope.location.path(); }, function(newValue, oldValue){
         if ( newValue === oldValue ) {
@@ -30,13 +32,19 @@ AppArnaga.controller('GameController', function($scope, VarFactory, HomeFactory,
                     $scope.places = HomeFactory.getPlaces();
                     $scope.nbQuestions = HomeFactory.getQuestions($scope.place).length;
                     $scope.question = HomeFactory.getQuestion($scope.place, $scope.id);
-                    $scope.responses = $scope.question['listeReponses'];
-                    $scope.keyResponses = Object.keys($scope.responses);
+                    if ($scope.question['type'] != 'Clique'){
+                        $scope.responses = $scope.question['listeReponses'];
+                        $scope.keyResponses = Object.keys($scope.responses);
+                        $scope.nbResponses = $scope.keyResponses.length;
+                    }
+
+                    $scope.viewResponse = false;
                     $scope.win = false;
                     $scope.response = 0;
 
                     $scope.images = $scope.question['media']['image'];
                     $scope.sons = $scope.question['media']['son'];
+                    $scope.imageReponse = $scope.question['imageReponse'];
                     $scope.nbWinDrop = 0;
                     $scope.handleDrop = function(item, bin) {
                         if ($scope.sons != undefined){
@@ -49,7 +57,7 @@ AppArnaga.controller('GameController', function($scope, VarFactory, HomeFactory,
                         if (item == bin){
                             $scope.nbWinDrop++;
                         }
-                        if ($scope.nbWinDrop == 3){
+                        if ($scope.nbWinDrop == $scope.nbResponses){
                             $scope.win = true;
                         }
                         //alert('Item ' + item + ' has been dropped into ' + $filter('limitTo')(bin, -1));
@@ -61,10 +69,23 @@ AppArnaga.controller('GameController', function($scope, VarFactory, HomeFactory,
                         $scope.nextPlace = $scope.places[HomeFactory.getNumPlace()];
                         $scope.nextQuestion = HomeFactory.getQuestion($scope.nextPlace, 0);
                     }
+
+                    $scope.timerStop = false;
+                    $scope.$on('timer-stopped', function (event, data){
+                        $scope.timerStop = true;
+                        $scope.$apply();
+                    });
+
+                    $scope.stopTimer = function (){
+                        $scope.$broadcast('timer-stop');
+                    };
+
+
                     $scope.test = function(response){
                         $scope.response = response;
                         if ($scope.response == $scope.question['bonneReponse']){
                             $scope.win = true;
+                            $scope.stopTimer();
                         }
                     }
                 }, function(msg){
