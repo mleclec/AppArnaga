@@ -229,18 +229,15 @@
 		"image": [
 		  {
 			"url": "url de l'image (Victor hugo)",
-			"codeCorrespondance": "0",
-            "drop": false
+			"codeCorrespondance": "0"
 		  },
 		  {
 			"url": "url de l'image William Shakespeare",
-			"codeCorrespondance": "1",
-            "drop": false
+			"codeCorrespondance": "1"
 		  },
 		  {
 			"url": "url de l'image (Miguel de Cervantès)",
-			"codeCorrespondance": "2",
-            "drop": false
+			"codeCorrespondance": "2"
 		  }
 		]
 	  }
@@ -259,18 +256,15 @@
 		"image": [
 		  {
 			"url": "url de l'image (les misérables)",
-			"codeCorrespondance": "0",
-            "drop": false
+			"codeCorrespondance": "0"
 		  },
 		  {
 			"url": "url de l'image (hamlet)",
-			"codeCorrespondance": "1",
-            "drop": false
+			"codeCorrespondance": "1"
 		  },
 		  {
 			"url": "url de l'image (don quichote)",
-			"codeCorrespondance": "2",
-            "drop": false
+			"codeCorrespondance": "2"
 		  }
 		]
 	  },
@@ -440,23 +434,19 @@
 		"image": [
 		  {
 			"url": "url de l'image (chêne)",
-			"codeCorrespondance": "0",
-            "drop": false
+			"codeCorrespondance": "0"
 		  },
 		  {
 			"url": "url de l'image (if)",
-			"codeCorrespondance": "1",
-            "drop": false
+			"codeCorrespondance": "1"
 		  },
 		  {
 			"url": "url de l'image (châtaigner)",
-			"codeCorrespondance": "2",
-            "drop": false
+			"codeCorrespondance": "2"
 		  },
 		  {
 			"url": "url de l'image (tilleuls)",
-			"codeCorrespondance": "3",
-            "drop": false
+			"codeCorrespondance": "3"
 		  }
 		]
 	  }

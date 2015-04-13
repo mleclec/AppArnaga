@@ -52,6 +52,14 @@ AppArnaga.controller('GameController', function($scope, VarFactory, HomeFactory,
                     $scope.sons = $scope.question['media']['son'];
                     $scope.imageReponse = $scope.question['imageReponse'];
                     $scope.nbWinDrop = 0;
+                    $scope.dropCode = "";
+                    $scope.dragCode = "";
+                    $scope.$watch(function(){ return $scope.codeDrop; }, function(newValue, oldValue) {
+                        if (newValue === oldValue) {
+                            console.log($scope.dropCode);
+                        }
+                    });
+
                     $scope.handleDrop = function(item, bin) {
                         if ($scope.sons != undefined){
                             $scope.sons[item]['drop'] = true;
