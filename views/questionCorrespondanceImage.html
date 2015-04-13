@@ -1,4 +1,5 @@
-<h3>{{maison}} - {{place}}</h3>
+<h3 ng-if="parcours=='maison'">{{maison}} - {{place}}</h3>
+<h3 ng-if="parcours=='jardin'">{{jardin}} - {{place}}</h3>
 <h4>{{question['titre']}}</h4>
 <h5>{{question['question']}}</h5>
 <!--

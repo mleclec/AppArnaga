@@ -1,54 +1,54 @@
 <!DOCTYPE html>
 <html>
-<head lang="fr">
-    <meta charset="UTF-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <title>Jeu sérieux d'Arnaga</title>
-    <link rel="stylesheet" type="text/css" href="./css/materialize/css/materialize.min.css" />
-    <link rel="stylesheet" type="text/css" href="./css/general.css" />
-    <link rel="stylesheet" type="text/css" href="./js/jquery/jQuery-ui/jquery-ui-1.11.4.custom/jquery-ui.min.css" />
-    <!--<link rel="stylesheet" type="text/css" href="./css/style.css" />-->
-</head>
-<body ng-app="AppArnaga">
-    <header>
-        <p id="langues" class="langues">
-            Langue:
-            <a href="#"> <img src="./medias/drapeaux/france.png" alt="français" id="imgdrapeaux" class="imgdrapeaux" /></a>
-            <a href="#"> <img src="./medias/drapeaux/basque.jpg" alt="basque" id="imgdrapeaux" class="imgdrapeaux" /></a>
-        </p>
-    </header>
+    <head lang="fr">
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>Jeu sérieux d'Arnaga</title>
+        <link rel="stylesheet" type="text/css" href="./css/materialize/css/materialize.min.css" />
+        <link rel="stylesheet" type="text/css" href="./css/general.css" />
+        <link rel="stylesheet" type="text/css" href="./js/jquery/jQuery-ui/jquery-ui-1.11.4.custom/jquery-ui.min.css" />
+    </head>
+    
+    <body ng-app="AppArnaga">
+        <header>
+            <p id="langues" class="langues">
+                Langue:
+                <a href="#"> <img src="./medias/drapeaux/france.png" alt="français" id="imgdrapeaux" class="imgdrapeaux" /></a>
+                <a href="#"> <img src="./medias/drapeaux/basque.jpg" alt="basque" id="imgdrapeaux" class="imgdrapeaux" /></a>
+            </p>
+        </header>
 
-    <section class="container" ng-controller="TextController">
-        <article ng-view></article>
-    </section>
+        <section class="container" ng-controller="TextController">
+            <article ng-view></article>
+        </section>
 
-    <script type="text/javascript" src="./js/jquery/jquery-2.1.3.js"></script>
-    <script type="text/javascript" src="./js/jquery/jQuery-ui/jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
-    <script type="text/javascript" src="./js/greensocks/src/minified/TweenMax.min.js"></script>
-    <script type="text/javascript" src="./js/angular/angular.min.js"></script>
-    <script type="text/javascript" src="./js/jquery/ngDraggable.js"></script>
-    <script type="text/javascript" src="./js/angular/angular.route.min.js"></script>
-    <script type="text/javascript" src="./js/angular/angular.sanitize.min.js"></script>
-    <script type="text/javascript" src="./js/AppArnaga.js"></script>
-    <script type="text/javascript" src="./css/materialize/js/materialize.min.js"></script>
-    <script type="text/javascript" src="./js/directives/dragAndDrop.js"></script>
-    <script type="text/javascript" src="./js/directives/materialboxed.js"></script>
-    <script type="text/javascript" src="./js/jquery/momentAndLocale.js"></script>
-    <script type="text/javascript" src="./js/jquery/humanizeDuration.js"></script>
-    <script type="text/javascript" src="./js/jquery/imageMapResponsive.js"></script>
-    <script type="text/javascript" src="./js/jquery/imageMapster.js"></script>
-    <script type="text/javascript" src="./js/jquery/jcanvas.js"></script>
-    <script type="text/javascript" src="./js/directives/imageMapResponsive.js"></script>
-    <script type="text/javascript" src="./js/directives/imageMapster.js"></script>
-    <script type="text/javascript" src="./js/directives/canvas.js"></script>
-    <script type="text/javascript" src="./js/directives/dragDrop.js"></script>
-    <script type="text/javascript" src="./js/module/timer.js"></script>
-    <script type="text/javascript" src="./js/routes/routes.js"></script>
-    <script type="text/javascript" src="./js/models/textFactory.js"></script>
-    <script type="text/javascript" src="./js/models/varFactory.js"></script>
-    <script type="text/javascript" src="./js/models/homeFactory.js"></script>
-    <script type="text/javascript" src="js/controllers/textController.js"></script>
-    <script type="text/javascript" src="js/controllers/gameController.js"></script>
-</body>
+        <script type="text/javascript" src="./js/jquery/jquery-2.1.3.js"></script>
+        <script type="text/javascript" src="./js/jquery/jQuery-ui/jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="./js/greensocks/src/minified/TweenMax.min.js"></script>
+        <script type="text/javascript" src="./js/angular/angular.min.js"></script>
+        <script type="text/javascript" src="./js/jquery/ngDraggable.js"></script>
+        <script type="text/javascript" src="./js/angular/angular.route.min.js"></script>
+        <script type="text/javascript" src="./js/angular/angular.sanitize.min.js"></script>
+        <script type="text/javascript" src="./js/AppArnaga.js"></script>
+        <script type="text/javascript" src="./css/materialize/js/materialize.min.js"></script>
+        <script type="text/javascript" src="./js/directives/dragAndDrop.js"></script>
+        <script type="text/javascript" src="./js/directives/materialboxed.js"></script>
+        <script type="text/javascript" src="./js/jquery/momentAndLocale.js"></script>
+        <script type="text/javascript" src="./js/jquery/humanizeDuration.js"></script>
+        <script type="text/javascript" src="./js/jquery/imageMapResponsive.js"></script>
+        <script type="text/javascript" src="./js/jquery/imageMapster.js"></script>
+        <script type="text/javascript" src="./js/jquery/jcanvas.js"></script>
+        <script type="text/javascript" src="./js/directives/imageMapResponsive.js"></script>
+        <script type="text/javascript" src="./js/directives/imageMapster.js"></script>
+        <script type="text/javascript" src="./js/directives/canvas.js"></script>
+        <script type="text/javascript" src="./js/directives/dragDrop.js"></script>
+        <script type="text/javascript" src="./js/module/timer.js"></script>
+        <script type="text/javascript" src="./js/routes/routes.js"></script>
+        <script type="text/javascript" src="./js/models/textFactory.js"></script>
+        <script type="text/javascript" src="./js/models/varFactory.js"></script>
+        <script type="text/javascript" src="./js/models/homeFactory.js"></script>
+        <script type="text/javascript" src="js/controllers/textController.js"></script>
+        <script type="text/javascript" src="js/controllers/gameController.js"></script>
+    </body>
 </html>

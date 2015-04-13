@@ -8,12 +8,12 @@ AppArnaga.controller('GameController', function($scope, VarFactory, HomeFactory,
         VarFactory.setVar('avatar', avatar);
         $scope.avatar = VarFactory.getVar('avatar');
     };
-    /*
-    $scope.setPlayerName = function(name){
-        VarFactory.setVar('playerName' , name);
-        $scope.playerName = VarFactory.getVar(name);
-    }
-    */
+
+    $scope.parcours = VarFactory.getVar('parcours');
+    $scope.setParcours = function(parcours){
+        VarFactory.setVar('parcours', parcours);
+        $scope.parcours = VarFactory.getVar('parcours');
+    };
 
     $scope.location = $location;
     $scope.url = $scope.location.path();
