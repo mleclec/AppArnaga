@@ -1,0 +1,19 @@
+<h3>{{maison}} - {{place}}</h3>
+<h4>{{question['titre']}}</h4>
+<h5>{{question['question']}}</h5>
+<p>Tu a trouvé : {{nbClick}} objets</p>
+
+<canvas id="canvas" ng-canvas>
+
+</canvas>
+<img ng-map ng-mapster class="responsive-img" width="903" height="508" ng-src="{{images[0]['url']}}" alt="image clique" usemap="#Map"/>
+<map name="Map" id="Map">
+    <area ng-repeat="coord in coords track by $index" alt="" title="" shape="poly" coords="{{coord}}" ng-click="onClick(coord, nbCoords)" />
+    <!--
+    <area alt="" title="" ng-href="#{{url}}" href="" shape="poly" coords="480,59,490,46,495,40,505,36,508,33,518,32,530,35,539,44,545,55,547,71,548,89,540,101,533,113,527,123,514,124,501,125,491,128,486,126,477,117,473,99,473,84" />
+    <area alt="" title="" ng-href="#{{url}}" href="" shape="poly" coords="705,191,711,179,725,168,743,159,751,154,770,154,783,157,795,159,800,162,806,167,813,175,820,182,828,197,829,220,821,240,808,256,795,265,783,271,761,272,742,272,727,268,712,258,701,242,696,221,698,203" />
+    -->
+</map>
+<br/>
+<a ng-if="nextId!=nbQuestions" ng-show="win" href="#/{{nextQuestion['type']}}/maison/{{place}}/{{nextId}}" class="waves-effect waves-light btn">Passer à la question suivante</a>
+<a ng-if="nextId==nbQuestions" ng-show="win" href="#/{{nextQuestion['type']}}/maison/{{nextPlace}}/0" class="waves-effect waves-light btn">Passer à la question suivante</a>
