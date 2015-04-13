@@ -10,6 +10,7 @@ AppArnaga.config(['$routeProvider', 'HomeFactoryProvider', function($routeProvid
         .when('/choixCyrano', {templateUrl: 'views/choixCyrano.html', controller: 'GameController'})
         .when('/choixRoxanne', {templateUrl: 'views/choixRoxanne.html', controller: 'GameController'})
         .when('/explicationJeu', {templateUrl: 'views/explicationJeu.html', controller: 'GameController'})
+        .when('/introduction', {templateUrl: 'views/introduction.html', controller: 'GameController'})
         .when('/choixParcours', {templateUrl: 'views/choixParcours.html', controller: 'GameController'})
         .when('/:type/:lieu/:place/:id',
         {templateUrl: function(param){

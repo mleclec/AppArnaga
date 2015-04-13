@@ -29,6 +29,7 @@ AppArnaga.controller('TextController', function($scope, TextFactory){
         $scope.metier = texts.metier;
         $scope.nomProfil = texts.nomProfil;
         $scope.passerIntro = texts.passerIntro;
+        $scope.passerExplication = texts.passerExplication;
         $scope.choixParcours = texts.choixParcours;
         $scope.jardin = texts.jardin;
         $scope.maison = texts.maison;
