@@ -25,7 +25,7 @@
     {
       "numero": "2",
       "type": "Choix multiple",
-      "titre": "Le cadran solaire",
+      "titre": "Mesure du temps",
       "question": "Sur le décrochement de la façade plein sud au niveau du balcon un drôle d'objet ne mesure que les beaux jours, qui est-il ?",
       "listeReponses": {
         "0": "Le cadran solaire",
@@ -359,7 +359,7 @@
       "numero": "2",
       "type": "Choix multiple",
       "titre": "L'escalier",
-      "question": "Sur ce palier, un lieu rappelle la fameuse scène où Roxanne écoute la déclaration de Cyrano, pensant que c'est christian qui lui parle. A ton avis, Roxane se trouve :",
+      "question": "Sur ce palier, un lieu rappelle la fameuse scène où Roxanne écoute la déclaration de Cyrano, pensant que c'est Christian qui lui parle. A ton avis, Roxane se trouve :",
       "listeReponses": {
         "0": "Sur l'escalier",
         "1": "Sur le balcon",
