@@ -302,6 +302,11 @@
       "type": "Clique",
       "titre": "Le bureau",
       "question": "Retrouve les 3 objets qui n'existaient pas à l'époque d'Edmond Rostand :",
+      "coords": {
+        "0": "567,204,572,187,578,176,587,169,595,162,601,158,607,155,617,155,628,155,637,159,645,161,652,169,657,178,663,193,665,205,664,223,659,232,646,245,641,252,634,257,627,257,614,258,601,258,590,256,585,254,576,244,568,224",
+        "1": "480,59,490,46,495,40,505,36,508,33,518,32,530,35,539,44,545,55,547,71,548,89,540,101,533,113,527,123,514,124,501,125,491,128,486,126,477,117,473,99,473,84",
+        "2": "705,191,711,179,725,168,743,159,751,154,770,154,783,157,795,159,800,162,806,167,813,175,820,182,828,197,829,220,821,240,808,256,795,265,783,271,761,272,742,272,727,268,712,258,701,242,696,221,698,203"
+      },
       "media": {
         "image": [
           {
@@ -339,6 +344,9 @@
       "type": "Flash",
       "titre": "L'escalier",
       "question": "Observe bien cette photo. Cet escalier nous semble plus léger aujourd'hui, à l'origine il était :",
+      "imageReponse" : {
+        "url": "./medias/images/escalier.jpg"
+      },
       "listeReponses": {
         "0": "En pierre",
         "1": "En bois"
@@ -468,10 +476,13 @@
       "type": "Clique",
       "titre": "Le bureau de Louis Labat",
       "question": "Trouve sur le tableau, le stick de scène que tu peux  voir dans la vitrine.",
+      "coords": {
+        "0": "567,204,572,187,578,176,587,169,595,162,601,158,607,155,617,155,628,155,637,159,645,161,652,169,657,178,663,193,665,205,664,223,659,232,646,245,641,252,634,257,627,257,614,258,601,258,590,256,585,254,576,244,568,224"
+      },
       "media": {
         "image": [
           {
-            "url": "url de l'image (photo du tableau)"
+            "url": "./medias/images/testClique.jpg"
           }
         ]
       },

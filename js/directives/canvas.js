@@ -16,13 +16,18 @@ AppArnaga.directive('ngCanvas', function(){
                 canvas.attr('height', '508');
             });
             canvas.css('position', 'absolute');
-            canvas.css('z-index', '1');
+            canvas.css('z-index', 1);
             $('img').css('position', 'relative');
             $('img').css('z-index', '2');
+            console.log(angular.element.find('area'));
 
-            $('area').click(function(){
-                scope.nbClick++;
-                var coords = $(this).attr('coords');
+
+        },
+        controller: function($scope){
+            $scope.onClick = function(coords, nbCoordsElements){
+                var canvas = angular.element('canvas');
+                $scope.nbClick++;
+                var coords = coords;
                 var tabAllCoords = new Array();
                 var tabCoords = coords.split(',');
                 var nbCoords = (coords.match(/,/g) || []).length+1;
@@ -54,12 +59,12 @@ AppArnaga.directive('ngCanvas', function(){
 
                 // Draw the line
                 canvas.drawLine(obj);
-                if (scope.nbClick==3){
+                if ($scope.nbClick==nbCoordsElements){
                     canvas.css('z-index', '3');
-                    scope.win = true;
+                    $scope.win = true;
                 }
-                scope.$apply();
-            });
+                $scope.$apply();
+            }
         }
     }
 });

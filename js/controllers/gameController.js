@@ -38,6 +38,12 @@ AppArnaga.controller('GameController', function($scope, VarFactory, HomeFactory,
                         $scope.nbResponses = $scope.keyResponses.length;
                     }
 
+                    $scope.coords = $scope.question["coords"];
+                    if ($scope.coords!=undefined){
+                        $scope.nbCoords = Object.keys($scope.coords).length;
+                    }
+
+                    console.log($scope.coords);
                     $scope.viewResponse = false;
                     $scope.win = false;
                     $scope.response = 0;
