@@ -3,7 +3,7 @@
   "intro": "Bienvenue sur l'application de découverte du domaine d'Arnaga. <br />Tu va pouvoir en apprendre plus sur la vie d'Edmond Rostand, sa famille ainsi que certains aspects méconnus des deux jardins présents sur ce domaine. <br />Edmond Rostand, sa femme Rosemonde et leurs enfants Maurice et Jean (15 et 12 ans) ont emménagé en 1906 dans cette magnifique villa. <br/> <div class='row'><div class='input-field'><img src='./medias/maison.jpg' alt='Maison' class='col offset-l2 l8 offset-m1 m10 offset-s1 s10 responsive-img'/></div></div><br/>Edmond Rostand était un célèbre écrivain et a entre autres écrit \"Cyrano de Bergerac\" et \"Chantecler\". <br />Si tu es prêt, clique sur \"Commencer\".",
   "choixAvatar": "Choix de l'avatar",
   "choixCyrano": "Tu as choisi Cyrano",
-  "choixRoxanne": "Tu as choisi Roxane",
+  "choixRoxane": "Tu as choisi Roxane",
   "explication": "Présentation du jeu par l'avatar",
   "introduction": "Introduction",
   "profil": "Profil",

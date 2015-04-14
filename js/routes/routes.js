@@ -8,7 +8,7 @@ AppArnaga.config(['$routeProvider', 'HomeFactoryProvider', function($routeProvid
         .when('/profil', {templateUrl: 'views/profil.html', controller: 'GameController'})
         .when('/testAnimation', {templateUrl: 'views/testAnimation.html', controller: 'GameController'})
         .when('/choixCyrano', {templateUrl: 'views/choixCyrano.html', controller: 'GameController'})
-        .when('/choixRoxanne', {templateUrl: 'views/choixRoxanne.html', controller: 'GameController'})
+        .when('/choixRoxane', {templateUrl: 'views/choixRoxane.html', controller: 'GameController'})
         .when('/explicationJeu', {templateUrl: 'views/explicationJeu.html', controller: 'GameController'})
         .when('/introduction', {templateUrl: 'views/introduction.html', controller: 'GameController'})
         .when('/choixParcours', {templateUrl: 'views/choixParcours.html', controller: 'GameController'})

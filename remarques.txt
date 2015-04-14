@@ -1,5 +1,1 @@
-	- l'association image-texte et son-texte est bizarre: dès je s'associe ça me renvoie sur une page introuvable ou ça m''affiche l'image. Je suis obligée de revenir en arrière à chaque fois pour continuer. C'est pareil sur chrome?
-
-	- Quand je suis sur les questions avec clique (Q6 1° étage), il n'y a pas de lien pour aller à la suivante puisqu'il n'y a pas d'image qui s'affiche.
-
-	- Dans l'URL, j'ai remarqué que pour le 1° étage la 1° question de l'URL est 0 alors que dans le scénario c'est la 1. C'est normal?
+	- Je sais pas pk mais le texte {{choixRoxane}} ne s'affiche plus!!
