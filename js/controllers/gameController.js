@@ -8,12 +8,12 @@ AppArnaga.controller('GameController', function($scope, VarFactory, HomeFactory,
         VarFactory.setVar('avatar', avatar);
         $scope.avatar = VarFactory.getVar('avatar');
     };
-
-    $scope.parcours = VarFactory.getVar('parcours');
-    $scope.setParcours = function(parcours){
-        VarFactory.setVar('parcours', parcours);
-        $scope.parcours = VarFactory.getVar('parcours');
-    };
+    /*
+    $scope.setPlayerName = function(name){
+        VarFactory.setVar('playerName' , name);
+        $scope.playerName = VarFactory.getVar(name);
+    }
+    */
 
     $scope.location = $location;
     $scope.url = $scope.location.path();
@@ -54,11 +54,6 @@ AppArnaga.controller('GameController', function($scope, VarFactory, HomeFactory,
                     $scope.nbWinDrop = 0;
                     $scope.dropCode = "";
                     $scope.dragCode = "";
-                    $scope.$watch(function(){ return $scope.codeDrop; }, function(newValue, oldValue) {
-                        if (newValue === oldValue) {
-                            console.log($scope.dropCode);
-                        }
-                    });
 
                     $scope.handleDrop = function(item, bin) {
                         if ($scope.sons != undefined){
