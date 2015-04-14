@@ -7,8 +7,8 @@
     "3": "Entre dans la pièce sous le grand tableau, te voilà dans le salon chinois.",
     "4": "Reviens sur tes pas et repars dans le grand hall.",
     "5": "L'entrée de la pièce suivante est sous le balcon. Vas-y ! Nous voici maintenant dans la bibliothèque qui à l'époque contenait près de 10 000 ouvrages. Cette pièce abrite des documents sur Cyrano de Bergerac et une pièce de théâtre qui a permis à Edmond Rostand de gagner l'argent nécessaire pour construire la maison de ses rêves.",
-    "6": "Retourne dans le grand hall",
-    "7": "Le coq t'invite à rentrer dans la pièce suivante",
+    "6": "Retourne dans le grand hall.",
+    "7": "Le coq t'invite à rentrer dans la pièce suivante.",
     "8": "On continue. Entre dans le bureau, l'ange de l'eau te donne la direction de la prochaine pièce.",
     "9": "Rends-toi dans la pièce suivante, caractéristique des maisons bourgeoises.",
     "10": "Passe maintenant par la porte à la vitrine arrondie et monte au 1er étage. Arrêtons-nous au premier palier, tu pourra observer le panorama des jardins à la française depuis les fenêtres.",
@@ -30,14 +30,15 @@
     "4":"A l’ombre de la pergola, prends un instant pour écouter Rosemonde, la femme d’Edmond Rostand dans un de ses poèmes",
     "5":"Dirige-toi maintenant vers la façade et monte en haut de l’escalier qui mène à la terrasse",
     "6":"Tourne-toi face au jardin à la française. Comme tu le sais, le plus bel exemple se trouve à Versailles.",
-    "7":"Entre maintenant dans le « Grand Parterre",
+    "7":"Entre maintenant dans le « Grand Parterre »",
     "8":"Poursuis ton chemin jusqu’à la grande esplanade",
     "9":"En face de l’orangerie, il y a un lieu particulièrement cher à Edmond ROSTAND, le coin des poètes. Si tu regardes bien, tu verras que le treillage reprend les mêmes arcades que celles des portes de l’orangerie.",
     "10":"Toujours depuis cette terrasse on voit des alignements rectilignes et des arbustes magnifiquement taillés.",
-    "11":"Dirige-toi maintenant vers la pergola au fond du jardin en longeant le bassin. La pergola termine le jardin à la française et l’isole  de la partie de production du domaine, autrefois une ferme des écuries, un verger, des serres…",
-    "12":"Va derrière la pergola. Edmond Rostand y a installé une basse-cour.",
-    "13":"Notre questionnaire sur le jardin à la française est maintenant terminé. Vérifie si toi aussi tu es un expert…",
-    "14":"Retourne maintenant à la maison en passant Bois paysager.",
-    "15":"Sur ce chemin qui te ramène vers la maison, écoute Edmond Rostand raconter ce qu’il fait dans son jardin"
+    "11":"Dirige-toi au bout du grand bassin et retourne-toi.",
+    "12":"Dirige-toi maintenant vers la pergola au fond du jardin en longeant le bassin. La pergola termine le jardin à la française et l’isole  de la partie de production du domaine, autrefois une ferme des écuries, un verger, des serres…",
+    "13":"Va derrière la pergola. Edmond Rostand y a installé une basse-cour.",
+    "14":"Notre questionnaire sur le jardin à la française est maintenant terminé. Vérifie si toi aussi tu es un expert…",
+    "15":"Retourne maintenant à la maison en passant Bois paysager.",
+    "16":"Sur ce chemin qui te ramène vers la maison, écoute Edmond Rostand raconter ce qu’il fait dans son jardin"
   }
 }

@@ -1,10 +1,10 @@
 {
-  "exterieur": [
+  "kanpo": [
     {
       "numero": "1",
-      "titre": "Le point culminant",
+      "titre": "Toki gorena",
       "type": "Choix multiple",
-      "question": "Quelle est la hauteur de la maison ?",
+      "question": "Zer goratasun du etxeak ?",
       "listeReponses": {
         "0": "30m",
         "1": "22m",
@@ -19,20 +19,20 @@
         ]
       },
       "indice": {
-        "code": "Mêtre à dérouler"
+        "code": "Neurgailu bat"
       }
     },
     {
       "numero": "2",
       "type": "Choix multiple",
-      "titre": "La façade sud",
-      "question": "Sur le décrochement de la façade plein sud au niveau du balcon un drôle d'objet ne mesure que les beaux jours, qui est-il ?",
+      "titre": "Hegoaldean",
+      "question": "Hegoaldeko etxaintzineko paretan, galeriaren heinean, gauza bitxi batek egun eguzkitsuak neurtzen ditu, zer ote da ?",
       "listeReponses": {
-        "0": "Le cadran solaire",
-        "1": "Le clocher de l'église",
-        "2": "La montre"
+        "0": "Eguzki orratza",
+        "1": "Eliza dorrea",
+        "2": "Ordularia"
       },
-      "bonneReponse": "Le cadran solaire",
+      "bonneReponse": "Eguzki orratza",
       "media": {
         "image": [
           {
@@ -47,14 +47,14 @@
     {
       "numero": "3",
       "type": "Choix multiple",
-      "titre": "La porte d'entrée",
-      "question": "Les vers du maître des lieux nous accueillent, mais avec quoi doit-on rentrer dans la maison selon le poète ?",
+      "titre": "Ate nagusia",
+      "question": "Etxeko nagusiaren neurtitzak ageri dira, zerekin sartu behar da etxean haren ustez ?",
       "listeReponses": {
-        "0": "Avec ton coeur",
-        "1": "Avec ton sourir",
-        "2": "Avec des fleurs"
+        "0": "Bihotzarekin",
+        "1": "Irriarekin",
+        "2": "Lore batzuekin"
       },
-      "bonneReponse": "Avec ton coeur",
+      "bonneReponse": "Bihotzarekin",
       "media": {
         "image": [
           {
@@ -63,17 +63,17 @@
         ]
       },
       "indice": {
-        "textuel": "La réponse se trouve inscrite sur la plaque de marbre",
+        "textuel": "erantzuna marmolezko taulan atxemanen duzu",
         "son": "url du son (citation à l'oral de l'inscription)"
       }
     }
   ],
-  "rez-de-chaussee": [
+  "Beheko-solairuan": [
     {
       "numero": "1",
       "type": "CorrespondanceImage",
-      "titre": "Le studio des enfants",
-      "question": "Le studio des enfants qui était la salle de jeux de Maurice et de Jean a été décorée par le dessinateur et illustrateur G. Delaw, approchez-vous et associez chaque dessin aux airs célèbres suivants :",
+      "titre": "Haurren gela",
+      "question": "Haurren gela, Maurice eta Jean-en jostalekua zen. G. Delaw marrazkilariak apaindu zuen. Hurbil zaitez marrazkietatik eta lot ezazu marrazki bakoitza haur kantu ezagun bati:",
       "listeReponses": {
         "0": "Il pleut, il pleut bergère",
         "1": "Malbrough s'en va en guerre",
@@ -119,13 +119,13 @@
     {
       "numero": "2",
       "type": "Flash",
-      "titre": "Le grand hall",
-      "question": "Nous voilà dans le grand hall, qui était la pièce de réception. Parmis ces deux signes, lequel ne fait pas partie des signes du zodiaque ?",
+      "titre": "Sartze nagusia",
+      "question": "Zodiaka 12 zeinuen artean zein ez da egiazki ?",
       "listeReponses": [
-        "Centor",
-        "Sagittaire"
+        "Zentauroa",
+        "Sagitaurioa"
       ],
-      "bonneReponse": "Centor",
+      "bonneReponse": "Zentauroa",
       "media": {
         "image": [
           {
@@ -148,14 +148,14 @@
     {
       "numero": "3",
       "type": "Choix multiple",
-      "titre": "Le salon chinois",
-      "question": "Un élément du décor a disparu depuis. Lequel ?",
+      "titre": "Txinatar gela",
+      "question": "Geroztik apainketa elementu bat desagertu da. Zein ?",
       "listeReponses": {
-        "0": "Un paravent chinois",
-        "1": "Une collection de sabre",
-        "2": "Des décors chinois sur les murs"
+        "0": "Txinatar zuresi bat",
+        "1": "Sable kolekzio bat",
+        "2": "Txinatar apainketak paretetan"
       },
-      "bonneReponse": "Des décors chinois sur les murs",
+      "bonneReponse": "Txinatar apainketak paretetan",
       "media": {
         "image": [
           {
@@ -170,14 +170,14 @@
     {
       "numero": "4",
       "type": "Choix multiple",
-      "titre": "Le grand hall",
-      "question": "Ce tableau représente Jean (fils d'Edmond), on peut y voir son attachement à la nature qui va influencer son futur métier. Mais quel est-il ?",
+      "titre": "Sartze nagusia",
+      "question": "Taula honek Jean (Edmond-en semea) erakusten du, naturari duen atxikimendua ageri da eta horrek bere lanbidean ere eragina ukanen du. Zein izanen da bere lanbidea ?",
       "listeReponses": {
-        "0": "Biologiste et écrivain",
-        "1": "Champion hippique",
-        "2": "Médecin"
+        "0": "Biologoa eta idazlea",
+        "1": "Zaldi lasterketetako txapelduna",
+        "2": "Sendagilea"
       },
-      "bonneReponse": "Biologiste et écrivain",
+      "bonneReponse": "Biologoa eta idazlea",
       "media": {
         "image": [
           {
@@ -193,8 +193,8 @@
     {
       "numero": "5",
       "type": "Choix multiple",
-      "titre": "La bibliothèque",
-      "question": "A l'origine, Edmond Rostand a écrit Cyrano de Bergerac en 1897 pour l'acteur Constant Coquelin. Mais ici, le César qui trône a été offert par un autre acteur, lequel ?",
+      "titre": "Liburutegia",
+      "question": "E. Rostand-ek 1897an Constant COQUELIN aktore famatuarendako idatzi zuen obra hau. Baina hemen ikusten duzun César saria, beste aktore haundi batek eskaini du Kanboko herriari. Nor da ?",
       "listeReponses": {
         "0": "Gérard Depardieu",
         "1": "Alain Delon",
@@ -209,19 +209,19 @@
         ]
       },
       "indice": {
-        "textuel": "C'est un acteur qui a incarné Cyrano au cinéma"
+        "textuel": "Cyrano pertsonaia zineman jokatu duen aktorea da."
       }
     },
     {
       "numero": "6",
       "type": "Correspondance",
-      "titre": "Le grand hall",
-      "question": "Associe les personnages à la bonne image :",
+      "titre": "Sartze nagusia",
+      "question": "Pertsonaia irudi egokiari lot ezazu:",
       "listeReponses": {
         "0": "Cyrano",
         "1": "Pierro",
         "2": "Colombine",
-        "3": "Singe"
+        "3": "Ximinoa"
       },
       "media": {
         "image": [
@@ -254,14 +254,14 @@
     {
       "numero": "7",
       "type": "Choix multiple",
-      "titre": "Salle à manger",
-      "question": "Dans la salle à manger, il faisait bon car la maison était dotée d'un système de chauffage très moderne, lequel ?",
+      "titre": "Jangela",
+      "question": "Jangelan goxo zen, etxeak berotzeko sistima arras modernoa baitzuen Arnagak. Rosemonden potretaren azpian aurkitzen ahal duzu sistema horren aztarna bat. Zein  ote da?",
       "listeReponses": {
-        "0": "Calorifère",
-        "1": "Pompe à chaleur",
-        "2": "Un poêle à granule"
+        "0": "Kalorifero bat",
+        "1": "Berotzeko ponpa",
+        "2": "Egur bihi labexka"
       },
-      "bonneReponse": "Calorifère",
+      "bonneReponse": "Kalorifero bat",
       "media": {
         "image": [
           {
@@ -273,19 +273,19 @@
         ]
       },
       "indice": {
-        "textuel": "Cela signifie chaleur en espagnol : calor."
+        "textuel": "Gaztelerazko « bero » erraiteko hitzetik dator."
       }
     },
     {
       "numero": "8",
       "type": "Flash",
-      "titre": "Salle à manger",
-      "question": "A quoi pouvait servir cet objet ?",
+      "titre": "Jangela ",
+      "question": "Zertarako baliatzen ote zen tresna hau ?",
       "listeReponses": {
-        "0": "Déclencher la calorifère",
-        "1": "Appeler les domestiques"
+        "0": "Zerbitzarien deitzeko",
+        "1": "Berogailuen pizteko"
       },
-      "bonneReponse": "Appeler les domestiques",
+      "bonneReponse": "Berogailuen pizteko",
       "imageReponse" : {
         "url": "./medias/images/sonnette.jpg"
       },
@@ -300,8 +300,8 @@
     {
       "numero": "9",
       "type": "Clique",
-      "titre": "Le bureau",
-      "question": "Retrouve les 3 objets qui n'existaient pas à l'époque d'Edmond Rostand :",
+      "titre": "Bulegoa",
+      "question": "Edmond Rostand-en garaian ezagutzen ez ziren 3 gauzak atxeman itzazu :",
       "coords": {
         "0": "567,204,572,187,578,176,587,169,595,162,601,158,607,155,617,155,628,155,637,159,645,161,652,169,657,178,663,193,665,205,664,223,659,232,646,245,641,252,634,257,627,257,614,258,601,258,590,256,585,254,576,244,568,224",
         "1": "480,59,490,46,495,40,505,36,508,33,518,32,530,35,539,44,545,55,547,71,548,89,540,101,533,113,527,123,514,124,501,125,491,128,486,126,477,117,473,99,473,84",
@@ -318,14 +318,14 @@
     {
       "numero": "10",
       "type": "Choix multiple",
-      "titre": "L'office",
-      "question": "L'office permettait de dresser et de servir les plats confectionnés dans les cuisines situées au sous-sol. Quel système permettait d'amener les plats ?",
+      "titre": "Sukalondoa",
+      "question": "Hemen platerak ezartzen eta apaintzen dira etxazpian den sukaldean prestatu janariekin. Zein tresna behar beharrezkoa ote zen ondorioz ?",
       "listeReponses": {
-        "0": "Le passe-plat",
-        "1": "Un escalier",
-        "2": "Un four micro-onde"
+        "0": "Platera igogailua",
+        "1": "Eskalerra",
+        "2": "Mikro uhin labea"
       },
-      "bonneReponse": "Le passe-plat",
+      "bonneReponse": "Platera igogailua",
       "media": {
         "image": [
           {
@@ -338,20 +338,21 @@
       }
     }
   ],
-  "1ère étage": [
+  "1.-Solairua": [
     {
       "numero": "1",
       "type": "Flash",
-      "titre": "L'escalier",
-      "question": "Observe bien cette photo. Cet escalier nous semble plus léger aujourd'hui, à l'origine il était :",
+      "titre": "Eskailera",
+      "question": "Argazki hau ongi begira ezazu.
+Eskailera arinago iduritzen zait gaur egun, zeren eta jatorrian baranda :",
       "imageReponse" : {
         "url": "./medias/images/escalier.jpg"
       },
       "listeReponses": {
-        "0": "En pierre",
-        "1": "En bois"
+        "0": "Harrizkoa zen",
+        "1": "Zurezkoa zen"
       },
-      "bonneReponse": "En pierre",
+      "bonneReponse": "Harrizkoa zen",
       "media": {
         "image": [
           {
@@ -360,20 +361,20 @@
         ]
       },
       "indice": {
-        "textuel": "Il faut se méfier des apparences"
+        "textuel": "Itxurari ez zaitez gehiegi fida."
       }
     },
     {
       "numero": "2",
       "type": "Choix multiple",
-      "titre": "L'escalier",
-      "question": "Sur ce palier, un lieu rappelle la fameuse scène où Roxanne écoute la déclaration de Cyrano, pensant que c'est Christian qui lui parle. A ton avis, Roxane se trouve :",
+      "titre": "Eskailera",
+      "question": "Mailarte honetan, toki batek oroitarazten du Roxanek Cyranoren aitormena entzun zuen unea, pentsatzen zuelarik Christian zitzaiola mintzatzen ari. Zure ustez nun ote zen Roxane ?",
       "listeReponses": {
-        "0": "Sur l'escalier",
-        "1": "Sur le balcon",
-        "2": "Sur le toit"
+        "0": "Eskaileran",
+        "1": "Balkoian",
+        "2": "Teilatuan"
       },
-      "bonneReponse": "Sur le balcon",
+      "bonneReponse": "Balkoian",
       "media": {
         "image": [
           {
@@ -388,14 +389,14 @@
     {
       "numero": "3",
       "type": "Choix multiple",
-      "titre": "La chambre des enfants",
-      "question": "A gauche de l’entrée, dans une lettre, de quoi se plaint Jean Rostand?",
+      "titre": "Haurren logela",
+      "question": "Sartzen ezkerraldean, zertaz pleinitzen da Jean Rostand, gutun batean ?",
       "listeReponses": {
-        "0": "De vivre loin d’une grande ville",
-        "1": "D’avoir les cheveux trop long",
-        "2": "D’entendre son frère ronfler la nuit"
+        "0": "Hiri nagusi batetarik urrun bizitzea",
+        "1": "Ileak luzeegiak ukaitea",
+        "2": "Gauaz bere anaiaren zurrungen entzutea"
       },
-      "bonneReponse": "D’avoir les cheveux trop long",
+      "bonneReponse": "Ileak luzeegiak ukaitea",
       "media": {
         "image": [
           {
@@ -413,8 +414,8 @@
     {
       "numero": "4",
       "type": "Choix multiple",
-      "titre": "La garde robe",
-      "question": "A l’aide du rébus dis-moi quel animal fabuleux se promène dans le décor.",
+      "titre": "Jantzi armairua",
+      "question": "Frantsesezko hitz jokoa ulertzen baduzu, atxemanen duzu apainketetan ibilki den aberea.",
       "listeReponses": {
         "0": "Escargot volant",
         "1": "Fourmis volante",
@@ -447,21 +448,21 @@
         ]
       },
       "indice": {
-        "textuel": "Il se déplace sur un pied"
+        "textuel": "Mugitzen da oinez batean"
       }
     },
     {
       "numero": "5",
       "type": "Choix multiple",
-      "titre": "La chambre de Rosemonde",
-      "question": "Ce portrait de Rosemonde est de style japonisant. Elle possède des traits commun avec les Geisha sauf un:",
+      "titre": "Rosemonden logela",
+      "question": "Rosemonden potreta japoniar estilokoa da. Geisha bat izan ezik dituzten ezaugarri komunak ditu:",
       "listeReponses": {
-        "0": "Elle a la peau très blanche",
-        "1": "Elle a les lèvres très rouges",
-        "2": "Elle tient un éventail",
-        "3": "Elle porte un kimono"
+        "0": "Larru xuria du",
+        "1": "Ezpain gorriak ditu",
+        "2": "Haizemaile bat badu",
+        "3": "Kimono bat badu"
       },
-      "bonneReponse": "Elle porte un kimono",
+      "bonneReponse": "Kimono bat badu",
       "media": {
         "image": [
           {
@@ -469,13 +470,13 @@
           }
         ]
       },
-      "indice": "Il est associé au judo"
+      "indice": "Judo kirolarekin lotura bat badu"
     },
     {
       "numero": "6",
       "type": "Clique",
-      "titre": "Le bureau de Louis Labat",
-      "question": "Trouve sur le tableau, le stick de scène que tu peux  voir dans la vitrine.",
+      "titre": "Louis Labat-en bulegoa",
+      "question": "Taulan atxeman ezazu, berinatean agertzen den eszenako makiltxoa edo « stick » delakoa.",
       "coords": {
         "0": "567,204,572,187,578,176,587,169,595,162,601,158,607,155,617,155,628,155,637,159,645,161,652,169,657,178,663,193,665,205,664,223,659,232,646,245,641,252,634,257,627,257,614,258,601,258,590,256,585,254,576,244,568,224"
       },
@@ -486,19 +487,19 @@
           }
         ]
       },
-      "indice": "Un stick est une cravache."
+      "indice": "makiltxoa edo « stick »-a zaldien aintzinarazteko akuilua da."
     },
     {
       "numero": "7",
       "type": "Choix multiple",
-      "titre": "Le boudoir de Rosemonde",
-      "question": "Regardes attentivement l'horloge, il y a quelque chose d'anormal, mais quoi ?",
+      "titre": "Rosemonden Saloi ttipia",
+      "question": "Ordularia ongi begira ezazu. Zerbait arraro ikusten ote duzu ?",
       "listeReponses": {
-        "0": "Elle va jusqu'à 14h",
-        "1": "Elle est composée de matériaux rares",
+        "0": "14 arte doa",
+        "1": "Material bereziz egina da",
         "2": "Elle marche en sens inverse"
       },
-      "bonneReponse": "Elle va jusqu'à 14h",
+      "bonneReponse": "14 arte doa",
       "media": {
         "image": [
           {
@@ -513,8 +514,8 @@
     {
       "numero": "8",
       "type": "Choix multiple",
-      "titre": "La chambre rouge",
-      "question": "Nous voilà dans la chambre d'un célèbre architecte, récompensé par la légion d'honneur, qui a beaucoup participé à la construction de cette maison. Qui est-il ?",
+      "titre": "Gela gorria",
+      "question": "Hona Arnagaren planoak egin dituenaren logela, ohorezko legioa ukan zuen ere. Nor ote da ?",
       "listeReponses": {
         "0": "Charles Édouard Jeanneret Le corbusier",
         "1": "Albert Tournaire",
@@ -528,19 +529,19 @@
           }
         ]
       },
-      "indice": "Il a le même prénom qu'Einstein"
+      "indice": "Einstein jakintsuaren izen berdina du"
     },
     {
       "numero": "9",
       "type": "Choix multiple",
-      "titre": "Le tableau mystérieux",
-      "question": "Voilà un tableau impressionnant bien différent des peintures et des décorations de la maison. De quoi s'agit-il ?",
+      "titre": "Panel misteriotsua",
+      "question": "Horra taula harrigarri bat, etxeko beste tindu eta apainketetarik arras desberdina. Zer ote da ?",
       "listeReponses": {
-        "0": "Le tableau électrique avec ses fusibles",
-        "1": "Le tableau téléphonique",
-        "2": "Le mécano des enfants"
+        "0": "Elektrika taula fusiblekin",
+        "1": "Telefono arbela",
+        "2": "Haurren joko bat"
       },
-      "bonneReponse": "Le tableau électrique avec ses fusibles",
+      "bonneReponse": "Elektrika taula fusiblekin",
       "media": {
         "image": [
           {
@@ -548,19 +549,19 @@
           }
         ]
       },
-      "indice": "Et la lumière fut !"
+      "indice": "argia izan bedi !"
     },
     {
       "numero": "10",
       "type": "Choix multiple",
-      "titre": "La salle d'hydrothérapie",
-      "question": "Regarde la douche. Il n’y a pas de bac à douche. Où passe l’eau ?",
+      "titre": "Hidroterapia gela",
+      "question": "Dutxa begira ezazu. Ez da ur biltzekorik. Nora doa beraz ura ?",
       "listeReponses": {
-        "0": "Elle s’évapore au contact du sol brûlant",
-        "1": "Elle s’évacue  sous le plancher à claire-voie",
-        "2": "Elle se transforme en glace au contact du sol réfrigéré"
+        "0": "Lurrin bilakatzen zola beroa",
+        "1": "Ohol hesiz egin zoladuraren",
+        "2": "Izotz bihurtzen da zoladura hoztua unkitzean"
       },
-      "bonneReponse": "Elle s’évacue  sous le plancher à claire-voie",
+      "bonneReponse": "Ohol hesiz egin zoladuraren",
       "media": {
         "image": [
           {

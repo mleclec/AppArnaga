@@ -1,16 +1,16 @@
 {
-  "entrée": [
+  "sarrera": [
 	{
 	  "numero": "1",
-	  "titre": "Le belvédère",
+	  "titre": "Bistalekua",
 	  "type": "Choix multiple",
-	  "question": "Edmond Rostand a voulu une décoration végétale. Laquelle ?",
+	  "question": "Edmond Rostand-ek nahi izan du landare apaindura bat. Zoin ?",
 	  "listeResponses": {
-		"0": "Une belle pelouse",
-		"1": "Un massif de fleurs",
-		"2": "Des broderies de buis et de gazon"
+		"0": "Soropil eder bat",
+		"1": "Lore multzo bat",
+		"2": "Soropil eta ezpeleko broderiak"
 	  },
-	  "bonneReponse": "Des broderies de buis et de gazon",
+	  "bonneReponse": "Soropil eta ezpeleko broderiak",
 	  "media": {
 		"image": [
 		  {
@@ -20,18 +20,18 @@
 	  }
 	}
   ],
-  "jardin-a-l-anglaise": [
+  "Ingeles-itxurako-baratzea": [
 	{
 	  "numero": "1",
-	  "titre": "Le décor",
+	  "titre": "Apaindura",
 	  "type": "Choix multiple",
-	  "question": "Voici un photo prise du temps du poète. Il manque aujourd'hui une partie du décor qui existait a l'époque. Laquelle ?",
+	  "question": "Huna olerkariaren denboran hartu argazkia. Apainduraren parte bat falta da ?",
 	  "listeResponses": {
-		"0": "Une statue",
-		"1": "Un bassin",
-		"2": "Une poterie"
+		"0": "Estatua",
+		"1": "Buztinezko eltzea",
+		"2": "Urmael"
 	  },
-	  "bonneReponse": "Un bassin",
+	  "bonneReponse": "Buztinezko eltzea",
 	  "media": {
 		"image": [
 		  {
@@ -40,19 +40,19 @@
 		]
 	  },
 	  "indice": {
-		"textuel": "Comme un miroir"
+		"textuel": "Miraila bat bezala"
 	  }
 	},
 	{
 	  "numero": "2",
-	  "titre": "Caractéristique d'un jardin à l'anglaise",
+	  "titre": "Ingeles itxurako baratze baten ezaugarriak",
 	  "type": "Choix multiple",
-	  "question": "Coche la vraie proposition. Dans un jardin à l'anglaise: Le allées sont",
+	  "question": "Behar den proposamena hauta ezazu. Ingeles itxurako baratze batean: Bidexkak",
 	  "listeResponses": {
-		"0": "Droites",
-		"1": "Sinueuses"
+		"0": "xuxenak dira",
+		"1": "itzulikatsuak dira"
 	  },
-	  "bonneReponse": "Sinueuses",
+	  "bonneReponse": "itzulikatsuak dira",
 	  "media": {
 		"image": [
 		  {
@@ -63,14 +63,14 @@
 	},
 	{
 	  "numero": "3",
-	  "titre": "Caractéristique d'un jardin à l'anglaise (suite)",
+	  "titre": "Ingeles itxurako baratze baten ezaugarriak (segida)",
 	  "type": "Choix multiple",
-	  "question": "Coche la vraie proposition. Dans un jardin à l'anglaise: Les végétaux sont",
+	  "question": "Behar den proposamena hauta ezazu. Ingeles itxurako baratze batean: Landareak",
 	  "listeResponses": {
-		"0": "Taillés",
-		"1": "Libres"
+		"0": "moztuak dira",
+		"1": "libreak dira"
 	  },
-	  "bonneReponse": "Libres",
+	  "bonneReponse": "libreak dira",
 	  "media": {
 		"image": [
 		  {
@@ -81,15 +81,15 @@
 	},
 	{
 	  "numero": "4",
-	  "titre": "La montagne",
+	  "titre": "Mendia",
 	  "type": "Choix multiple",
-	  "question": "Quelle est cette célèbre montagne que tu peux apercevoir entre les arbres et que Edmond Rostand et sa femme passaient des heures à admirer ?",
+	  "question": "Nola deitzen da ikusten den mendia , Rostand-ek eta bere andreak ardura miresten zutena ?",
 	  "listeResponses": {
-		"0": "La Rhune",
-		"1": "L'Ursuya",
-		"2": "Le Pic du Midi"
+		"0": "Larrun",
+		"1": "Ursuia",
+		"2": "Pic du Midi"
 	  },
-	  "bonneReponse": "La Rhune",
+	  "bonneReponse": "Larrun",
 	  "media": {
 		"image": [
 		  {
@@ -98,22 +98,22 @@
 		]
 	  },
 	  "indice": {
-		"textuel": "Anagramme HARLEUR"
+		"textuel": "Anagrama HARLEUR"
 	  }
 	}
   ],
-  "jardin-a-la-francaise": [
+  "Frantses-itxurako-baratzea": [
 	{
 	  "numero": "1",
-	  "titre": "La terrasse",
+	  "titre": "Terraza",
 	  "type": "Choix multiple",
-	  "question": "Edmond Rostand avait l'habitude de s'asseoir à l'abris d'un arbuste qui existe toujours. Lequel ?",
+	  "question": "Edmond Rostand-ek bazuen ohitura zuhaixka baten pean jartzea, zuhaixka hau oraino hor da. Zoin da ?",
 	  "listeResponses": {
-		"0": "Un buis",
-		"1": "Un camélia",
-		"2": "Un laurier"
+		"0": "Ezpel bat",
+		"1": "Kamelia bat",
+		"2": "Erramu bat"
 	  },
-	  "bonneReponse": "Un buis",
+	  "bonneReponse": "Ezpel bat",
 	  "media": {
 		"image": [
 		  {
@@ -122,14 +122,14 @@
 		]
 	  },
 	  "indice": {
-		"textuel": "Il a de toutes petites feuilles"
+		"textuel": "Osto ttipi ttipiak ditu"
 	  }
 	},
 	{
 	  "numero": "2",
-	  "titre": "La terrasse (suite)",
+	  "titre": "Terraza (segida)",
 	  "type": "Puzzle",
-	  "question": "Ce jardin est un symbole de symétrie. Recrée l'harmonie du jardin en remettant les éléments à leur place",
+	  "question": "Baratze hau simetri sinbolo bat da. Elementuak eman itzazu behar diren lekuetan baratze eder bat sortzeko.",
 	  "media": {
 		"image": [
 		  {
@@ -146,14 +146,14 @@
 	},
 	{
 	  "numero": "3",
-	  "titre": "Au pied de la terrasse",
+	  "titre": "Terrazaren pean",
 	  "type": "Flash",
-	  "question": "Regarde ce dessin. Est-ce que l’architecte a respecté le nombre de marche prévu par Edmond Rostand ?",
+	  "question": "Begira ezazu marrazki hau. Arkitektoreak Edmond Rostand-ek pentsatu zuen mailen nunbrea errespetatu du ?",
 	  "listeResponses": {
-		"0": "Oui",
-		"1": "Non"
+		"0": "Bai",
+		"1": "Ez"
 	  },
-	  "bonneReponse": "Non",
+	  "bonneReponse": "Ez",
 	  "media": {
 		"image": [
 		  {
@@ -164,15 +164,15 @@
 	},
 	{
 	  "numero": "4",
-	  "titre": "Au pied de la terrasse (suite)",
+	  "titre": "Terrazaren pean (segida)",
 	  "type": "Choix multiple",
-	  "question": "Qu’a-t-on placé au centre de cette composition ?",
+	  "question": "Zer jarria izan da konposaketa hunen erdian ?",
 	  "listeResponses": {
-		"0": "Un massif de fleurs",
-		"1": "Un bassin rond",
-		"2": "Une statue de Roxane"
+		"0": "Lore multzo bat",
+		"1": "Urmael borobila",
+		"2": "Roxanen estatu bat"
 	  },
-	  "bonneReponse": "Un bassin rond",
+	  "bonneReponse": "Urmael borobila",
 	  "media": {
 		"image": [
 		  {
@@ -190,20 +190,20 @@
 		]
 	  },
 	  "indice": {
-		"textuel": "Les angelots s'y baignent"
+		"textuel": "Aingerutxoak mainatzen dira"
 	  }
 	},
 	{
 	  "numero": "5",
-	  "titre": "La serre",
+	  "titre": "Berotegia",
 	  "type": "Choix multiple",
-	  "question": "L’été cette allée était bordée par des agrumes en caisse, qu’il fallait rentrer en hiver pour éviter le gel. D’où la construction de cette serre en pierres au nom bien symbolique mais lequel ?",
+	  "question": "Udan bidexka horren bazterrean kutxetan diren garrazkiak emanak dira, neguan hormaz gordetu behar direnak sartuz. Orduan izen berezi bat duen harrizko berotegi bat eraikia izan da ?",
 	  "listeResponses": {
-		"0": "Une orangerie",
-		"1": "Un vivarium",
-		"2": "Un pigeonnier"
+		"0": "Laranjondo-sail",
+		"1": "Berinazko kaiola",
+		"2": "Urzotegia"
 	  },
-	  "bonneReponse": "Une orangerie",
+	  "bonneReponse": "Laranjondo-sail",
 	  "media": {
 		"image": [
 		  {
@@ -217,9 +217,9 @@
 	},
 	{
 	  "numero": "6",
-	  "titre": "Le jardin des poètes",
+	  "titre": "Olerkarien baratzea",
 	  "type": "Correspondance",
-	  "question": "Identifie le buste des 3 poètes.",
+	  "question": "Hiru jenioen bustoak identifikatu ezazkizu.",
 	  "listeResponses": {
 		"0": "Hugo",
 		"1": "Shakespeare",
@@ -244,9 +244,9 @@
 	},
 	{
 	  "numero": "7",
-	  "titre": "Le jardin des poètes (suite)",
+	  "titre": "Olerkarien baratzea (segida)",
 	  "type": "Correspondance",
-	  "question": "Relies chaque auteur à son oeuvre.",
+	  "question": "Autore bakotxa  bere obrari lotu ezazu.",
 	  "listeResponses": {
 		"0": "Hugo",
 		"1": "Shakespeare",
@@ -274,15 +274,15 @@
 	},
 	{
 	  "numero": "8",
-	  "titre": "Tailler des buis",
+	  "titre": "Ezpelak moztu",
 	  "type": "Choix multiple",
-	  "question": "Cette technique de taille requiert beaucoup de rigueur et porte un nom, lequel ?",
+	  "question": "Mozteko teknika horrek zorrostasun haundia galdetzen du eta nola deitzen da ?",
 	  "listeResponses": {
-		"0": "Topiaires",
-		"1": "Biseau",
-		"2": "Elagage"
+		"0": "Forma diferentetan",
+		"1": "Lantzerka",
+		"2": "Kimatze"
 	  },
-	  "bonneReponse": "Topiaires",
+	  "bonneReponse": "Forma diferentetan",
 	  "media": {
 		"image": [
 		  {
@@ -291,20 +291,20 @@
 		]
 	  },
 	  "indice": {
-		"textuel": "Ce nom fait penser à un animal"
+		"textuel": "Izen horrek abere bati petsa arazten du."
 	  }
 	},
 	{
 	  "numero": "9",
-	  "titre": "Le grand bassin",
+	  "titre": "Urmael haundia",
 	  "type": "Choix multiple",
-	  "question": "Comme tu peux le constater, il est en contrebas par rapport à la maison, ce qui lui donne un certaine particularité. Laquelle ?",
+	  "question": "Ohartu ziren bezala etxearen behereko aldean da, horrek berezitasun bat emaiten dio. Zoin ?",
 	  "listeResponses": {
-		"0": "Il permet des compétitions de natation",
-		"1": "Il réfléchit tel un miroir la maison",
-		"2": "C’est une réserve de poissons "
+		"0": "Igeriketa lehiaketak egiten ahal dira",
+		"1": "Etxea islatzen du",
+		"2": "Arrain erreserba da"
 	  },
-	  "bonneReponse": "Il réfléchit tel un miroir la maison ",
+	  "bonneReponse": "Etxea islatzen du",
 	  "media": {
 		"image": [
 		  {
@@ -318,12 +318,12 @@
 	},
 	{
 	  "numero": "12",
-	  "titre": "La pergola",
+	  "titre": "Pergola",
 	  "type": "Flash",
-	  "question": "Entre le bassin et la pergola un canal aujourd’hui garni de jets d’eau depuis 1960, permettait à la famille de canoter c’est-à-dire ?",
+	  "question": "Urmaela eta pergolaren arteko kanalean, 1960tik goiti  iturriak badira, familiak ontzixka batean ibiltzen ahal zen, erran nahi baitu ?",
 	  "listeResponses": {
-		"0": "Faire de la barque",
-		"1": "Chasser les cygnes"
+		"0": "Txalupan ibili",
+		"1": "Beltxargak ihiztatu"
 	  },
 	  "bonneReponse": "Faire de la barque",
 	  "media": {
@@ -336,15 +336,15 @@
 	},
 	{
 	  "numero": "11",
-	  "titre": "La pergola (suite)",
+	  "titre": "Pergola (segida)",
 	  "type": "Choix multiple",
-	  "question": "La pergola relie par une colonnade 2 pavillons classiques, sur chacun d’eux des figurines en relief au nom bien précis ,lesquels ?",
+	  "question": "Pergolak bi etxe klasiko elgar lotzen ditu, izen berezietako itxurañoak agerian ezarriak dira , zoin dira ?",
 	  "listeResponses": {
-		"0": "Des gargouilles",
-		"1": "Des macarons",
-		"2": "Des mascarons"
+		"0": "Garguilak",
+		"1": "Makarroiak",
+		"2": "Betarteak"
 	  },
-	  "bonneReponse": "Des mascarons",
+	  "bonneReponse": "Betarteak",
 	  "media": {
 		"image": [
 		  {
@@ -358,9 +358,9 @@
 	},
 	{
 	  "numero": "12",
-	  "titre": "La pergola (fin)",
+	  "titre": "Pergola (bukaera)",
 	  "type": "Flash",
-	  "question": "Voici deux plans proposés par l’architecte. Lequel Edmond Rostand a-t-il choisi pour sa pergola ?",
+	  "question": "Huna arkitektoak proposatu bi plano. Edmond Rostand-ek zoin hautatu du ?",
 	  "listeResponses": {
 		"0": "Plan1",
 		"1": "Plan2"
@@ -379,12 +379,12 @@
 	},
 	{
 	  "numero": "13",
-	  "titre": "La basse cour",
+	  "titre": "Korralea",
 	  "type": "Chois multiple",
-	  "question": "Il y a longuement observé les animaux pour écrire une pièce de théâtre, laquelle ?",
+	  "question": "Luzaz aberei behaka egon da antzerki obra bat idatzeko. Zoin da ?",
 	  "listeResponses": {
 		"0": "Le Roman de Renard",
-		"1": "Les fables d’Edmond Rostand",
+		"1": "Edmond Rostand-n alegiak",
 		"2": "Chantecler"
 	  },
 	  "bonneReponse": "Chantecler",
@@ -396,21 +396,21 @@
 		]
 	  },
 	  "indice": {
-		"textuel": "Cocorico"
+		"textuel": "Kukurruku"
 	  }
 	}
   ],
-  "Bois paysager": [
+  "Paisaie-oihanetik ": [
 	{
 	  "numero": "1",
-	  "titre": "Les arbres",
+	  "titre": "Zuhaitzak",
 	  "type": "Flash",
-	  "question": "Comment ne pas être impressionné par toutes ces arbres aux formes étranges pour certains. Leur taille est appelée en ?",
+	  "question": "Nola ez izan ere inpresionatua zuhaitz diferente guzi horietaz, batzu bitxiki moztuak dira. Nola deituak dira  mozte horiek ?",
 	  "listeResponses": {
-		"0": "Têtard",
-		"1": "Tétris"
+		"0": "Zapaburu",
+		"1": "Tetriz"
 	  },
-	  "bonneReponse": "Têtard",
+	  "bonneReponse": "Zapaburu",
 	  "media": {
 		"image": [
 		  {
@@ -421,14 +421,14 @@
 	},
 	{
 	  "numero": "2",
-	  "titre": "Les arbres (suite)",
+	  "titre": "Zuhaitzak (segida)",
 	  "type": "Correspondance",
-	  "question": "Ce parc comporte des arbres d’essences différentes. Sauras-tu les reconnaitre ?",
+	  "question": "Baratze horrek zuhaitz diferentak ditu. Ezagutzen badazkizu ?",
 	  "listeResponses": {
-		"0": "Chêne",
-		"1": "If",
-		"2": "Châtaigner",
-		"3": "Tilleuls"
+		"0": "Haritza",
+		"1": "Hagin",
+		"2": "Gaztainondo",
+		"3": "Tilura ondo"
 	  },
 	  "media": {
 		"image": [
