@@ -21,7 +21,7 @@ AppArnaga.factory('HomeFactory', function($http, $q){
                     factory.home = data;
                     deferred.resolve(factory.home);
                 }).error(function(data, status){
-                    deferred.reject('Impossible de récupérer le json.');
+                    deferred.reject('Impossible de récupérer le json du parcours.');
                 });
             return deferred.promise;
         },

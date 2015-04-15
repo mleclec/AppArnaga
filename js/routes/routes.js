@@ -1,5 +1,6 @@
 /**
  * Created by Yannick on 12/03/2015.
+ * Update on April 2015
  */
 AppArnaga.config(['$routeProvider', 'HomeFactoryProvider', function($routeProvider, HomeFactoryProvider){
     $routeProvider

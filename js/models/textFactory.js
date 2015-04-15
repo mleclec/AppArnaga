@@ -14,7 +14,7 @@ AppArnaga.factory('TextFactory', function($http, $q){
                     factory.texts = data;
                     deferred.resolve(factory.texts);
                 }).error(function(data, status){
-                    deferred.reject('Impossible de récupérer le json.');
+                    deferred.reject('Impossible de récupérer le json de textesGeneraux.');
                 });
             return deferred.promise;
         }
