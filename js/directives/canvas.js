@@ -19,51 +19,60 @@ AppArnaga.directive('ngCanvas', function(){
             canvas.css('z-index', 1);
             $('img').css('position', 'relative');
             $('img').css('z-index', '2');
-            console.log(angular.element.find('area'));
-
 
         },
         controller: function($scope){
-            $scope.onClick = function(coords, nbCoordsElements){
+            var coordsClicked = new Array();
+            $scope.onClick = function(nbCoordsElements, $event){
                 var canvas = angular.element('canvas');
-                $scope.nbClick++;
-                var coords = coords;
-                var tabAllCoords = new Array();
-                var tabCoords = coords.split(',');
-                var nbCoords = (coords.match(/,/g) || []).length+1;
-                var nbX = 0;
-                var nbY = 1;
-                for (var i=0; i<nbCoords/2; i++){
-                    var array = new Array();
-                    array.push(tabCoords[nbX], tabCoords[nbY]);
-                    tabAllCoords.push(array);
-                    nbX = nbX + 2;
-                    nbY = nbY + 2;
+                var coords = $event.currentTarget.attributes['coords'].nodeValue;
+                var found = false;
+                for (var i=0; i<coordsClicked.length; i++){
+                    if (coordsClicked[i] == coords){
+                        found = true;
+                    }
                 }
-                // The .drawLine() object
-                var obj = {
-                    strokeStyle: '#000',
-                    strokeWidth: 6,
-                    rounded: true,
-                    closed: true
-                };
+                console.log(found);
+                if (!found){
+                    coordsClicked.push(coords);
+                    $scope.nbClick++;
+                    var tabAllCoords = new Array();
+                    var tabCoords = String(coords).split(',');
+                    var nbCoords = (coords.match(/,/g) || []).length+1;
+                    var nbX = 0;
+                    var nbY = 1;
+                    for (var i=0; i<nbCoords/2; i++){
+                        var array = new Array();
+                        array.push(tabCoords[nbX], tabCoords[nbY]);
+                        tabAllCoords.push(array);
+                        nbX = nbX + 2;
+                        nbY = nbY + 2;
+                    }
+                    // The .drawLine() object
+                    var obj = {
+                        strokeStyle: '#000',
+                        strokeWidth: 6,
+                        rounded: true,
+                        closed: true
+                    };
 
-                // Your array of points
-                var pts = tabAllCoords;
+                    // Your array of points
+                    var pts = tabAllCoords;
 
-                // Add the points from the array to the object
-                for (var p=0; p<pts.length; p+=1) {
-                    obj['x'+(p+1)] = pts[p][0];
-                    obj['y'+(p+1)] = pts[p][1];
+                    // Add the points from the array to the object
+                    for (var p=0; p<pts.length; p+=1) {
+                        obj['x'+(p+1)] = pts[p][0];
+                        obj['y'+(p+1)] = pts[p][1];
+                    }
+
+                    // Draw the line
+                    canvas.drawLine(obj);
+
+                    if ($scope.nbClick==nbCoordsElements){
+                        canvas.css('z-index', '3');
+                        $scope.win = true;
+                    }
                 }
-
-                // Draw the line
-                canvas.drawLine(obj);
-                if ($scope.nbClick==nbCoordsElements){
-                    canvas.css('z-index', '3');
-                    $scope.win = true;
-                }
-                $scope.$apply();
             }
         }
     }

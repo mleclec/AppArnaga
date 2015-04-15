@@ -43,7 +43,6 @@ AppArnaga.controller('GameController', function($scope, VarFactory, HomeFactory,
                         $scope.nbCoords = Object.keys($scope.coords).length;
                     }
 
-                    console.log($scope.coords);
                     $scope.viewResponse = false;
                     $scope.win = false;
                     $scope.response = 0;
@@ -54,23 +53,6 @@ AppArnaga.controller('GameController', function($scope, VarFactory, HomeFactory,
                     $scope.nbWinDrop = 0;
                     $scope.dropCode = "";
                     $scope.dragCode = "";
-
-                    $scope.handleDrop = function(item, bin) {
-                        if ($scope.sons != undefined){
-                            $scope.sons[item]['drop'] = true;
-                        }
-                        if ($scope.images != undefined){
-                            $scope.images[item]['drop'] = true;
-                        }
-                        bin = $filter('limitTo')(bin, -1);
-                        if (item == bin){
-                            $scope.nbWinDrop++;
-                        }
-                        if ($scope.nbWinDrop == $scope.nbResponses){
-                            $scope.win = true;
-                        }
-                        //alert('Item ' + item + ' has been dropped into ' + $filter('limitTo')(bin, -1));
-                    }
 
                     $scope.nextQuestion = HomeFactory.getQuestion($scope.place, $scope.nextId);
                     if ($scope.nbQuestions == $scope.nextId){
