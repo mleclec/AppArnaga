@@ -122,10 +122,10 @@
       "titre": "Le grand hall",
       "question": "Nous voilà dans le grand hall, qui était la pièce de réception. Parmis ces deux signes, lequel ne fait pas partie des signes du zodiaque ?",
       "listeReponses": [
-        "Centor",
-        "Sagittaire"
+        "Lion",
+        "Tigre"
       ],
-      "bonneReponse": "Centor",
+      "bonneReponse": "Tigre",
       "media": {
         "image": [
           {
