@@ -1,0 +1,43 @@
+{
+  "sarrera": [
+	{
+	  "numero": "1",
+	  "titre": "Devant la maison façade face au jardin français",
+	  "type": "Choix Multiple",
+	  "question": "Arnaga etxean zira. Ba ote dakizu nondik datorren izen hori ?",
+	  "listeResponses": {
+		"0": "Bisitatu zuen Afrikako herri baten omentzeko",
+		"1": "Haurzaroan zuen xakurraren izena da",
+		"2": "« Arriaga » hitzak harri asko duen lekua adierazten du euskaraz"
+	  },
+	  "bonneReponse": "« Arriaga » hitzak harri asko duen lekua adierazten du euskaraz"
+	},
+	{
+	  "numero": "2",
+	  "titre": "Devant la maison façade face au jardin français",
+	  "type": "",
+	  "question": "Arnaga Kanbon kokatua da, Baionatik 20 bat kilometrotan. Ba ote dakizu gune honetatik ikusten ahal diren herri eta elementu natural ezberdinen izendatzen eta kokatzen ?",
+	  "listeResponses": {
+		"0": "Errobi",
+		"1": "Halsu (Elizdorrea)",
+		"2": "Ursuia",
+		"3": "Baigura",
+		"4": "Artzamendi",
+		"5": "Larrun"
+	  }
+	},
+	{
+	  "numero": "3",
+	  "titre": "Devant la maison façade face au jardin français",
+	  "type": "Choix Multiple",
+	  "question": "Edmond Rostand-ek hastetik bere etxearen orientazioa asmatu zuen ! Terrazan denean pergolari so, zein norabideruntz begira dago ?",
+	  "listeResponses": {
+		"0": "Iparraldea",
+		"1": "Hegoaldea",
+		"2": "Ekialdea",
+		"3": "Mendebaldea"
+	  },
+	  "bonneReponse": "Ekialdea"
+	}
+  ]
+}

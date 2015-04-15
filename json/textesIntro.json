@@ -1,0 +1,43 @@
+{
+  "introduction": [
+	{
+	  "numero": "1",
+	  "titre": "Devant la maison façade face au jardin français",
+	  "type": "Choix Multiple",
+	  "question": "Tu te trouves à la villa Arnaga. Sais-tu pourquoi ce nom ?",
+	  "listeResponses": {
+		"0": "Pour rendre hommage à un village africain qu’il avait visité",
+		"1": "C’était le nom de son chien quand il était petit",
+		"2": "Arriaga indique un lieu pierreux en basque"
+	  },
+	  "bonneReponse": "Arriaga indique un lieu pierreux en basque"
+	},
+	{
+	  "numero": "2",
+	  "titre": "Devant la maison façade face au jardin français",
+	  "type": "",
+	  "question": "Repérage géographique. Arnaga se trouve  à Cambo les bains (20Km de Bayonne). Sauras-tu placer les vignettes correspondantes ?",
+	  "listeResponses": {
+		"0": "La Nive",
+		"1": "Halsou (clochet)",
+		"2": "Ursuya",
+		"3": "Baïgura",
+		"4": "Artzamendy",
+		"5": "La Rhune"
+	  }
+	},
+	{
+	  "numero": "3",
+	  "titre": "Devant la maison façade face au jardin français",
+	  "type": "Choix Multiple",
+	  "question": "Edmond Rostand avait pensé à tout, même à l’orientation de sa maison! Lorsqu’il est sur sa terrasse, dans quelle direction Edmond Rostand regarde-t-il quand il contemple la pergola ?",
+	  "listeResponses": {
+		"0": "Nord",
+		"1": "Sud",
+		"2": "Est",
+		"3": "Ouest"
+	  },
+	  "bonneReponse": "Est"
+	}
+  ]
+}
