@@ -3,7 +3,7 @@
  */
 /**
  * Created by Yannick on 13/03/2015.
- * Update by Marine on 20/03/2015.
+ * Update by Marine on 15/04/2015.
  */
 AppArnaga.controller('TextController', function($scope, TextFactory){
     $scope.texts = TextFactory.getTexts().then(function(texts){
@@ -12,7 +12,7 @@ AppArnaga.controller('TextController', function($scope, TextFactory){
         $scope.intro = texts.intro;
         $scope.choixAvatar = texts.choixAvatar;
         $scope.choixCyrano = texts.choixCyrano;
-        $scope.choixRoxanne = texts.choixRoxanne;
+        $scope.choixRoxane = texts.choixRoxane;
         $scope.explication = texts.explication;
         $scope.introduction = texts.introduction;
         $scope.profil = texts.profil;
@@ -33,6 +33,9 @@ AppArnaga.controller('TextController', function($scope, TextFactory){
         $scope.choixParcours = texts.choixParcours;
         $scope.jardin = texts.jardin;
         $scope.maison = texts.maison;
+        $scope.qSuivante = texts.qSuivante;
+        $scope.qFin = texts.qFin;
+        $scope.bravo = texts.bravo;
     }, function(msg){
         alert(msg);
     });

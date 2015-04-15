@@ -21,5 +21,10 @@
   "passerExplication": "Jauzi azalpena",
   "choixParcours": "Ibilbideen hautaketa",
   "jardin": "Baratzeak",
-  "maison": "Etxea"
+  "maison": "Etxea",
+  "qSuivante":"Ondoko galdera",
+  "qFin": "Bukatu duzu",
+  "bravo": "Biba zu !",
+  "tps": "Denbora iragan da !",
+  "voirQuestion": "Erantzunak ikusi",
 }

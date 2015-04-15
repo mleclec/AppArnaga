@@ -5,7 +5,7 @@
 <img ng-if="imageReponse!=undefined" class="responsive-img materialboxed" width="300" height="200" ng-src="{{imageReponse['url']}}" alt="image reponse"/>
 <timer ng-if="viewResponse" class="right timer" interval="1000" countdown="10">{{countdown}}</timer>
 
-<a class="waves-effect waves-light btn" ng-click="viewResponse = true" ng-show="!viewResponse">Voir les réponses</a>
+<a class="waves-effect waves-light btn" ng-click="viewResponse = true" ng-show="!viewResponse"></a>
 
 <form ng-if="viewResponse">
     <div ng-repeat="n in responses track by $index">
@@ -14,11 +14,11 @@
 </form>
 
 <div ng-show="win">
-    Bravo !
+    {{bravo}}
 </div>
 
 <div ng-show="timerStop && !win">
-    Le temps est écoulé !
+    {{tps}}
 </div>
-<a ng-if="nextId!=nbQuestions" ng-show="win||timerStop" href="#/{{nextQuestion['type']}}/maison/{{place}}/{{nextId}}" class="waves-effect waves-light btn">Passer à la question suivante</a>
-<a ng-if="nextId==nbQuestions" ng-show="win||timerStop" href="#/{{nextQuestion['type']}}/maison/{{nextPlace}}/0" class="waves-effect waves-light btn">Passer à la question suivante</a>
+<a ng-if="nextId!=nbQuestions" ng-show="win||timerStop" href="#/{{nextQuestion['type']}}/maison/{{place}}/{{nextId}}" class="waves-effect waves-light btn">{{qSuivante}}</a>
+<a ng-if="nextId==nbQuestions" ng-show="win||timerStop" href="#/{{nextQuestion['type']}}/maison/{{nextPlace}}/0" class="waves-effect waves-light btn">{{qSuivante}}</a>
