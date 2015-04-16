@@ -1,1 +1,1 @@
-les fichiers json (textesGeneraux.json) ne charge plus sur l'application
+La traduction des messages genre ''Le temps est écoulé'' va être fait mon prof de basque dans les jours à venir, donc c'est normal s'il y a du français dans les fichier basques, j'en ai traduit 2-3 avec Google mais par précotion je les ai fait traduir également pour être sur!!

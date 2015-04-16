@@ -3,11 +3,18 @@
  * Update by Marine on 20/03/2015.
  */
 AppArnaga.controller('GameController', function($scope, VarFactory, HomeFactory, $routeParams, $location){
-    <!-- ********* Affectation de l'avatar ********* -->
+    <!-- ********* Affectation de l avatar ********* -->
     $scope.avatar = VarFactory.getVar('avatar');
     $scope.setAvatar = function(avatar){
         VarFactory.setVar('avatar', avatar);
         $scope.avatar = VarFactory.getVar('avatar');
+    };
+
+    <!-- ********* Affectation du parcours ********* -->
+    $scope.parcours = VarFactory.getVar('parcours');
+    $scope.setParcours = function(parcours){
+        VarFactory.setVar('parcours', parcours);
+        $scope.parcours = VarFactory.getVar('parcours');
     };
 
     <!-- ********* Initialisations de variables au début du jeu ********* -->
@@ -20,7 +27,7 @@ AppArnaga.controller('GameController', function($scope, VarFactory, HomeFactory,
     // on se sert de cette variable dans la directive pour le canvas : canvas.js
     $scope.nbClick = 0;
 
-    <!-- ********* Block exécuté lors du changement de l'URL ********* -->
+    <!-- ********* Block exécuté lors du changement de l URL ********* -->
     $scope.$watch(function(){ return $scope.location.path(); }, function(newValue, oldValue){
         if ( newValue === oldValue ) {
 
@@ -30,7 +37,7 @@ AppArnaga.controller('GameController', function($scope, VarFactory, HomeFactory,
             // on calcul l'id de la prochaine question
             $scope.nextId = parseInt($scope.id) + 1;
 
-            <!-- ********* Block exécuté lors de l'affichage des questions ********* -->
+            <!-- ********* Block exécuté lors de l affichage des questions ********* -->
             if ($scope.place!=undefined){
                 $scope.home = HomeFactory.getHome().then(function(home){
 

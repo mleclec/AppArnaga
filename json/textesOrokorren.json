@@ -24,7 +24,8 @@
   "maison": "Etxea",
   "qSuivante":"Ondoko galdera",
   "bravo": "Biba zu !",
-  "voirQuestion": "Erantzunak ikusi",
+  "voirReponse": "Erantzunak ikusi",
   "tps": "Denbora iragan da !",
-  "qFin": "Bukatu duzu",
+  "pbmNav":"Votre navigateur ne peut pas lire l'audio",
+  "qFin": "Bukatu duzu"
 }

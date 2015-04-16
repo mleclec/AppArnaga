@@ -121,10 +121,10 @@
       "type": "Flash",
       "titre": "Le grand hall",
       "question": "Nous voilà dans le grand hall, qui était la pièce de réception. Parmis ces deux signes, lequel ne fait pas partie des signes du zodiaque ?",
-      "listeReponses": {
-        "0": "Lion",
-        "1": "Tigre"
-      },
+      "listeReponses": [
+        "Lion",
+        "Tigre"
+      ],
       "bonneReponse": "Tigre",
       "media": {
         "image": [
@@ -454,7 +454,7 @@
       "numero": "5",
       "type": "Choix multiple",
       "titre": "La chambre de Rosemonde",
-      "question": "Ce portrait de Rosemonde est de style japonisant. Elle possède des traits commun avec les Geisha sauf un:",
+      "question": "Ce portrait de Rosemonde est de style japonisant. Elle possède des traits commun avec les Geisha sauf un :",
       "listeReponses": {
         "0": "Elle a la peau très blanche",
         "1": "Elle a les lèvres très rouges",
@@ -557,10 +557,10 @@
       "question": "Regarde la douche. Il n’y a pas de bac à douche. Où passe l’eau ?",
       "listeReponses": {
         "0": "Elle s’évapore au contact du sol brûlant",
-        "1": "Elle s’évacue sous le plancher à claire-voie",
+        "1": "Elle s’évacue  sous le plancher à claire-voie",
         "2": "Elle se transforme en glace au contact du sol réfrigéré"
       },
-      "bonneReponse": "Elle s’évacue sous le plancher à claire-voie",
+      "bonneReponse": "Elle s’évacue  sous le plancher à claire-voie",
       "media": {
         "image": [
           {
