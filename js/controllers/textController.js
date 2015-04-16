@@ -7,6 +7,7 @@
  */
 AppArnaga.controller('TextController', function($scope, TextFactory){
     $scope.texts = TextFactory.getTexts().then(function(texts){
+        <!-- ********* Récupération des textes généraux du fichier textesGeneraux.json ********* -->
         $scope.texts = texts;
         $scope.titreJeuArnaga = texts.titreJeuArnaga;
         $scope.intro = texts.intro;
@@ -35,6 +36,8 @@ AppArnaga.controller('TextController', function($scope, TextFactory){
         $scope.maison = texts.maison;
         $scope.qSuivante = texts.qSuivante;
         $scope.qFin = texts.qFin;
+        $scope.tps = texts.tps;
+        $scope.viewQuestion = texts.voirQuestion;
         $scope.bravo = texts.bravo;
     }, function(msg){
         alert(msg);

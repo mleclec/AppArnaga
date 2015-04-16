@@ -5,6 +5,7 @@ AppArnaga.directive('ngMap', function($window){
     return {
         restrict: 'A',
         link: function(scope, element, attrs){
+            <!-- ********* Directive permettant d'intégrer le responsive à notre map (code récupéré sur github) ********* -->
             element.bind('load', function() {
 
                 var w = $(element).attr('width'),

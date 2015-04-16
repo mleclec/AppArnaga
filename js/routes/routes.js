@@ -2,7 +2,7 @@
  * Created by Yannick on 12/03/2015.
  * Update on April 2015
  */
-AppArnaga.config(['$routeProvider', 'HomeFactoryProvider', function($routeProvider, HomeFactoryProvider){
+AppArnaga.config(['$routeProvider', 'HomeFactoryProvider', function($routeProvider){
     $routeProvider
         .when('/', {templateUrl: 'views/commencer.html'})
         .when('/choixAvatar', {templateUrl: 'views/choixAvatar.html', controller: 'GameController'})

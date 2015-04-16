@@ -5,7 +5,7 @@
 <img ng-if="imageReponse!=undefined" class="responsive-img materialboxed" width="300" height="200" ng-src="{{imageReponse['url']}}" alt="image reponse"/>
 <timer ng-if="viewResponse" class="right timer" interval="1000" countdown="10">{{countdown}}</timer>
 
-<a class="waves-effect waves-light btn" ng-click="viewResponse = true" ng-show="!viewResponse"></a>
+<a class="waves-effect waves-light btn" ng-click="viewResponse = true" ng-show="!viewResponse">{{ viewQuestion }}</a>
 
 <form ng-if="viewResponse">
     <div ng-repeat="n in responses track by $index">

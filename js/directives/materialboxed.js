@@ -5,6 +5,7 @@ AppArnaga.directive('materialboxed', function(){
     return {
         restrict: 'C',
         link: function(scope, element, attrs){
+            <!-- ********* Initialisation de la lightbox materialdu framework css ********* -->
             $(element).materialbox();
         }
     }
